@@ -7,12 +7,21 @@
      <title>Elishi Concept - El Yapımı Klasik Abajurlar</title>
      <meta name="description"
           content="El yapımı, vintage esintili kumaş abajurlar ve zarif aydınlatmalar. Etsy ve doğrudan sipariş imkanı.">
-     <link rel="stylesheet" href="style.css?v=42">
+     <!-- Security: Referrer Policy -->
+     <meta name="referrer" content="strict-origin-when-cross-origin">
+     <!-- Security: Content Security Policy -->
+     <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.youtube.com; connect-src 'none';">
+     <!-- Security: X-Content-Type-Options -->
+     <meta http-equiv="X-Content-Type-Options" content="nosniff">
+     <link rel="stylesheet" href="style.css?v=47">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
           rel="stylesheet">
 </head>
+<body>
+
 <!-- Kapatma/Gölge Katmanı -->
 <div id="menuOverlay" class="menu-overlay"></div>
 
@@ -64,20 +73,28 @@
 <section id="behind-the-scenes" class="behind-scenes-section">
      <div class="behind-scenes-split">
           <div class="bts-image">
-               <!-- Gerçek Atölye Dikiş Videosu (Uploaded bts.MOV) -->
-               <video src="bts.MOV" autoplay loop muted playsinline
-                    style="width: 100%; height: 100%; object-fit: cover;"></video>
+               <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+                    <iframe
+                         src="https://www.youtube.com/embed/svKT8eTEZ7M?autoplay=1&mute=1&loop=1&playlist=svKT8eTEZ7M&controls=0&modestbranding=1&rel=0"
+                         style="position:absolute; top:0; left:0; width:100%; height:100%;"
+                         frameborder="0"
+                         allow="autoplay; encrypted-media"
+                         sandbox="allow-scripts allow-same-origin allow-presentation"
+                         allowfullscreen
+                         title="Elishi Concept - Crafted by Hand">
+                    </iframe>
+               </div>
           </div>
           <div class="bts-text">
                <span class="category-tag">BEHIND THE SCENES</span>
                <h2>Geleneksel Dikiş,<br>Modern Zarafet</h2>
                <p>Kaliteli kumaşların lüks detaylar ve klasik saçaklarla buluştuğu eşsiz tasarımlarımızla evinizin
-                    aurasını değiştiriyoruz. Her bir abajurumuz, <strong>BeauVamp</strong> geleneğine olan inancımızla
+                    aurasını değiştiriyoruz. Her bir abajurumuz, <strong>Elishi Concept</strong> geleneğine olan inancımızla
                     el işçiliğiyle atölyemizde özenle dikilir, form verilir ve test edilir.</p>
                <p>Klasik İngiliz aydınlatma sanatını evlerinize taşırken, her dikişin anlattığı bir hikaye, her saçağın
                     odanıza kattığı sıcak bir ritim var. Odanıza giren ışık, artık sadece bir aydınlatma değil; kusursuz
                     bir sanat eserine dönüşecek.</p>
-               <a href="https://etsy.com" target="_blank" class="btn-classic-dark" style="margin-top: 1rem;">Etsy
+               <a href="https://etsy.com" target="_blank" rel="noopener noreferrer" class="btn-classic-dark" style="margin-top: 1rem;">Etsy
                     Mağazamızı Ziyaret Edin</a>
           </div>
      </div>
@@ -149,7 +166,7 @@
           </div>
      </div>
      <div style="text-align: center; margin-top: 4rem;">
-          <a href="https://etsy.com" target="_blank" class="btn-classic-outline">Tüm Koleksiyonu İncele</a>
+          <a href="https://etsy.com" target="_blank" rel="noopener noreferrer" class="btn-classic-outline">Tüm Koleksiyonu İncele</a>
      </div>
 </section>
 
