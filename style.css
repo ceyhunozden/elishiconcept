@@ -330,7 +330,7 @@ body.night-mode .menu-overlay {
     justify-content: center;
     text-align: center;
     padding: 0 5%;
-    background: linear-gradient(rgba(246, 239, 232, 0.3), rgba(246, 239, 232, 0.8)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop') center/cover;
+    background: linear-gradient(rgba(246, 239, 232, 0.3), rgba(246, 239, 232, 0.8)), url(banner.webp) center/cover;
 }
 
 body.night-mode .hero-section {
