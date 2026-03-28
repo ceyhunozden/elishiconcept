@@ -334,7 +334,7 @@ body.night-mode .menu-overlay {
 }
 
 body.night-mode .hero-section {
-    background: linear-gradient(rgba(26, 23, 20, 0.7), rgba(26, 23, 20, 0.9)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop') center/cover;
+    background: linear-gradient(rgba(26, 23, 20, 0.7), rgba(26, 23, 20, 0.9)), url('banner.webp') center/cover;
 }
 
 .hero-content {
