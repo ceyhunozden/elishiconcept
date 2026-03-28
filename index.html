@@ -11,10 +11,10 @@
      <meta name="referrer" content="strict-origin-when-cross-origin">
      <!-- Security: Content Security Policy -->
      <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.youtube.com; connect-src 'none';">
+          content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.youtube.com https://*.youtube.com https://*.youtube-nocookie.com; connect-src 'none';">
      <!-- Security: X-Content-Type-Options -->
      <meta http-equiv="X-Content-Type-Options" content="nosniff">
-     <link rel="stylesheet" href="style.css?v=47">
+     <link rel="stylesheet" href="style.css?v=48">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
@@ -75,11 +75,11 @@
           <div class="bts-image">
                <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
                     <iframe
-                         src="https://www.youtube.com/embed/svKT8eTEZ7M?autoplay=1&mute=1&loop=1&playlist=svKT8eTEZ7M&controls=0&modestbranding=1&rel=0"
+                         src="https://www.youtube.com/embed/svKT8eTEZ7M?autoplay=1&mute=1&loop=1&playlist=svKT8eTEZ7M&controls=0&modestbranding=1&rel=0&playsinline=1"
                          style="position:absolute; top:0; left:0; width:100%; height:100%;"
                          frameborder="0"
-                         allow="autoplay; encrypted-media"
-                         sandbox="allow-scripts allow-same-origin allow-presentation"
+                         allow="autoplay; encrypted-media; picture-in-picture"
+                         sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
                          allowfullscreen
                          title="Elishi Concept - Crafted by Hand">
                     </iframe>
