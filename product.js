@@ -46,10 +46,14 @@ document.addEventListener('DOMContentLoaded', () => {
         featuresUl.appendChild(li);
     });
 
-    // ---------- Galeri (Slider) ----------
-    const mainImg = document.getElementById('mainImage');
+    // ---------- Galeri (Crossfade Slider) ----------
+    const imgA = document.getElementById('imgA');
+    const imgB = document.getElementById('imgB');
     const thumbsContainer = document.getElementById('galleryThumbs');
     const dotsContainer = document.getElementById('galleryDots');
+
+    // Hangi img aktif: 'A' veya 'B'
+    let activeLayer = 'A';
 
     function renderGallery() {
         p.images.forEach((src, i) => {
@@ -69,22 +73,43 @@ document.addEventListener('DOMContentLoaded', () => {
             dotsContainer.appendChild(dot);
         });
 
-        // İlk görseli yükle
-        mainImg.src = p.images[0];
-        mainImg.alt = p.name;
+        // İlk görseli yükle (crossfade olmadan, direkt)
+        imgA.src = p.images[0];
+        imgA.alt = p.name;
+        imgA.classList.add('active');
+        imgB.alt = p.name;
     }
 
     function setImage(index) {
         if (index < 0) index = p.images.length - 1;
         if (index >= p.images.length) index = 0;
+        if (index === currentIndex) return;
         currentIndex = index;
 
-        // Fade animasyonu
-        mainImg.classList.add('fade-out');
-        setTimeout(() => {
-            mainImg.src = p.images[currentIndex];
-            mainImg.classList.remove('fade-out');
-        }, 300);
+        const newSrc = p.images[currentIndex];
+
+        if (activeLayer === 'A') {
+            // B katmanına yeni görseli yükle, görünmez halde
+            imgB.src = newSrc;
+            // Yüklendikten sonra crossfade başlat
+            imgB.onload = () => {
+                imgB.classList.add('active');   // B belirir
+                imgA.classList.remove('active'); // A solar
+                activeLayer = 'B';
+                imgB.onload = null;
+            };
+            // Eğer görsel zaten cache'teyse onload tetiklenmez, elle tetikle
+            if (imgB.complete && imgB.naturalWidth > 0) imgB.onload();
+        } else {
+            imgA.src = newSrc;
+            imgA.onload = () => {
+                imgA.classList.add('active');   // A belirir
+                imgB.classList.remove('active'); // B solar
+                activeLayer = 'A';
+                imgA.onload = null;
+            };
+            if (imgA.complete && imgA.naturalWidth > 0) imgA.onload();
+        }
 
         // Thumbnails güncelle
         thumbsContainer.querySelectorAll('.gallery-thumb').forEach((t, i) => {
