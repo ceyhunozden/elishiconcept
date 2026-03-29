@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Detayı – Elishi Concept</title>
+    <meta name="description" content="El yapımı, vintage esintili kumaş abajurlar ve zarif aydınlatmalar.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="stylesheet" href="style.css?v=54">
+    <link rel="stylesheet" href="product.css?v=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Kapatma/Gölge Katmanı -->
+    <div id="menuOverlay" class="menu-overlay"></div>
+
+    <!-- Yana Açılır Çekmece Menü -->
+    <div id="sideDrawer" class="side-drawer">
+        <div class="drawer-header">
+            <button id="closeBtn" class="close-btn">&times;</button>
+        </div>
+        <nav class="drawer-nav">
+            <a href="index.html#hero" class="drawer-link">Ana Sayfa</a>
+            <a href="index.html#behind-the-scenes" class="drawer-link">Hikayemiz</a>
+            <a href="index.html#collection" class="drawer-link">Koleksiyon</a>
+        </nav>
+    </div>
+
+    <!-- Üst Bar (Navbar) -->
+    <header class="navbar">
+        <div class="nav-left">
+            <button id="hamburgerBtn" class="hamburger-btn" aria-label="Menüyü Aç">&#9776;</button>
+        </div>
+
+        <div class="logo nav-center">
+            <a href="index.html"><img src="logo.png?v=3" alt="Elishi Concept Logosu"></a>
+        </div>
+
+        <div class="nav-right nav-utilities">
+            <span class="lang-switch">TR | EN</span>
+            <div class="night-toggle-wrapper" title="Gece Atmosferi">
+                <label class="switch micro-switch">
+                    <input type="checkbox" id="navbarNightToggle">
+                    <span class="slider round"></span>
+                </label>
+                <span class="moon-icon">🌙</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb-bar">
+        <a href="index.html">Ana Sayfa</a>
+        <span class="bc-sep">›</span>
+        <a href="index.html#collection">Koleksiyon</a>
+        <span class="bc-sep">›</span>
+        <span id="breadcrumbName">Ürün</span>
+    </nav>
+
+    <!-- Ürün Detay Ana İçeriği -->
+    <main class="product-page">
+
+        <!-- SOL: Image Slider -->
+        <div class="product-gallery">
+            <!-- Thumbnails (solda dikey) -->
+            <div class="gallery-thumbs" id="galleryThumbs">
+                <!-- JS ile doldurulacak -->
+            </div>
+
+            <!-- Ana Büyük Görsel -->
+            <div class="gallery-main">
+                <div class="gallery-main-inner">
+                    <img id="mainImage" src="" alt="Ürün Görseli">
+                    <!-- Önceki / Sonraki oklar -->
+                    <button class="gallery-arrow gallery-prev" id="galleryPrev" aria-label="Önceki">&#8249;</button>
+                    <button class="gallery-arrow gallery-next" id="galleryNext" aria-label="Sonraki">&#8250;</button>
+                    <!-- Indicator dots -->
+                    <div class="gallery-dots" id="galleryDots"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SAĞ: Ürün Bilgileri -->
+        <div class="product-info">
+            <!-- Tag (New, Premium vb) -->
+            <span class="product-tag" id="productTag"></span>
+
+            <!-- İsim -->
+            <h1 class="product-name" id="productName">Yükleniyor...</h1>
+            <p class="product-subtitle" id="productSubtitle"></p>
+
+            <!-- Fiyat -->
+            <div class="product-price-box">
+                <span class="product-price" id="productPrice"></span>
+                <span class="product-price-note">KDV dahil · Kargo ayrıca hesaplanır</span>
+            </div>
+
+            <!-- Ayırıcı çizgi -->
+            <hr class="info-divider">
+
+            <!-- Hikaye -->
+            <div class="product-story">
+                <h3>Ürün Hikayesi</h3>
+                <p id="productStory"></p>
+            </div>
+
+            <!-- Özellikler -->
+            <div class="product-features">
+                <h3>Özellikler</h3>
+                <ul id="productFeatures"></ul>
+            </div>
+
+            <!-- Sipariş Butonu -->
+            <div class="product-actions">
+                <a id="etsyBtn" href="https://etsy.com" target="_blank" rel="noopener noreferrer" class="btn-order-primary">
+                    Etsy'den Sipariş Ver
+                </a>
+                <a href="index.html#contact" class="btn-order-secondary">
+                    Bize Ulaşın
+                </a>
+            </div>
+
+            <!-- Geri dön linki -->
+            <a href="index.html#collection" class="product-back-link">
+                ← Koleksiyona Dön
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="minimal-footer">
+        <div class="footer-content-centered">
+            <img src="logo.png?v=3" alt="Elishi Concept Logosu" class="minimal-footer-logo">
+            <p class="minimal-copyright">&copy; 2026 ELISHI CONCEPT</p>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="product.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

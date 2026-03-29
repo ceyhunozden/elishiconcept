@@ -535,6 +535,12 @@ body.night-mode .collection-section {
 
 .grid-item {
     text-align: center;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+    /* Allow hover image swap to still work */
+    transition: var(--transition);
 }
 
 .item-img-wrapper {
