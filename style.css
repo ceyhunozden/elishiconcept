@@ -549,6 +549,12 @@ body.night-mode .btn-classic-outline:hover {
     gap: 3rem;
 }
 
+.grid-container.centered-group .grid-item {
+    flex: 0 0 350px;
+    max-width: 350px;
+    width: 100%;
+}
+
 .grid-item {
     transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
 }
@@ -809,6 +815,11 @@ body.night-mode .floating-theme-btn {
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr;
+    }
+
+    .grid-container.centered-group .grid-item {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
     .hero-content h1 {
