@@ -35,10 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if(themeToggle) {
         themeToggle.addEventListener('click', () => {
             document.body.classList.toggle('boho');
-            if(document.body.classList.contains('boho')) {
-                themeToggle.innerHTML = "Stil: ✨ Saf Bej'e Dön";
+            if (document.body.classList.contains('boho')) {
+                themeToggle.textContent = "Stil: ✨ Saf Bej'e Dön";
             } else {
-                themeToggle.innerHTML = "Stil: 🌿 Bohem'e Geç";
+                themeToggle.textContent = "Stil: 🌿 Bohem'e Geç";
             }
         });
     }

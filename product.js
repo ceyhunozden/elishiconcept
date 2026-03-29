@@ -10,8 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!productId || !PRODUCTS[productId]) {
         // Ürün bulunamazsa
-        document.querySelector('main.product-page').innerHTML =
-            '<div class="product-not-found">Ürün bulunamadı. <a href="index.html">Ana sayfaya dön →</a></div>';
+        const main = document.querySelector('main.product-page');
+        main.textContent = ''; // Temizle
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'product-not-found';
+        errorDiv.textContent = 'Ürün bulunamadı. ';
+        const homeLink = document.createElement('a');
+        homeLink.href = 'index.html';
+        homeLink.textContent = 'Ana sayfaya dön →';
+        errorDiv.appendChild(homeLink);
+        main.appendChild(errorDiv);
         return;
     }
 
@@ -38,11 +46,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const featuresUl = document.getElementById('productFeatures');
     p.features.forEach(f => {
         const li = document.createElement('li');
-        li.innerHTML = `
-            <span class="feat-icon">${f.icon}</span>
-            <span class="feat-label">${f.label}</span>
-            <span class="feat-value">${f.value}</span>
-        `;
+        
+        const sIcon = document.createElement('span');
+        sIcon.className = 'feat-icon';
+        sIcon.textContent = f.icon;
+        
+        const sLabel = document.createElement('span');
+        sLabel.className = 'feat-label';
+        sLabel.textContent = f.label;
+        
+        const sValue = document.createElement('span');
+        sValue.className = 'feat-value';
+        sValue.textContent = f.value;
+        
+        li.appendChild(sIcon);
+        li.appendChild(sLabel);
+        li.appendChild(sValue);
+        
         featuresUl.appendChild(li);
     });
 
