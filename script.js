@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             all: { t: "Koleksiyonlarımız", s: "Tüm zamansız parçalar bir arada" },
             opera: { t: "Opera Koleksiyonu", s: "Görkemli ve sanatsal dokunuşlar" },
             natura: { t: "Natura Koleksiyonu", s: "Doğal formların zarafeti" },
-            neo atelier: { t: "Neo Atelier Koleksiyonu", s: "Ustalıkla işlenmiş koleksiyon parçaları" }
+            'neo-atelier': { t: "Neo Atelier Koleksiyonu", s: "Ustalıkla işlenmiş koleksiyon parçaları" }
         };
 
         const content = titles[category] || titles.all;
