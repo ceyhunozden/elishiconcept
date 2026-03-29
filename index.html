@@ -1,4 +1,4 @@
-<!-- FORCE UPDATE: 15:55 -->
+<!-- FORCE UPDATE: 16:15 -->
 <!DOCTYPE html>
 <html lang="tr">
 
@@ -18,7 +18,7 @@
           content="default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.youtube.com https://*.ytimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://*.youtube.com https://*.youtube-nocookie.com; connect-src 'self' https:;">
      <!-- Security: X-Content-Type-Options -->
      <meta http-equiv="X-Content-Type-Options" content="nosniff">
-     <link rel="stylesheet" href="style.css?v=54">
+     <link rel="stylesheet" href="style.css?v=55">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
@@ -85,12 +85,12 @@
                     tasarlandı.
                </p>
 
-               <a href="#collection" class="btn-classic">Koleksiyonu İncele</a>
+               <a href="#collection" class="btn-classic" onclick="if(window.filterProducts) filterProducts('all')">Koleksiyonu İncele</a>
 
           </div>
      </section>
 
-     <!-- NEW: Behind The Scenes -->
+     <!-- Behind The Scenes -->
      <section id="behind-the-scenes" class="behind-scenes-section">
           <div class="behind-scenes-split">
                <div class="bts-image">
@@ -117,93 +117,85 @@
           </div>
      </section>
 
-      <!-- OPERA KOLEKSİYONU -->
-      <section id="collection-opera" class="collection-section">
-           <h2 class="section-title">Opera Koleksiyonu</h2>
-           <p class="section-subtitle">Görkemli ve sanatsal dokunuşlar</p>
-           <div class="grid-container">
-                <a href="product.html?id=urun1" class="grid-item">
-                     <div class="item-img-wrapper">
-                          <img class="img-off" src="urun1-kapali.webp" alt="Bordo Saçaklı Masa Lambası (Kapalı)">
-                          <img class="img-on" src="urun1.webp" alt="Bordo Saçaklı Masa Lambası (Işıklı)">
-                     </div>
-                     <div class="item-info">
-                          <h4>Klasik Bordo Saçaklı Masa Lambası</h4>
-                          <p class="price-small">₺2,800</p>
-                     </div>
-                </a>
-                <a href="product.html?id=urun2" class="grid-item">
-                     <div class="item-img-wrapper">
-                          <img class="img-off" src="urun2-kapali.webp?v=1" alt="Mistik Yusufçuk Bohem Lamba (Kapalı)">
-                          <img class="img-on" src="urun2.webp?v=1" alt="Mistik Yusufçuk Bohem Lamba (Işıklı)">
-                     </div>
-                     <div class="item-info">
-                          <h4>Mistik Yusufçuk Bohem Şaheser</h4>
-                          <p class="price-small">₺4,950</p>
-                     </div>
-                </a>
-           </div>
-      </section>
-
-      <!-- NATURA KOLEKSİYONU -->
-      <section id="collection-natura" class="collection-section">
-           <h2 class="section-title">Natura Koleksiyonu</h2>
-           <p class="section-subtitle">Doğal formların zarafeti</p>
-           <div class="grid-container">
-                <a href="product.html?id=urun3" class="grid-item">
-                     <div class="item-img-wrapper">
-                          <img class="img-off" src="urun3-kapali.webp" alt="Beyaz Pileli Masa Lambası (Kapalı)">
-                          <img class="img-on" src="urun3.webp" alt="Beyaz Pileli Masa Lambası (Işıklı)">
-                     </div>
-                     <div class="item-info">
-                          <h4>Zarif Pileli Konik Abajur</h4>
-                          <p class="price-small">₺3,200</p>
-                     </div>
-                </a>
-                <a href="product.html?id=urun4" class="grid-item">
-                     <div class="item-img-wrapper">
-                          <img class="img-off" src="urun4-kapali.webp" alt="Dördüncü Abajur (Kapalı)">
-                          <img class="img-on" src="urun4.webp" alt="Dördüncü Abajur (Işıklı)">
-                     </div>
-                     <div class="item-info">
-                          <h4>Zarafet İncisi Lamba</h4>
-                          <p class="price-small">₺3,450</p>
-                     </div>
-                </a>
-           </div>
-      </section>
-
-      <!-- ATELIER KOLEKSİYONU -->
-      <section id="collection-atelier" class="collection-section">
-           <h2 class="section-title">Atelier Koleksiyonu</h2>
-           <p class="section-subtitle">Ustalıkla işlenmiş koleksiyon parçaları</p>
-           <div class="grid-container">
-                <a href="product.html?id=urun5" class="grid-item">
-                     <div class="item-img-wrapper">
-                          <img class="img-off" src="urun5-kapali.webp" alt="Beşinci Abajur (Kapalı)">
-                          <img class="img-on" src="urun5.webp" alt="Beşinci Abajur (Işıklı)">
-                     </div>
-                     <div class="item-info">
-                          <h4>Kraliyet Zümrüt Abajur</h4>
-                          <p class="price-small">₺5,200</p>
-                     </div>
-                </a>
-                <a href="product.html?id=urun6" class="grid-item">
-                     <div class="item-img-wrapper">
-                          <img class="img-off" src="urun6-kapali.webp" alt="Altıncı Lamba (Kapalı)">
-                          <img class="img-on" src="urun6.webp" alt="Altıncı Lamba (Işıklı)">
-                     </div>
-                     <div class="item-info">
-                          <h4>Altın Varaklı Klasik Şaheser</h4>
-                          <p class="price-small">₺4,100</p>
-                     </div>
-                </a>
-           </div>
-           <div style="text-align: center; margin-top: 5rem;">
-                <a href="https://etsy.com" target="_blank" rel="noopener noreferrer" class="btn-classic-outline">Tüm
-                     Koleksiyonu İncele</a>
-           </div>
-      </section>
+     <!-- KOLEKSİYON ALANI (Dinamik Filtrelemeli) -->
+     <section id="collection" class="collection-section">
+          <div class="collection-header">
+               <h2 id="collection-title" class="section-title">Koleksiyonlarımız</h2>
+               <p id="collection-subtitle" class="section-subtitle">Tüm zamansız parçalar bir arada</p>
+          </div>
+          
+          <div id="product-grid" class="grid-container">
+               <!-- OPERA -->
+               <a href="product.html?id=urun1" class="grid-item" data-collection="opera">
+                    <div class="item-img-wrapper">
+                         <img class="img-off" src="urun1-kapali.webp" alt="Bordo Saçaklı">
+                         <img class="img-on" src="urun1.webp" alt="Bordo Saçaklı">
+                    </div>
+                    <div class="item-info">
+                         <h4>Bordo Saçaklı Klasik</h4>
+                         <p class="price-small">₺2,800</p>
+                    </div>
+               </a>
+               <a href="product.html?id=urun2" class="grid-item" data-collection="opera">
+                    <div class="item-img-wrapper">
+                         <img class="img-off" src="urun2-kapali.webp?v=1" alt="Bohem Yusufçuk">
+                         <img class="img-on" src="urun2.webp?v=1" alt="Bohem Yusufçuk">
+                    </div>
+                    <div class="item-info">
+                         <h4>Mistik Yusufçuk Bohem</h4>
+                         <p class="price-small">₺4,950</p>
+                    </div>
+               </a>
+               
+               <!-- NATURA -->
+               <a href="product.html?id=urun3" class="grid-item" data-collection="natura">
+                    <div class="item-img-wrapper">
+                         <img class="img-off" src="urun3-kapali.webp" alt="Pileli Konik">
+                         <img class="img-on" src="urun3.webp" alt="Pileli Konik">
+                    </div>
+                    <div class="item-info">
+                         <h4>Zarif Pileli Konik</h4>
+                         <p class="price-small">₺3,200</p>
+                    </div>
+               </a>
+               <a href="product.html?id=urun4" class="grid-item" data-collection="natura">
+                    <div class="item-img-wrapper">
+                         <img class="img-off" src="urun4-kapali.webp" alt="Zarafet İncisi">
+                         <img class="img-on" src="urun4.webp" alt="Zarafet İncisi">
+                    </div>
+                    <div class="item-info">
+                         <h4>Zarafet İncisi Lamba</h4>
+                         <p class="price-small">₺3,450</p>
+                    </div>
+               </a>
+               
+               <!-- ATELIER -->
+               <a href="product.html?id=urun5" class="grid-item" data-collection="atelier">
+                    <div class="item-img-wrapper">
+                         <img class="img-off" src="urun5-kapali.webp" alt="Kraliyet Zümrüt">
+                         <img class="img-on" src="urun5.webp" alt="Kraliyet Zümrüt">
+                    </div>
+                    <div class="item-info">
+                         <h4>Kraliyet Zümrüt Abajur</h4>
+                         <p class="price-small">₺5,200</p>
+                    </div>
+               </a>
+               <a href="product.html?id=urun6" class="grid-item" data-collection="atelier">
+                    <div class="item-img-wrapper">
+                         <img class="img-off" src="urun6-kapali.webp" alt="Altın Varaklı">
+                         <img class="img-on" src="urun6.webp" alt="Altın Varaklı">
+                    </div>
+                    <div class="item-info">
+                         <h4>Altın Varaklı Klasik</h4>
+                         <p class="price-small">₺4,100</p>
+                    </div>
+               </a>
+          </div>
+          
+          <div id="all-products-btn" style="text-align: center; margin-top: 5rem; display: none;">
+               <a href="javascript:void(0)" onclick="filterProducts('all')" class="btn-classic-outline">Tümünü Gör</a>
+          </div>
+     </section>
 
 
      <footer id="contact" class="minimal-footer">

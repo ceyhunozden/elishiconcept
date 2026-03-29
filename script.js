@@ -66,4 +66,76 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Dynamic Collection Filtering Logic
+    window.filterProducts = function(category) {
+        const grid = document.getElementById('product-grid');
+        const items = document.querySelectorAll('.grid-item');
+        const title = document.getElementById('collection-title');
+        const subtitle = document.getElementById('collection-subtitle');
+        const allBtn = document.getElementById('all-products-btn');
+
+        if (!grid || items.length === 0) return;
+
+        // Update Text
+        const titles = {
+            all: { t: "Koleksiyonlarımız", s: "Tüm zamansız parçalar bir arada" },
+            opera: { t: "Opera Koleksiyonu", s: "Görkemli ve sanatsal dokunuşlar" },
+            natura: { t: "Natura Koleksiyonu", s: "Doğal formların zarafeti" },
+            atelier: { t: "Atelier Koleksiyonu", s: "Ustalıkla işlenmiş koleksiyon parçaları" }
+        };
+
+        const content = titles[category] || titles.all;
+        title.style.opacity = '0';
+        subtitle.style.opacity = '0';
+
+        setTimeout(() => {
+            title.textContent = content.t;
+            subtitle.textContent = content.s;
+            title.style.opacity = '1';
+            subtitle.style.opacity = '1';
+        }, 300);
+
+        // Filter Grid
+        if (category === 'all') {
+            grid.classList.remove('centered-group');
+            allBtn.style.display = 'none';
+        } else {
+            grid.classList.add('centered-group');
+            allBtn.style.display = 'block';
+        }
+
+        items.forEach(item => {
+            item.classList.remove('fade-in');
+            if (category === 'all' || item.getAttribute('data-collection') === category) {
+                item.classList.remove('hidden');
+                void item.offsetWidth; // Trigger reflow
+                item.classList.add('fade-in');
+            } else {
+                item.classList.add('hidden');
+            }
+        });
+
+        // Scroll to section
+        const collectionSection = document.getElementById('collection');
+        if (collectionSection) {
+            collectionSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    // Attach to Sidebar Links
+    document.querySelectorAll('.submenu-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const filter = link.getAttribute('href').replace('#collection-', '');
+            filterProducts(filter);
+            closeMenu();
+        });
+    });
+
+    // Handle initial hash if any
+    if (window.location.hash.startsWith('#collection-')) {
+        const initialFilter = window.location.hash.replace('#collection-', '');
+        setTimeout(() => filterProducts(initialFilter), 500);
+    }
 });

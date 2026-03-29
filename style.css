@@ -513,7 +513,7 @@ body.night-mode .btn-classic-outline:hover {
     color: #1a1714;
 }
 
-/* Section Title */
+/* Section Title & Subtitle */
 .section-title {
     font-family: var(--font-heading);
     font-size: 2.8rem;
@@ -531,18 +531,45 @@ body.night-mode .btn-classic-outline:hover {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 300;
+    opacity: 0.7;
 }
 
 /* Collection Section */
 .collection-section {
-    padding: 6rem 5% 4rem;
+    padding: 6rem 5% 6rem;
     background-color: #fafafa;
-    /* Subtle off-white to separate from pure white sections */
+    transition: background-color 0.5s ease;
+}
+
+/* Dynamic Filtering Styles */
+.grid-container.centered-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.grid-item {
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.grid-item.hidden {
+    display: none;
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+.grid-item.fade-in {
+    animation: fadeInProduct 0.6s forwards;
+}
+
+@keyframes fadeInProduct {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 body.night-mode .collection-section {
     background-color: #2b2e33;
-    /* Antrasit */
 }
 
 .grid-container {
