@@ -351,11 +351,20 @@ body.night-mode .hero-section {
 }
 
 .hero-content h1 {
-    font-family: var(--font-heading);
-    font-size: 4.8rem;
-    margin-bottom: 2rem;
-    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 1px;
     line-height: 1.1;
+}
+
+.hero-content .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    max-width: 420px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #555;
 }
 
 /* NEW: Behind The Scenes Section */
@@ -767,4 +776,21 @@ body.night-mode .floating-theme-btn {
     .hero-content h1 {
         font-size: 2.8rem;
     }
+}
+
+.hero-content h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.1;
+}
+
+.hero-content .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    max-width: 420px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #555;
 }
