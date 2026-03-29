@@ -132,13 +132,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'ArrowRight') setImage(currentIndex + 1);
     });
 
-    // Touch/swipe desteği
+    // Touch/swipe desteği (ana görsel alanına bağlı)
+    const galleryInner = document.querySelector('.gallery-main-inner');
     let touchStartX = 0;
-    mainImg.addEventListener('touchstart', (e) => {
+    galleryInner.addEventListener('touchstart', (e) => {
         touchStartX = e.changedTouches[0].screenX;
     }, { passive: true });
 
-    mainImg.addEventListener('touchend', (e) => {
+    galleryInner.addEventListener('touchend', (e) => {
         const diff = touchStartX - e.changedTouches[0].screenX;
         if (Math.abs(diff) > 40) {
             setImage(diff > 0 ? currentIndex + 1 : currentIndex - 1);
