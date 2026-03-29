@@ -794,3 +794,38 @@ body.night-mode .floating-theme-btn {
     margin-top: 20px;
     color: #555;
 }
+
+.drawer-link {
+    display: block;
+    margin-bottom: 28px;
+    text-decoration: none;
+    color: #e8e3db;
+}
+
+/* Türkçe */
+.drawer-link .tr {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* İngilizce */
+.drawer-link .en {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    opacity: 0.6;
+    margin-top: 3px;
+    display: block;
+}
+
+/* hover efekti */
+.drawer-link:hover .tr {
+    color: #d6c3a3;
+    transform: translateX(4px);
+    transition: all 0.3s ease;
+}
+
+.drawer-link:hover .en {
+    opacity: 1;
+}
