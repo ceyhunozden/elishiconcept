@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Scrollbar kaybolduğunda sayfanın sağa sıçramasını (titremesi) engelle
         const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
         document.body.style.paddingRight = `${scrollBarWidth}px`;
-        
+
         sideDrawer.classList.add('open');
         menuOverlay.classList.add('active');
         document.body.style.overflow = 'hidden';
@@ -23,16 +23,16 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.paddingRight = '';
     }
 
-    if(hamburgerBtn) hamburgerBtn.addEventListener('click', openMenu);
-    if(closeBtn) closeBtn.addEventListener('click', closeMenu);
-    if(menuOverlay) menuOverlay.addEventListener('click', closeMenu);
+    if (hamburgerBtn) hamburgerBtn.addEventListener('click', openMenu);
+    if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+    if (menuOverlay) menuOverlay.addEventListener('click', closeMenu);
 
     document.querySelectorAll('.drawer-link').forEach(link => {
         link.addEventListener('click', closeMenu);
     });
 
     const themeToggle = document.getElementById('themeToggle');
-    if(themeToggle) {
+    if (themeToggle) {
         themeToggle.addEventListener('click', () => {
             document.body.classList.toggle('boho');
             if (document.body.classList.contains('boho')) {
@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const navbarNightToggle = document.getElementById('navbarNightToggle');
-    if(navbarNightToggle) {
+    if (navbarNightToggle) {
         navbarNightToggle.addEventListener('change', (e) => {
-            if(e.target.checked) {
+            if (e.target.checked) {
                 document.body.classList.add('night-mode');
             } else {
                 document.body.classList.remove('night-mode');
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
-            if(target) {
+            if (target) {
                 target.scrollIntoView({
                     behavior: 'smooth'
                 });
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Dynamic Collection Filtering Logic
-    window.filterProducts = function(category) {
+    window.filterProducts = function (category) {
         const grid = document.getElementById('product-grid');
         const items = document.querySelectorAll('.grid-item');
         const title = document.getElementById('collection-title');
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             all: { t: "Koleksiyonlarımız", s: "Tüm zamansız parçalar bir arada" },
             opera: { t: "Opera Koleksiyonu", s: "Görkemli ve sanatsal dokunuşlar" },
             natura: { t: "Natura Koleksiyonu", s: "Doğal formların zarafeti" },
-            atelier: { t: "Atelier Koleksiyonu", s: "Ustalıkla işlenmiş koleksiyon parçaları" }
+            neo atelier: { t: "Neo Atelier Koleksiyonu", s: "Ustalıkla işlenmiş koleksiyon parçaları" }
         };
 
         const content = titles[category] || titles.all;
