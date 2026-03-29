@@ -27,9 +27,24 @@ document.addEventListener('DOMContentLoaded', () => {
     if (closeBtn) closeBtn.addEventListener('click', closeMenu);
     if (menuOverlay) menuOverlay.addEventListener('click', closeMenu);
 
+    // Close menu when clicking links (excluding the collection trigger)
     document.querySelectorAll('.drawer-link').forEach(link => {
-        link.addEventListener('click', closeMenu);
+        if (!link.classList.contains('collection-trigger')) {
+            link.addEventListener('click', closeMenu);
+        }
     });
+
+    // Toggle Submenu on Click/Tap for Mobile
+    const collectionTrigger = document.querySelector('.collection-trigger');
+    if (collectionTrigger) {
+        collectionTrigger.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent closing if nested
+            const parentItem = collectionTrigger.closest('.drawer-item');
+            if (parentItem) {
+                parentItem.classList.toggle('active');
+            }
+        });
+    }
 
     const themeToggle = document.getElementById('themeToggle');
     if (themeToggle) {

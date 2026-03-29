@@ -946,13 +946,21 @@ body.night-mode .floating-theme-btn {
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Hover ile Alt Menü Açılışı */
-.drawer-item:hover .submenu {
+/* Hover (Desktop) & Active (Mobile/Click) Alt Menü Açılışı */
+.drawer-item:hover .submenu,
+.drawer-item.active .submenu {
     max-height: 250px;
     opacity: 1;
     visibility: visible;
     margin-top: 18px;
     margin-bottom: 10px;
+}
+
+/* Hover & Active olunca artıyı döndür */
+.drawer-item:hover .collection-trigger::after,
+.drawer-item.active .collection-trigger::after {
+    transform: rotate(45deg);
+    color: #d6bc9f;
 }
 
 /* Alt Menü Linkleri */
