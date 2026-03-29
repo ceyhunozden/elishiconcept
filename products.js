@@ -11,7 +11,10 @@ const PRODUCTS = {
         tag: 'BESTSELLER',
         images: [
             'urun1-kapali.webp',
-            'urun1.webp'
+            'urun1.webp',
+            'urun1-detay1.webp',
+            'urun1-detay2.webp',
+            'urun1-detay3.webp'
         ],
         story: `Bu özel masa lambası, yıllar öncesinden gelen bir nostaljinin bugüne taşınmasıyla doğdu. Bordo kadife kumaşı ve el oyası saçakları, odanıza sıcak bir İngiliz salonu havası katar.`,
         features: [
@@ -32,7 +35,14 @@ const PRODUCTS = {
         tag: 'YENİ',
         images: [
             'urun2-kapali.webp',
-            'urun2.webp'
+            'urun2.webp',
+            'urun2-detay1.webp',
+            'urun2-detay2.webp',
+            'urun2-detay3.webp',
+            'urun2-detay4.webp',
+            'urun2-detay5.webp',
+            'urun2-detay6.webp',
+            'urun2-detay7.webp'
         ],
         story: `Mavi ve kiremit renklerin büyülü buluşması olan bu lamba, bohem ruhunu yaşatmak isteyenler için tasarlandı. Yusufçuk motifli detayları ile eşsiz bir atmosfer yaratır.`,
         features: [
@@ -53,7 +63,11 @@ const PRODUCTS = {
         tag: '',
         images: [
             'urun3-kapali.webp',
-            'urun3.webp'
+            'urun3.webp',
+            'urun3-detay1.webp',
+            'urun3-detay2.webp',
+            'urun3-detay3.webp',
+            'urun3-detay4.webp'
         ],
         story: `Saf beyazın zarafetiyle işlenmiş bu pileli konik abajur, minimalist ve modern mekanlar için biçilmiş kaftandır. Her kıvrımı elle yerleştirilmiş, ışığı mükemmel dağıtır.`,
         features: [
@@ -74,7 +88,8 @@ const PRODUCTS = {
         tag: '',
         images: [
             'urun4-kapali.webp',
-            'urun4.webp'
+            'urun4.webp',
+            'urun4-detay1.webp'
         ],
         story: `İnci beyazının yumuşak parlaklığından ilham alınan bu lamba, sofistike bir dokunuş arayan mekanlar için tasarlandı. Seramik ayak detayları ile tamamlanan şık bir bütün oluşturur.`,
         features: [
@@ -95,7 +110,11 @@ const PRODUCTS = {
         tag: 'PREMİUM',
         images: [
             'urun5-kapali.webp',
-            'urun5.webp'
+            'urun5.webp',
+            'urun5-detay1.webp',
+            'urun5-detay2.webp',
+            'urun5-detay3.webp',
+            'urun5-detay4.webp'
         ],
         story: `Zümrüt yeşilinin derinliği ile işlenmiş bu abajur, kraliyet saraylarından ilham alan bir tasarıma sahip. Altın rengi detaylar ve el nakışları bu eseri eşsiz kılar.`,
         features: [
@@ -116,7 +135,10 @@ const PRODUCTS = {
         tag: 'LİMİTED',
         images: [
             'urun6-kapali.webp',
-            'urun6.webp'
+            'urun6.webp',
+            'urun6-detay1.webp',
+            'urun6-detay2.webp',
+            'urun6-detay3.webp'
         ],
         story: `Altın varak detaylarının ışıltısıyla yaratılan bu şaheser, koleksiyonun en prestijli parçasıdır. Sınırlı sayıda üretilen bu lamba, seçici zevklere hitap eder.`,
         features: [
