@@ -516,15 +516,26 @@ body.night-mode .btn-classic-outline:hover {
 /* Section Title */
 .section-title {
     font-family: var(--font-heading);
-    font-size: 3rem;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+}
+
+.section-subtitle {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
     text-align: center;
     margin-bottom: 4rem;
-    font-weight: 400;
+    color: var(--text-muted);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 /* Collection Section */
 .collection-section {
-    padding: 5rem 5% 10rem;
+    padding: 6rem 5% 4rem;
     background-color: #fafafa;
     /* Subtle off-white to separate from pure white sections */
 }
