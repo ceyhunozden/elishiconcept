@@ -793,6 +793,11 @@ body.night-mode .floating-theme-btn {
         gap: 1.2rem;
     }
 
+    .nav-left {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
     .logo {
         height: auto;
     }
