@@ -788,7 +788,7 @@ body.night-mode .floating-theme-btn {
     .navbar {
         display: grid;
         grid-template-columns: 1fr auto 1fr;
-        height: 80px; /* Sabit dar yükseklik */
+        height: 100px; /* Logo için mesafe tanındı */
         padding: 0 5%;
         gap: 0;
         align-items: center;
@@ -800,13 +800,13 @@ body.night-mode .floating-theme-btn {
     }
 
     .logo {
-        height: 80px;
+        height: 100px;
     }
 
     .logo img {
-        transform: scale(1.1) translateY(0); /* Neredeyse orijinal boyut */
-        max-height: 50px;
-        max-width: 140px;
+        transform: scale(1.5) translateY(0); /* Logo tekrar belirginleştirildi */
+        max-height: 65px;
+        max-width: 180px;
     }
 
     .nav-utilities {
@@ -835,18 +835,18 @@ body.night-mode .floating-theme-btn {
 
 @media (max-width: 600px) {
     .navbar {
-        height: 70px;
+        height: 90px;
         padding: 0 4%;
     }
 
     .logo {
-        height: 70px;
+        height: 90px;
     }
 
     .logo img {
-        transform: scale(1) translateY(0);
-        max-height: 45px;
-        max-width: 120px;
+        transform: scale(1.4) translateY(0);
+        max-height: 60px;
+        max-width: 160px;
     }
 
     .nav-utilities {
