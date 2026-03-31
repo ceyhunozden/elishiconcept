@@ -95,6 +95,8 @@ body.night-mode h4 {
 
 /* Hamburger Butonu */
 .hamburger-btn {
+    position: relative; /* z-index için gerekli */
+    z-index: 10;
     background: none;
     border: none;
     font-size: 1.8rem;
@@ -784,8 +786,20 @@ body.night-mode .floating-theme-btn {
 /* Responsiveness */
 @media (max-width: 900px) {
     .navbar {
+        display: flex; /* grid'den flex'e geçerek column özelliğini aktif ettik */
         flex-direction: column;
-        gap: 1.5rem;
+        height: auto; /* Sabit 140px yüksekliği iptal ettik */
+        padding: 1.5rem 5%;
+        gap: 1.2rem;
+    }
+
+    .logo {
+        height: auto;
+    }
+
+    .logo img {
+        transform: scale(1.8) translateY(0); /* Dev ölçeklendirmeyi mobilde makul seviyeye çektik */
+        max-width: 200px;
     }
 
     .nav-utilities {
@@ -813,6 +827,16 @@ body.night-mode .floating-theme-btn {
 }
 
 @media (max-width: 600px) {
+    .navbar {
+        padding: 1rem 5%;
+        gap: 0.8rem;
+    }
+
+    .logo img {
+        transform: scale(1.6) translateY(0);
+        max-width: 150px;
+    }
+
     .grid-container {
         grid-template-columns: 1fr;
     }

@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuOverlay = document.getElementById('menuOverlay');
 
     function openMenu() {
+        console.log("Hamburger menu opened");
         // Scrollbar kaybolduğunda sayfanın sağa sıçramasını (titremesi) engelle
         const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
         document.body.style.paddingRight = `${scrollBarWidth}px`;
