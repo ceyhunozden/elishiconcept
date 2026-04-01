@@ -845,7 +845,7 @@ body.night-mode .floating-theme-btn {
     }
 
     .logo img {
-        transform: scale(2.8) translateY(45px); /* Mobilde tam dikey ortalama için 45px aşağı kaydırıldı */
+        transform: scale(2.8) translateY(5px); /* Daha önce 45px aşağıdaydı, 40px yukarı çekilerek dikey denge sağlandı */
         max-height: 110px;
         max-width: 140px; /* Yan kolonlara (dil/menü) nefes alma alanı açıldı */
     }
@@ -863,12 +863,14 @@ body.night-mode .floating-theme-btn {
     .lang-switch {
         font-size: 0.8rem; /* Daha belirgin ve okunabilir metin boyutu */
         line-height: normal;
+        transform: translateY(-20px); /* 20px yukarı yerleştirildi */
     }
 
     .night-toggle-wrapper {
         position: static;
         margin-left: 0;
-        margin-top: -0.2rem; /* Üstteki dile yaklaşması için hafif ofset */
+        margin-top: -0.2rem;
+        transform: translateY(20px); /* Ay dede ikonu 20px aşağı indirildi */
     }
 
     .grid-container {
