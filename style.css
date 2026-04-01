@@ -851,11 +851,13 @@ body.night-mode .floating-theme-btn {
     }
 
     .nav-utilities {
-        gap: 0.5rem;
+        display: flex;
+        flex-direction: column; /* Dikey yerleşim: Diller üstte, AyDede altta */
+        align-items: flex-end; /* Sağa yaslı hizalama */
+        gap: 0.1rem; /* Elemanlar arası minimum dikey boşluk */
         flex-shrink: 0;
-        justify-content: flex-end;
-        align-items: center;
-        min-width: 100px; /* Dil seçeneğinin sıkışmasını engellemek için minimum genişlik */
+        justify-content: center;
+        min-width: 80px;
     }
 
     .lang-switch {
@@ -864,8 +866,9 @@ body.night-mode .floating-theme-btn {
     }
 
     .night-toggle-wrapper {
-        position: static; /* Fixed'den çıkardık */
-        margin-left: 0.5rem;
+        position: static;
+        margin-left: 0;
+        margin-top: -0.2rem; /* Üstteki dile yaklaşması için hafif ofset */
     }
 
     .grid-container {
