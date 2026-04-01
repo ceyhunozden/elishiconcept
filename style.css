@@ -805,9 +805,9 @@ body.night-mode .floating-theme-btn {
     }
 
     .logo img {
-        transform: scale(2.2) translateY(15px); /* Dikey ortalama için aşağı kaydırıldı */
+        transform: scale(2.2) translateY(35px); /* 900px altında dikey ortalama artırıldı */
         max-height: 90px;
-        max-width: 200px;
+        max-width: 160px; /* Yanlara daha fazla alan için genişlik kısıtlandı */
     }
 
     .nav-utilities {
@@ -845,18 +845,22 @@ body.night-mode .floating-theme-btn {
     }
 
     .logo img {
-        transform: scale(2.8) translateY(22px); /* Mobilde tam ortalama için dikey kaydırma artırıldı */
+        transform: scale(2.8) translateY(45px); /* Mobilde tam dikey ortalama için 45px aşağı kaydırıldı */
         max-height: 110px;
-        max-width: 190px; /* Yanlara daha fazla yer açmak için genişlik kısıtlandı */
+        max-width: 140px; /* Yan kolonlara (dil/menü) nefes alma alanı açıldı */
     }
 
     .nav-utilities {
-        gap: 0.5rem; /* Sıkışmayı önlemek için gap daraltıldı */
+        gap: 0.5rem;
         flex-shrink: 0;
+        justify-content: flex-end;
+        align-items: center;
+        min-width: 100px; /* Dil seçeneğinin sıkışmasını engellemek için minimum genişlik */
     }
 
     .lang-switch {
-        font-size: 0.65rem;
+        font-size: 0.8rem; /* Daha belirgin ve okunabilir metin boyutu */
+        line-height: normal;
     }
 
     .night-toggle-wrapper {
