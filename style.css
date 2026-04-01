@@ -845,9 +845,9 @@ body.night-mode .floating-theme-btn {
     }
 
     .logo img {
-        transform: scale(2.8) translateY(5px); /* Daha önce 45px aşağıdaydı, 40px yukarı çekilerek dikey denge sağlandı */
+        transform: scale(2.8) translateY(10px); /* 5px aşağı kaydırıldı (toplam 10px) */
         max-height: 110px;
-        max-width: 140px; /* Yan kolonlara (dil/menü) nefes alma alanı açıldı */
+        max-width: 140px;
     }
 
     .nav-utilities {
@@ -861,9 +861,9 @@ body.night-mode .floating-theme-btn {
     }
 
     .lang-switch {
-        font-size: 0.8rem; /* Daha belirgin ve okunabilir metin boyutu */
+        font-size: 0.8rem;
         line-height: normal;
-        transform: translateY(-20px); /* 20px yukarı yerleştirildi */
+        transform: translate(-3px, -20px); /* 3px sola ve 20px yukarı yerleştirildi */
     }
 
     .night-toggle-wrapper {
