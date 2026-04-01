@@ -149,5 +149,71 @@ const PRODUCTS = {
             { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
         etsy: 'https://etsy.com'
+    },
+    
+    urun7: {
+        id: 'urun7',
+        name: 'Natura Ahşap Dokunuş',
+        subtitle: 'El Yapımı · Natura Koleksiyonu',
+        price: '₺3.150',
+        tag: 'YENİ',
+        images: [
+            'urun3-kapali.webp', // Yer tutucu olarak mevcut görsellerden biri kullanıldı
+            'urun3.webp',
+            'urun3-detay1.webp'
+        ],
+        story: `Doğanın kalbinden gelen ahşap detaylarla bezeli bu özel tasarım, evinize doğal bir sıcaklık katar. Sürdürülebilir malzemelerle el işçiliğiyle üretilmiştir.`,
+        features: [
+            { icon: '🌿', label: 'Malzeme', value: 'Doğal ahşap, keten kumaş' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø26cm, Yükseklik 40cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
+            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun8: {
+        id: 'urun8',
+        name: 'Gümüş Işıltılı Modern',
+        subtitle: 'El Yapımı · Modern Koleksiyon',
+        price: '₺3.600',
+        tag: '',
+        images: [
+            'urun4-kapali.webp',
+            'urun4.webp',
+            'urun4-detay1.webp'
+        ],
+        story: `Modern mekanların vazgeçilmezi olacak gümüş ışıltılı bu abajur, minimalist tasarımıyla dikkat çeker. Işığı soğuk ve berrak bir şekilde dağıtarak elegant bir hava yaratır.`,
+        features: [
+            { icon: '✨', label: 'Malzeme', value: 'Gümüş kaplama detaylar, parlak kumaş' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø24cm, Yükseklik 42cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
+            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun9: {
+        id: 'urun9',
+        name: 'Venedik Dantelli Abajur',
+        subtitle: 'El Yapımı · Vintage Koleksiyon',
+        price: '₺4.250',
+        tag: 'LİMİTED',
+        images: [
+            'urun2-kapali.webp',
+            'urun2.webp',
+            'urun2-detay1.webp'
+        ],
+        story: `Venedik'in romantik sokaklarından ilham alan el yapımı dantel detayları, bu abajuru bir sanat eserine dönüştürür. Klasik mobilyalarınızla mükemmel bir uyum sergiler.`,
+        features: [
+            { icon: '🧶', label: 'Malzeme', value: 'Venedik danteli, ipek kumaş' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 46cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı üretim' },
+            { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
     }
 };
