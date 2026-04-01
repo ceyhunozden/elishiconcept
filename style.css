@@ -96,7 +96,7 @@ body.night-mode h4 {
 /* Hamburger Butonu */
 .hamburger-btn {
     position: relative; /* z-index için gerekli */
-    z-index: 10;
+    z-index: 1005; /* Logonun (1000) üzerinde olması garanti edildi */
     background: none;
     border: none;
     font-size: 1.8rem;
@@ -211,6 +211,8 @@ body.night-mode .menu-overlay {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
+    z-index: 1010;
+    position: relative;
 }
 
 .lang-switch {
@@ -303,6 +305,7 @@ body.night-mode .menu-overlay {
     width: auto;
     object-fit: contain;
     z-index: 1000;
+    pointer-events: none; /* Logonun şeffaf alanları tıklamayı engellemesin */
     transition: var(--transition);
 }
 
@@ -858,6 +861,8 @@ body.night-mode .floating-theme-btn {
         flex-shrink: 0;
         justify-content: center;
         min-width: 80px;
+        z-index: 1010; /* Mobil görünümde katman önceliği sağlandı */
+        position: relative;
     }
 
     .lang-switch {
