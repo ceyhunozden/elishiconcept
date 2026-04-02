@@ -225,7 +225,10 @@ body.night-mode .menu-overlay {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    z-index: 1010;
+    position: fixed;
+    right: 2.2rem;
+    top: 1.5rem;
+    z-index: 9999;
 }
 
 .micro-switch {
