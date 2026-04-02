@@ -158,9 +158,10 @@ const PRODUCTS = {
         price: '₺3.150',
         tag: 'YENİ',
         images: [
-            'urun3-kapali.webp', // Yer tutucu olarak mevcut görsellerden biri kullanıldı
-            'urun3.webp',
-            'urun3-detay1.webp'
+            'urun7-kapali.webp',
+            'urun7.webp',
+            'urun7-detay1.webp',
+            'urun7-detay2.webp'
         ],
         story: `Doğanın kalbinden gelen ahşap detaylarla bezeli bu özel tasarım, evinize doğal bir sıcaklık katar. Sürdürülebilir malzemelerle el işçiliğiyle üretilmiştir.`,
         features: [
@@ -180,9 +181,13 @@ const PRODUCTS = {
         price: '₺3.600',
         tag: '',
         images: [
-            'urun4-kapali.webp',
-            'urun4.webp',
-            'urun4-detay1.webp'
+            'urun8-kapali.webp',
+            'urun8.webp',
+            'urun8-detay1.webp',
+            'urun8-detay2.webp',
+            'urun8-detay3.webp',
+            'urun8-detay4.webp',
+            'urun8-detay5.webp'
         ],
         story: `Modern mekanların vazgeçilmezi olacak gümüş ışıltılı bu abajur, minimalist tasarımıyla dikkat çeker. Işığı soğuk ve berrak bir şekilde dağıtarak elegant bir hava yaratır.`,
         features: [
@@ -202,9 +207,13 @@ const PRODUCTS = {
         price: '₺4.250',
         tag: 'LİMİTED',
         images: [
-            'urun2-kapali.webp',
-            'urun2.webp',
-            'urun2-detay1.webp'
+            'urun9-kapali.webp',
+            'urun9.webp',
+            'urun9-detay1.webp',
+            'urun9-detay2.webp',
+            'urun9-detay3.webp',
+            'urun9-detay4.webp',
+            'urun9-detay5.webp'
         ],
         story: `Venedik'in romantik sokaklarından ilham alan el yapımı dantel detayları, bu abajuru bir sanat eserine dönüştürür. Klasik mobilyalarınızla mükemmel bir uyum sergiler.`,
         features: [
