@@ -154,4 +154,43 @@ document.addEventListener('DOMContentLoaded', () => {
         const initialFilter = window.location.hash.replace('#collection-', '');
         setTimeout(() => filterProducts(initialFilter), 500);
     }
+
+    // --- AUTOMATIC LIGHT-ON EFFECT (MOBILE) ---
+    // Detect if mobile (screen width < 900px)
+    const isMobile = window.matchMedia("(max-width: 900px)").matches;
+
+    if (isMobile) {
+        const productItems = document.querySelectorAll('.grid-item');
+        const activeTimers = new Map(); // Store timers to cancel if item leaves early
+
+        const observerOptions = {
+            root: null,
+            threshold: 0.5 // Trigger when 50% of the item is visible
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const target = entry.target;
+
+                if (entry.isIntersecting) {
+                    // Check if already "on" or already has a timer
+                    if (!target.classList.contains('auto-on') && !activeTimers.has(target)) {
+                        const timer = setTimeout(() => {
+                            target.classList.add('auto-on');
+                            activeTimers.delete(target);
+                        }, 1000); // 1 second delay
+                        activeTimers.set(target, timer);
+                    }
+                } else {
+                    // If it leaves the viewport before the timer finishes, cancel it
+                    if (activeTimers.has(target)) {
+                        clearTimeout(activeTimers.get(target));
+                        activeTimers.delete(target);
+                    }
+                }
+            });
+        }, observerOptions);
+
+        productItems.forEach(item => observer.observe(item));
+    }
 });

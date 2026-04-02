@@ -640,11 +640,13 @@ body.night-mode .item-img-wrapper {
 }
 
 /* Hover effect */
-.grid-item:hover .item-img-wrapper .img-on {
+.grid-item:hover .item-img-wrapper .img-on,
+.grid-item.auto-on .item-img-wrapper .img-on {
     opacity: 1;
 }
 
-.grid-item:hover .item-img-wrapper .img-off {
+.grid-item:hover .item-img-wrapper .img-off,
+.grid-item.auto-on .item-img-wrapper .img-off {
     opacity: 0;
 }
 
