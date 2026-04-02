@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         const timer = setTimeout(() => {
                             target.classList.add('auto-on');
                             activeTimers.delete(target);
-                        }, 1000); // 1 second delay
+                        }, 500); // 0.5 second delay
                         activeTimers.set(target, timer);
                     }
                 } else {
