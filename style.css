@@ -225,10 +225,7 @@ body.night-mode .menu-overlay {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    position: fixed;
-    right: 2rem;
-    top: 1.2rem;
-    z-index: 9999;
+    z-index: 1010;
 }
 
 .micro-switch {
@@ -863,14 +860,11 @@ body.night-mode .floating-theme-btn {
     .lang-switch {
         font-size: 0.8rem;
         line-height: normal;
-        transform: translate(-3px, -20px); /* 3px sola ve 20px yukarı yerleştirildi */
     }
 
     .night-toggle-wrapper {
         position: static;
         margin-left: 0;
-        margin-top: -0.2rem;
-        transform: translateY(20px); /* Ay dede ikonu 20px aşağı indirildi */
     }
 
     .grid-container {
