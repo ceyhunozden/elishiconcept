@@ -336,11 +336,11 @@ body.night-mode .menu-overlay {
     justify-content: center;
     text-align: center;
     padding: 0 5%;
-    background: linear-gradient(rgba(246, 239, 232, 0.3), rgba(246, 239, 232, 0.8)), url(banner.webp) center/cover;
+    background: linear-gradient(rgba(246, 239, 232, 0.3), rgba(246, 239, 232, 0.8)), url(images/banner.webp) center/cover;
 }
 
 body.night-mode .hero-section {
-    background: linear-gradient(rgba(26, 23, 20, 0.7), rgba(26, 23, 20, 0.9)), url('banner.webp') center/cover;
+    background: linear-gradient(rgba(26, 23, 20, 0.7), rgba(26, 23, 20, 0.9)), url('images/banner.webp') center/cover;
 }
 
 .hero-content {

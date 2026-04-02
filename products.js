@@ -1,6 +1,8 @@
 // =====================================================
 // ÜRÜN VERİLERİ - Buradan kolayca düzenleyebilirsiniz
-// ==================================================const PRODUCTS = {
+// =====================================================
+
+const PRODUCTS = {
     urun1: {
         id: 'urun1',
         name: 'Klasik Bordo Saçaklı Masa Lambası',
@@ -187,7 +189,7 @@
             'images/piliseli-modern-abajur-detay4.webp',
             'images/piliseli-modern-abajur-detay5.webp'
         ],
-        story: `Modern mekanların vazgeçilmezi olacak gümüş ışıltılı bu abajur, minimalist tasarımıyla dikkat çeker. Işığı soğuk ve berrak bir şekilde dağıtarak elegant bir hava yaratır.`,
+        story: `Modern mekanların vazgeçilmeli olacak gümüş ışıltılı bu abajur, minimalist tasarımıyla dikkat çeker. Işığı soğuk ve berrak bir şekilde dağıtarak elegant bir hava yaratır.`,
         features: [
             { icon: '✨', label: 'Malzeme', value: 'Gümüş kaplama detaylar, parlak kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
@@ -215,15 +217,6 @@
         ],
         story: `Venedik'in romantik sokaklarından ilham alan el yapımı dantel detayları, bu abajuru bir sanat eserine dönüştürür. Klasik mobilyalarınızla mükemmel bir uyum sergiler.`,
         features: [
-            { icon: '🧶', label: 'Malzeme', value: 'Venedik danteli, ipek kumaş' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 46cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı üretim' },
-            { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
-        ],
-        etsy: 'https://etsy.com'
-    }
-};      features: [
             { icon: '🧶', label: 'Malzeme', value: 'Venedik danteli, ipek kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 46cm' },
