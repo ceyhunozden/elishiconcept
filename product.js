@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // ---------- Ürün bilgileri ----------
     document.getElementById('productName').textContent = p.name;
     document.getElementById('productSubtitle').textContent = p.subtitle;
-    document.getElementById('productPrice').textContent = p.price;
     document.getElementById('productStory').textContent = p.story;
     document.getElementById('etsyBtn').href = p.etsy;
 

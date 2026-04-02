@@ -242,27 +242,6 @@ body.night-mode .gallery-dot.active {
     margin: 0;
 }
 
-/* Fiyat Kutusu */
-.product-price-box {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-}
-
-.product-price {
-    font-family: var(--font-heading);
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--text-main);
-}
-
-.product-price-note {
-    font-family: var(--font-body);
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
 
 /* Divider */
 .info-divider {

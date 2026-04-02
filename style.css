@@ -670,15 +670,8 @@ body.night-mode .item-img-wrapper .img-off {
     margin-bottom: 0.5rem;
 }
 
-.item-info .price-small {
-    font-family: var(--font-serif);
-    font-size: 1.3rem;
-    color: var(--text-muted);
-}
+/* Fiyat sınıfları kaldırıldı */
 
-body.night-mode .item-info .price-small {
-    color: #a39c94;
-}
 
 /* Minimalist Centered Footer */
 .minimal-footer {

@@ -7,7 +7,6 @@ const PRODUCTS = {
         id: 'urun1',
         name: 'Klasik Bordo Saçaklı Masa Lambası',
         subtitle: 'El Yapımı · Vintage Koleksiyon',
-        price: '₺2.800',
         tag: 'BESTSELLER',
         images: [
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-kapali.webp',
@@ -31,7 +30,6 @@ const PRODUCTS = {
         id: 'urun2',
         name: 'Mistik Yusufçuk Bohem Şaheser',
         subtitle: 'El Yapımı · Bohem Koleksiyon',
-        price: '₺4.950',
         tag: 'YENİ',
         images: [
             'images/antik-retro-kruvasan-maximalist-abajur-kapali.webp',
@@ -59,7 +57,6 @@ const PRODUCTS = {
         id: 'urun3',
         name: 'Zarif Pileli Konik Abajur',
         subtitle: 'El Yapımı · Klasik Koleksiyon',
-        price: '₺3.200',
         tag: '',
         images: [
             'images/elegance-soft-minimalist-seramik-abajur-kapali.webp',
@@ -84,7 +81,6 @@ const PRODUCTS = {
         id: 'urun4',
         name: 'Zarafet İncisi Lamba',
         subtitle: 'El Yapımı · Vintage Koleksiyon',
-        price: '₺3.450',
         tag: '',
         images: [
             'images/boho-zarif-pileli-cozy-abajur-kapali.webp',
@@ -106,7 +102,6 @@ const PRODUCTS = {
         id: 'urun5',
         name: 'Kraliyet Zümrüt Abajur',
         subtitle: 'El Yapımı · Premium Koleksiyon',
-        price: '₺5.200',
         tag: 'PREMİUM',
         images: [
             'images/bohem-nakisli-ozgun-abajur-kapali.webp',
@@ -116,7 +111,7 @@ const PRODUCTS = {
             'images/bohem-nakisli-ozgun-abajur-detay3.webp',
             'images/bohem-nakisli-ozgun-abajur-detay4.webp'
         ],
-        story: `Zümrüt yeşilinin derinliği ile işlenmiş bu abajur, kraliyet saraylarından ilham alan bir tasarıma sahip. Altın rengi detaylar ve el nakışları bu eseri eşsiz kılar.`,
+        story: `Zümrüt yeşilinin derinliği ile işlenmiş bu abajur, kraliyet saraylarından ilham alan bir tasarıma sahip. Altın rengi detaylar and el nakışları bu eseri eşsiz kılar.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Zümrüt kumaş, altın aksesuar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
@@ -131,7 +126,6 @@ const PRODUCTS = {
         id: 'urun6',
         name: 'Altın Varaklı Klasik Şaheser',
         subtitle: 'El Yapımı · Lüks Koleksiyon',
-        price: '₺4.100',
         tag: 'LİMİTED',
         images: [
             'images/mistik-geleneksel-nakisli-kumas-abajur-kapali.webp',
@@ -155,7 +149,6 @@ const PRODUCTS = {
         id: 'urun7',
         name: 'Natura Ahşap Dokunuş',
         subtitle: 'El Yapımı · Natura Koleksiyonu',
-        price: '₺3.150',
         tag: 'YENİ',
         images: [
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-kapali.webp',
@@ -178,7 +171,6 @@ const PRODUCTS = {
         id: 'urun8',
         name: 'Gümüş Işıltılı Modern',
         subtitle: 'El Yapımı · Modern Koleksiyon',
-        price: '₺3.600',
         tag: '',
         images: [
             'images/piliseli-modern-abajur-kapali.webp',
@@ -204,7 +196,6 @@ const PRODUCTS = {
         id: 'urun9',
         name: 'Venedik Dantelli Abajur',
         subtitle: 'El Yapımı · Vintage Koleksiyon',
-        price: '₺4.250',
         tag: 'LİMİTED',
         images: [
             'images/modern-pileli-kumas-abajur-kapali.webp',
