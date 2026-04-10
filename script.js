@@ -96,9 +96,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update Text
         const titles = {
             all: { t: "Koleksiyonlarımız", s: "Tüm zamansız parçalar bir arada" },
-            opera: { t: "Opera Koleksiyonu", s: "Görkemli ve sanatsal dokunuşlar" },
-            natura: { t: "Natura Koleksiyonu", s: "Doğal formların zarafeti" },
-            'neo-atelier': { t: "Neo Atelier Koleksiyonu", s: "Ustalıkla işlenmiş koleksiyon parçaları" }
+            minimalist: { t: "Minimalist Koleksiyon", s: "Sade ve modern dokunuşlar" },
+            maksimalist: { t: "Maksimalist Koleksiyon", s: "Görkemli ve iddialı detaylar" },
+            'boho-chic': { t: "Boho Chic Koleksiyon", s: "Özgür ve sanatsal ruh" },
+            timeless: { t: "Timeless Koleksiyon", s: "Zamansız ve klasik tasarımlar" }
         };
 
         const content = titles[category] || titles.all;

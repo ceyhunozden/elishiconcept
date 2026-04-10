@@ -6,7 +6,7 @@ const PRODUCTS = {
     urun1: {
         id: 'urun1',
         name: 'Vega',
-        subtitle: 'El Yapımı · Vintage Koleksiyon',
+        subtitle: 'El Yapımı · Maksimalist Koleksiyon',
         tag: 'BESTSELLER',
         images: [
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-kapali.webp',
@@ -29,7 +29,7 @@ const PRODUCTS = {
     urun2: {
         id: 'urun2',
         name: 'Luna',
-        subtitle: 'El Yapımı · Bohem Koleksiyon',
+        subtitle: 'El Yapımı · Boho Chic Koleksiyon',
         tag: 'YENİ',
         images: [
             'images/antik-retro-kruvasan-maximalist-abajur-kapali.webp',
@@ -56,7 +56,7 @@ const PRODUCTS = {
     urun3: {
         id: 'urun3',
         name: 'Maia',
-        subtitle: 'El Yapımı · Klasik Koleksiyon',
+        subtitle: 'El Yapımı · Minimalist Koleksiyon',
         tag: '',
         images: [
             'images/elegance-soft-minimalist-seramik-abajur-kapali.webp',
@@ -80,7 +80,7 @@ const PRODUCTS = {
     urun4: {
         id: 'urun4',
         name: 'Auriga',
-        subtitle: 'El Yapımı · Vintage Koleksiyon',
+        subtitle: 'El Yapımı · Minimalist Koleksiyon',
         tag: '',
         images: [
             'images/boho-zarif-pileli-cozy-abajur-kapali.webp',
@@ -101,7 +101,7 @@ const PRODUCTS = {
     urun5: {
         id: 'urun5',
         name: 'Büyük Capella - Zeytin',
-        subtitle: 'El Yapımı · Premium Koleksiyon',
+        subtitle: 'El Yapımı · Boho Chic Koleksiyon',
         tag: 'PREMİUM',
         images: [
             'images/bohem-nakisli-ozgun-abajur-kapali.webp',
@@ -125,7 +125,7 @@ const PRODUCTS = {
     urun6: {
         id: 'urun6',
         name: 'Küçük Capella - Fuşya',
-        subtitle: 'El Yapımı · Lüks Koleksiyon',
+        subtitle: 'El Yapımı · Maksimalist Koleksiyon',
         tag: 'LİMİTED',
         images: [
             'images/mistik-geleneksel-nakisli-kumas-abajur-kapali.webp',
@@ -148,7 +148,7 @@ const PRODUCTS = {
     urun7: {
         id: 'urun7',
         name: 'Bella',
-        subtitle: 'El Yapımı · Natura Koleksiyonu',
+        subtitle: 'El Yapımı · Minimalist Koleksiyon',
         tag: 'YENİ',
         images: [
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-kapali.webp',
@@ -170,7 +170,7 @@ const PRODUCTS = {
     urun8: {
         id: 'urun8',
         name: 'Parseus - Sarı',
-        subtitle: 'El Yapımı · Modern Koleksiyon',
+        subtitle: 'El Yapımı · Minimalist Koleksiyon',
         tag: '',
         images: [
             'images/piliseli-modern-abajur-kapali.webp',
@@ -195,7 +195,7 @@ const PRODUCTS = {
     urun9: {
         id: 'urun9',
         name: 'Parseus - Kırmızı',
-        subtitle: 'El Yapımı · Vintage Koleksiyon',
+        subtitle: 'El Yapımı · Maksimalist Koleksiyon',
         tag: 'LİMİTED',
         images: [
             'images/modern-pileli-kumas-abajur-kapali.webp',
