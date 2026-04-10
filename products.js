@@ -5,7 +5,7 @@
 const PRODUCTS = {
     urun1: {
         id: 'urun1',
-        name: 'Klasik Bordo Saçaklı Masa Lambası',
+        name: 'Vega',
         subtitle: 'El Yapımı · Vintage Koleksiyon',
         tag: 'BESTSELLER',
         images: [
@@ -28,7 +28,7 @@ const PRODUCTS = {
 
     urun2: {
         id: 'urun2',
-        name: 'Mistik Yusufçuk Bohem Şaheser',
+        name: 'Luna',
         subtitle: 'El Yapımı · Bohem Koleksiyon',
         tag: 'YENİ',
         images: [
@@ -55,7 +55,7 @@ const PRODUCTS = {
 
     urun3: {
         id: 'urun3',
-        name: 'Zarif Pileli Konik Abajur',
+        name: 'Maia',
         subtitle: 'El Yapımı · Klasik Koleksiyon',
         tag: '',
         images: [
@@ -79,7 +79,7 @@ const PRODUCTS = {
 
     urun4: {
         id: 'urun4',
-        name: 'Zarafet İncisi Lamba',
+        name: 'Auriga',
         subtitle: 'El Yapımı · Vintage Koleksiyon',
         tag: '',
         images: [
@@ -100,7 +100,7 @@ const PRODUCTS = {
 
     urun5: {
         id: 'urun5',
-        name: 'Kraliyet Zümrüt Abajur',
+        name: 'Büyük Capella - Zeytin',
         subtitle: 'El Yapımı · Premium Koleksiyon',
         tag: 'PREMİUM',
         images: [
@@ -124,7 +124,7 @@ const PRODUCTS = {
 
     urun6: {
         id: 'urun6',
-        name: 'Altın Varaklı Klasik Şaheser',
+        name: 'Küçük Capella - Fuşya',
         subtitle: 'El Yapımı · Lüks Koleksiyon',
         tag: 'LİMİTED',
         images: [
@@ -147,7 +147,7 @@ const PRODUCTS = {
     
     urun7: {
         id: 'urun7',
-        name: 'Natura Ahşap Dokunuş',
+        name: 'Bella',
         subtitle: 'El Yapımı · Natura Koleksiyonu',
         tag: 'YENİ',
         images: [
@@ -169,7 +169,7 @@ const PRODUCTS = {
 
     urun8: {
         id: 'urun8',
-        name: 'Gümüş Işıltılı Modern',
+        name: 'Parseus - Sarı',
         subtitle: 'El Yapımı · Modern Koleksiyon',
         tag: '',
         images: [
@@ -194,7 +194,7 @@ const PRODUCTS = {
 
     urun9: {
         id: 'urun9',
-        name: 'Venedik Dantelli Abajur',
+        name: 'Parseus - Kırmızı',
         subtitle: 'El Yapımı · Vintage Koleksiyon',
         tag: 'LİMİTED',
         images: [
