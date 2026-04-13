@@ -158,11 +158,11 @@ const PRODUCTS = {
         ],
         story: `Doğanın kalbinden gelen ahşap detaylarla bezeli bu özel tasarım, evinize doğal bir sıcaklık katar. Sürdürülebilir malzemelerle el işçiliğiyle üretilmiştir.`,
         features: [
-            { icon: '🌿', label: 'Malzeme', value: 'Doğal ahşap, keten kumaş' },
+            { icon: '🌿', label: 'Malzeme', value: 'Metal, saten ve şifon kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø26cm, Yükseklik 40cm' },
+            { icon: '📐', label: 'Boyut', value: 'Şapka Ø24cm h43cm toplam 80cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+            { icon: '📦', label: 'Teslimat', value: '7-15 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
