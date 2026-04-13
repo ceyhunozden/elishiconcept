@@ -156,7 +156,7 @@ const PRODUCTS = {
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay1.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay2.webp'
         ],
-        story: `Metal iskeletin sağlamlığı, kumaşın zarafeti ve el yapımı püsküllerin nostaljik dokusuyla birleşen Bella; mekanınıza sofistike bir Maksimalist hava katar. Her bir detay, zanaatkar ellerin özenli dokunuşuyla ve büyük bir tutkuyla hayat bulmuştur.`,
+        story: `Metal iskeletin sağlamlığı, kumaşın zarafeti ve el yapımı püsküllerin nostaljik dokusuyla birleşen Bella, kapalı lale figüründen ilham alan formuyla mekanınıza zarafet katar. Her bir detay, zanaatkar ellerin özenli dokunuşuyla ve büyük bir tutkuyla hayat bulmuştur.`,
         features: [
             { icon: '🌿', label: 'Malzeme', value: 'Metal, kumaş ve püskül' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
