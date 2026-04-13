@@ -156,7 +156,7 @@ const PRODUCTS = {
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay1.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay2.webp'
         ],
-        story: `Doğanın kalbinden gelen ahşap detaylarla bezeli bu özel tasarım, evinize doğal bir sıcaklık katar. Sürdürülebilir malzemelerle el işçiliğiyle üretilmiştir.`,
+        story: `Metal iskeletin sağlamlığı, satenin zarafeti ve şifonun uçuşan dokusuyla birleşen Bella; mekanınıza sofistike bir Maksimalist hava katar. Her bir katman, zanaatkar ellerin özenli dokunuşuyla ve büyük bir tutkuyla hayat bulmuştur.`,
         features: [
             { icon: '🌿', label: 'Malzeme', value: 'Metal, saten ve şifon kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
