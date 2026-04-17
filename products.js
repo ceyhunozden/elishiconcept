@@ -79,7 +79,7 @@ const PRODUCTS = {
 
     urun4: {
         id: 'urun4',
-        name: 'Auriga',
+        name: 'Spica',
         subtitle: 'El Yapımı · Minimalist Koleksiyon',
         tag: '',
         images: [
@@ -230,7 +230,7 @@ const PRODUCTS = {
 
     urun10: {
         id: 'urun10',
-        name: 'Cassiopeia',
+        name: 'Electra Turuncu',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'PREMİUM',
         images: [
@@ -254,7 +254,7 @@ const PRODUCTS = {
 
     urun11: {
         id: 'urun11',
-        name: 'Orion',
+        name: 'Electra Çikolata',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'YENİ',
         images: [
@@ -277,7 +277,7 @@ const PRODUCTS = {
 
     urun12: {
         id: 'urun12',
-        name: 'Lyra',
+        name: 'Vega Bej',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'BESTSELLER',
         images: [
@@ -302,7 +302,7 @@ const PRODUCTS = {
 
     urun13: {
         id: 'urun13',
-        name: 'Alcyone',
+        name: 'Maia Cam',
         subtitle: 'El Yapımı · Minimalist Koleksiyon',
         tag: '',
         images: [
@@ -326,7 +326,7 @@ const PRODUCTS = {
 
     urun14: {
         id: 'urun14',
-        name: 'Electra',
+        name: 'Electra Bej',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'LİMİTED',
         images: [
@@ -350,7 +350,7 @@ const PRODUCTS = {
 
     urun15: {
         id: 'urun15',
-        name: 'Merope',
+        name: 'Rigel',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'ÖZEL',
         images: [
@@ -375,7 +375,7 @@ const PRODUCTS = {
 
     urun17: {
         id: 'urun17',
-        name: 'Hokusai',
+        name: 'Mintaka Hazeran',
         subtitle: 'El Yapımı · Retro Koleksiyon',
         tag: 'SANATSAL',
         images: [
@@ -401,7 +401,7 @@ const PRODUCTS = {
 
     urun18: {
         id: 'urun18',
-        name: 'Vesta',
+        name: 'Mintaka',
         subtitle: 'El Yapımı · Retro Koleksiyon',
         tag: '',
         images: [
@@ -424,7 +424,7 @@ const PRODUCTS = {
 
     urun19: {
         id: 'urun19',
-        name: 'Callisto',
+        name: 'Mintaka',
         subtitle: 'El Yapımı · Retro Koleksiyon',
         tag: 'KLASİK',
         images: [
