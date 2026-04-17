@@ -20,8 +20,6 @@ const PRODUCTS = {
             { icon: '🧵', label: 'Malzeme', value: 'Bordo kadife kumaş, el yapımı saçaklar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -51,13 +49,9 @@ const PRODUCTS = {
         Tamamen özgün ve tek üretimdir.
         Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, metal aksesuar, püskül' },
-            { icon: '🪡', label: 'Tasarım', value: 'Victoria dönemi, kruvasan form' },
-            { icon: '🦋', label: 'Detay', value: 'Yusufçuk figürü (Reborn)' },
-            { icon: '🧶', label: 'Aksesuar', value: 'Degrade püsküller' },
-            { icon: '🏺', label: 'Kaide', value: 'Antik sarı metal ayak' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, yusufçuk figürü, antik sarı metal ayak' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 30cm, Yükseklik 56cm' },
-            { icon: '🕰', label: 'Üretim', value: 'Elde tek parça olarak üretildi' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -80,8 +74,6 @@ const PRODUCTS = {
             { icon: '🧵', label: 'Malzeme', value: 'Krem-beyaz pileli kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 27cm, Yükseklik 70cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -101,8 +93,6 @@ const PRODUCTS = {
             { icon: '🧵', label: 'Malzeme', value: 'Fildişi kumaş, seramik ayak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 35cm, Yükseklik 65cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -125,8 +115,6 @@ const PRODUCTS = {
             { icon: '🧵', label: 'Malzeme', value: 'Zümrüt kumaş, altın aksesuar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 50cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -148,8 +136,6 @@ const PRODUCTS = {
             { icon: '🧵', label: 'Malzeme', value: 'Lüks kumaş, altın varak detaylar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 45cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine (Sınırlı Sayı)' },
-            { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -173,11 +159,9 @@ const PRODUCTS = {
 
         Işık yandığında tüm katmanlar birleşir, kumaşın içinden süzülen sıcak tonlar ve püskülün hareketi bulunduğu ortamda gizlenmeyen bir sahne etkisi yaratır. Tamamen özel tasarım ve tek üretim olmasıyla özgünlük arayanlar için güçlü bir imza niteliği taşır.`,
         features: [
-            { icon: '🌿', label: 'Malzeme', value: 'Özel kumaş, degrade püsküller' },
+            { icon: '🧵', label: 'Malzeme', value: 'Özel kumaş, degrade püsküller' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 80cm' },
-            { icon: '🕰', label: 'Üretim', value: 'Elde tek parça olarak üretildi' },
-            { icon: '📦', label: 'Sipariş', value: 'Kişiye özel tasarlanabilir' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -200,11 +184,9 @@ const PRODUCTS = {
 
         Wabi-sabi estetiğinden ilham alan şapkası, doğal formdaki kaidesiyle uyum içinde tamamlanır. Renkli ponpon detayı ise tasarıma ritim ve karakter katar. Her biri elde üretilir.`,
         features: [
-            { icon: '✨', label: 'Malzeme', value: 'Seramik, kumaş' },
+            { icon: '🧵', label: 'Malzeme', value: 'Seramik kaide, çizgili pileli kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
-            { icon: '🕰', label: 'Üretim', value: 'Her biri elde üretilir' },
-            { icon: '🎨', label: 'Özelleştirme', value: 'Renk ve ölçü uyarlanabilir' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -228,11 +210,9 @@ const PRODUCTS = {
 
         Wabi-sabi estetiğinden ilham alan şapkası, doğal formdaki kaidesiyle dengeli bir uyum yakalar. Renkli ponpon detayı ise tasarıma hareket ve karakter katar. Her biri elde üretilir.`,
         features: [
-            { icon: '🧶', label: 'Malzeme', value: 'Seramik, kumaş' },
+            { icon: '🧵', label: 'Malzeme', value: 'Seramik kaide, kırmızı pileli kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
-            { icon: '🕰', label: 'Üretim', value: 'Her biri elde üretilir' },
-            { icon: '🎨', label: 'Özelleştirme', value: 'Renk ve ölçü uyarlanabilir' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -255,8 +235,6 @@ const PRODUCTS = {
             { icon: '🧵', label: 'Malzeme', value: 'Ağır dokuma kumaş, vintage detaylar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 56cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı sayıda' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -275,11 +253,9 @@ const PRODUCTS = {
         ],
         story: `Avcı takımyıldızından ilham alan Orion, güçlü hatları ve zamansız formuyla modern mekanlarda nostaljik bir köprü kuruyor. Keskin ve net duruşu, loş ışığın sıcaklığıyla dengeleniyor.`,
         features: [
-            { icon: '🌿', label: 'Malzeme', value: 'Sert keten karışımı, el dikişi' },
+            { icon: '🧵', label: 'Malzeme', value: 'Sert keten karışımı, el dikişi' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 61cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, usta işi' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -303,8 +279,6 @@ const PRODUCTS = {
             { icon: '🧵', label: 'Malzeme', value: 'İnce ipekli kumaş, pirinç aksam' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, hassas işçilik' },
-            { icon: '📦', label: 'Teslimat', value: '7-12 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -324,11 +298,9 @@ const PRODUCTS = {
         ],
         story: `Minimalizmin en saf hali olan Alcyone, gereksiz her detaydan arındırılmış bir huzur kaynağıdır. Modern ve sakin mekanlar için tasarlanmış duru bir ışık.`,
         features: [
-            { icon: '🌿', label: 'Malzeme', value: 'Saf pamuklu keten, vizon renk' },
+            { icon: '🧵', label: 'Malzeme', value: 'Saf pamuklu keten, vizon renk' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 26cm, Yükseklik 60cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -348,11 +320,9 @@ const PRODUCTS = {
         ],
         story: `Saray zarafetini ve altın çağların ışıltısını taşıyan Electra, enerjisiyle girdiği her mekanı aydınlatır. Klasik motiflerin modern bir yorumudur.`,
         features: [
-            { icon: '🧶', label: 'Malzeme', value: 'Dantel işlemeli kumaş, altın varak' },
+            { icon: '🧵', label: 'Malzeme', value: 'Dantel işlemeli kumaş, altın varak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 31cm, Yükseklik 63cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı üretim' },
-            { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -375,12 +345,9 @@ const PRODUCTS = {
 
         Amber tonlarında cam kaide, ışıkla birlikte sıcak ve derin bir parıltı oluşturur. Dikey dokulu yüzeyi, ışığı kırarak mekana yumuşak bir yayılım kazandırır. Desenin yoğun karakteri ile camın sade ama güçlü formu dengeli bir uyum içindedir. Bu birliktelik, ürünü sadece bir aydınlatma değil, bulunduğu ortamda kolayca fark edilen bir odak objesi haline getirir.`,
         features: [
-            { icon: '🎨', label: 'Tasarım', value: 'William Morris Strawberry Thief' },
-            { icon: '🏺', label: 'Kaide', value: 'Amber tonlarında cam kaide' },
+            { icon: '🧵', label: 'Malzeme', value: 'William Morris Strawberry Thief kumaş, Amber cam kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 45cm, Yükseklik 71cm' },
-            { icon: '🕰', label: 'Üretim', value: 'Her biri elde üretilir' },
-            { icon: '✨', label: 'Özel', value: 'Renk ve ölçü uyarlanabilir' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -400,13 +367,13 @@ const PRODUCTS = {
             'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay5.webp',
             'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay6.webp'
         ],
-        story: `Dalgaların ve geleneksel motiflerin dansı olan Hokusai, Uzak Doğu'nun sanatsal ruhunu retro bir dokunuşla birleştiriyor. Her açıda farklı bir hikaye anlatan bu eser, bir abajurdan çok daha fazlası.`,
+        story: `70’lerin cesur grafik dilinden ilham alan bu abajur, mekâna güçlü bir karakter kazandırır. 
+
+        İroko ağacından üretilen kaide, sıcak tonları ve doğal dokusuyla tasarımı dengelerken, desenin enerjisini rafine bir estetiğe taşır. Sıradan bir aydınlatma değil; bulunduğu alanda kendini hissettiren, imza niteliğinde bir parçadır.`,
         features: [
-            { icon: '🧶', label: 'Malzeme', value: 'Özel baskı kumaş, ipek şeritler' },
+            { icon: '🧵', label: 'Malzeme', value: 'Özel baskı kumaş, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, limitli seri' },
-            { icon: '📦', label: 'Teslimat', value: '10-15 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -423,13 +390,13 @@ const PRODUCTS = {
             'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay2.webp',
             'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay3.webp'
         ],
-        story: `Evin ve ocağın koruyucusu Vesta'dan ismini alan bu abajur, mekanınıza sıcak bir güven duygusu katar. Retro hatları ve yumuşak renk geçişleriyle gerçek bir ev sıcaklığı.`,
+        story: `70’lerin cesur grafik dilinden ilham alan bu abajur, mekâna güçlü bir karakter kazandırır. 
+
+        İroko ağacından üretilen kaide, sıcak tonları ve doğal dokusuyla tasarımı dengelerken, desenin enerjisini rafine bir estetiğe taşır. Sıradan bir aydınlatma değil; bulunduğu alanda kendini hissettiren, imza niteliğinde bir parçadır.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Kadife doku, toprak tonları' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kadife doku, toprak tonları, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -449,13 +416,13 @@ const PRODUCTS = {
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay5.webp',
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay6.webp'
         ],
-        story: `Antik çağların doğal formlarından ilham alan Callisto, retro bir estetiği ham dokularla buluşturuyor. Doğadan gelen bir ışık parçasını yaşam alanınıza taşır.`,
+        story: `70’lerin cesur grafik dilinden ilham alan bu abajur, mekâna güçlü bir karakter kazandırır. 
+
+        İroko ağacından üretilen kaide, sıcak tonları ve doğal dokusuyla tasarımı dengelerken, desenin enerjisini rafine bir estetiğe taşır. Sıradan bir aydınlatma değil; bulunduğu alanda kendini hissettiren, imza niteliğinde bir parçadır.`,
         features: [
-            { icon: '🌿', label: 'Malzeme', value: 'Doğal lifli kumaş, rustik detaylar' },
+            { icon: '🧵', label: 'Malzeme', value: 'Doğal lifli kumaş, rustik detaylar, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, doğal süreçler' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -472,13 +439,13 @@ const PRODUCTS = {
             'images/70ler-60lar-nostaljik-abajur-detay2.webp',
             'images/70ler-60lar-nostaljik-abajur-detay3.webp'
         ],
-        story: `Çiçek tanrıçası Antheia'dan ilham alan bu tasarım, nostaljik bir bahar esintisini evinize getiriyor. Renkli ama seçkin dokusuyla geçmişin en güzel anılarını canlandırır.`,
+        story: `70’lerin cesur grafik dilinden ilham alan bu abajur, mekâna güçlü bir karakter kazandırır. 
+
+        İroko ağacından üretilen kaide, sıcak tonları ve doğal dokusuyla tasarımı dengelerken, desenin enerjisini rafine bir estetiğe taşır. Sıradan bir aydınlatma değil; bulunduğu alanda kendini hissettiren, imza niteliğinde bir parçadır.`,
         features: [
-            { icon: '🌸', label: 'Malzeme', value: 'Desenli Retro kumaş, el oyması ayak' },
+            { icon: '🧵', label: 'Malzeme', value: 'Desenli Retro kumaş, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, butik tasarım' },
-            { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
         etsy: 'https://etsy.com'
     }
