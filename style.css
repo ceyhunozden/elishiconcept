@@ -1055,3 +1055,71 @@ body.night-mode .floating-theme-btn {
         font-size: 17px;
     }
 }
+
+/* SEO & Philosophy Subtitle Headers */
+.philosophy-subtitle {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 2.5rem;
+    line-height: 1.4;
+}
+
+.guide-section {
+    padding: 8rem 5%;
+    background-color: #fafaf9; /* Hafif kırık beyaz / warm grey */
+    border-top: 1px solid #f0f0f0;
+}
+
+body.night-mode .guide-section {
+    background-color: #24272b;
+    border-top: 1px solid #333;
+}
+
+.guide-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.guide-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.guide-item h3 {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent);
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.guide-item h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 1px;
+    background-color: var(--accent);
+    opacity: 0.5;
+}
+
+.guide-item p {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+    .guide-content {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .guide-section {
+        padding: 5rem 8%;
+    }
+}
