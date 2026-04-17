@@ -154,7 +154,9 @@ const PRODUCTS = {
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-kapali.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay1.webp',
-            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay2.webp'
+            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay2.webp',
+            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay3.webp',
+            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay4.webp'
         ],
         story: `Metal iskeletin sağlamlığı, kumaşın zarafeti ve el yapımı püsküllerin nostaljik dokusuyla birleşen Bella, kapalı lale figüründen ilham alan formuyla mekanınıza zarafet katar. Her bir detay, zanaatkar ellerin özenli dokunuşuyla ve büyük bir tutkuyla hayat bulmuştur.`,
         features: [
