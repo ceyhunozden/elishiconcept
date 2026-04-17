@@ -19,7 +19,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Bordo kadife kumaş, el yapımı saçaklar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 42cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -46,7 +46,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Mavi-kiremit kumaş, metal aksesuarlar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø32cm, Yükseklik 48cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 30cm, Yükseklik 56cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -70,7 +70,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Krem-beyaz pileli kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø26cm, Yükseklik 38cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 27cm, Yükseklik 70cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -91,7 +91,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Fildişi kumaş, seramik ayak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø24cm, Yükseklik 40cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 35cm, Yükseklik 65cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -115,7 +115,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Zümrüt kumaş, altın aksesuar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø30cm, Yükseklik 50cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 50cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -138,7 +138,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Lüks kumaş, altın varak detaylar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 45cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 45cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine (Sınırlı Sayı)' },
             { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
@@ -162,7 +162,7 @@ const PRODUCTS = {
         features: [
             { icon: '🌿', label: 'Malzeme', value: 'Metal, kumaş ve püskül' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Şapka Ø24cm h43cm toplam 80cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 80cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
             { icon: '📦', label: 'Teslimat', value: '7-15 iş günü' },
         ],
@@ -237,7 +237,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Ağır dokuma kumaş, vintage detaylar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø30cm, Yükseklik 48cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 56cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı sayıda' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -260,7 +260,7 @@ const PRODUCTS = {
         features: [
             { icon: '🌿', label: 'Malzeme', value: 'Sert keten karışımı, el dikişi' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 45cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 61cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, usta işi' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -309,7 +309,7 @@ const PRODUCTS = {
         features: [
             { icon: '🌿', label: 'Malzeme', value: 'Saf pamuklu keten, vizon renk' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø26cm, Yükseklik 40cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 26cm, Yükseklik 60cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -333,7 +333,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧶', label: 'Malzeme', value: 'Dantel işlemeli kumaş, altın varak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø30cm, Yükseklik 46cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 31cm, Yükseklik 63cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı üretim' },
             { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
@@ -358,7 +358,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Özel dokulu Antrasit kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 44cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 45cm, Yükseklik 71cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, butik üretim' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -382,7 +382,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧶', label: 'Malzeme', value: 'Gümüş işlemeli dantel, saten' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø26cm, Yükseklik 42cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, nostaljik üslup' },
             { icon: '📦', label: 'Teslimat', value: '7-12 iş günü' },
         ],
@@ -408,7 +408,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧶', label: 'Malzeme', value: 'Özel baskı kumaş, ipek şeritler' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø32cm, Yükseklik 50cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, limitli seri' },
             { icon: '📦', label: 'Teslimat', value: '10-15 iş günü' },
         ],
@@ -431,7 +431,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kadife doku, toprak tonları' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø30cm, Yükseklik 45cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -457,7 +457,7 @@ const PRODUCTS = {
         features: [
             { icon: '🌿', label: 'Malzeme', value: 'Doğal lifli kumaş, rustik detaylar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 44cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, doğal süreçler' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -480,7 +480,7 @@ const PRODUCTS = {
         features: [
             { icon: '🌸', label: 'Malzeme', value: 'Desenli Retro kumaş, el oyması ayak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 46cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, butik tasarım' },
             { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
