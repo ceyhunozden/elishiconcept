@@ -216,5 +216,267 @@ const PRODUCTS = {
             { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
         etsy: 'https://etsy.com'
+    },
+
+    urun10: {
+        id: 'urun10',
+        name: 'Cassiopeia',
+        subtitle: 'El Yapımı · Timeless Koleksiyon',
+        tag: 'PREMİUM',
+        images: [
+            'images/urun10-kapali.webp',
+            'images/urun10.webp',
+            'images/urun10-detay1.webp',
+            'images/urun10-detay2.webp',
+            'images/urun10-detay3.webp',
+            'images/urun10-detay4.webp'
+        ],
+        story: `Gökyüzünün en asil takımyıldızlarından biri olan Cassiopeia, bu tasarımda hayat buluyor. Derin dokusu ve vakur duruşuyla, mekanınıza sadece ışık değil, bir miras bırakıyor.`,
+        features: [
+            { icon: '🧵', label: 'Malzeme', value: 'Ağır dokuma kumaş, vintage detaylar' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø30cm, Yükseklik 48cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı sayıda' },
+            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun11: {
+        id: 'urun11',
+        name: 'Orion',
+        subtitle: 'El Yapımı · Timeless Koleksiyon',
+        tag: 'YENİ',
+        images: [
+            'images/urun11-kapali.webp',
+            'images/urun11.webp',
+            'images/urun11-detay1.webp',
+            'images/urun11-detay2.webp',
+            'images/urun11-detay3.webp'
+        ],
+        story: `Avcı takımyıldızından ilham alan Orion, güçlü hatları ve zamansız formuyla modern mekanlarda nostaljik bir köprü kuruyor. Keskin ve net duruşu, loş ışığın sıcaklığıyla dengeleniyor.`,
+        features: [
+            { icon: '🌿', label: 'Malzeme', value: 'Sert keten karışımı, el dikişi' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 45cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, usta işi' },
+            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun12: {
+        id: 'urun12',
+        name: 'Lyra',
+        subtitle: 'El Yapımı · Timeless Koleksiyon',
+        tag: 'BESTSELLER',
+        images: [
+            'images/urun12-kapali.webp',
+            'images/urun12.webp',
+            'images/urun12-detay1.webp',
+            'images/urun12-detay2.webp',
+            'images/urun12-detay3.webp',
+            'images/urun12-detay4.webp',
+            'images/urun12-detay5.webp'
+        ],
+        story: `Bir lir gibi zarif ve ahenkli olan Lyra, ışığın en yumuşak halini odanıza taşıyor. İnce işçiliği ve hafif yapısıyla, her köşede bir sanat eseri etkisi yaratır.`,
+        features: [
+            { icon: '🧵', label: 'Malzeme', value: 'İnce ipekli kumaş, pirinç aksam' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø32cm, Yükseklik 52cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, hassas işçilik' },
+            { icon: '📦', label: 'Teslimat', value: '7-12 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun13: {
+        id: 'urun13',
+        name: 'Alcyone',
+        subtitle: 'El Yapımı · Minimalist Koleksiyon',
+        tag: '',
+        images: [
+            'images/urun13-kapali.webp',
+            'images/urun13.webp',
+            'images/urun13-detay1.webp',
+            'images/urun13-detay2.webp',
+            'images/urun13-detay3.webp',
+            'images/urun13-detay4.webp'
+        ],
+        story: `Minimalizmin en saf hali olan Alcyone, gereksiz her detaydan arındırılmış bir huzur kaynağıdır. Modern ve sakin mekanlar için tasarlanmış duru bir ışık.`,
+        features: [
+            { icon: '🌿', label: 'Malzeme', value: 'Saf pamuklu keten, vizon renk' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø26cm, Yükseklik 40cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı' },
+            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun14: {
+        id: 'urun14',
+        name: 'Electra',
+        subtitle: 'El Yapımı · Timeless Koleksiyon',
+        tag: 'LİMİTED',
+        images: [
+            'images/urun14-kapali.webp',
+            'images/urun14.webp',
+            'images/urun14-detay1.webp',
+            'images/urun14-detay2.webp',
+            'images/urun14-detay3.webp',
+            'images/urun14-detay4webp.webp'
+        ],
+        story: `Saray zarafetini ve altın çağların ışıltısını taşıyan Electra, enerjisiyle girdiği her mekanı aydınlatır. Klasik motiflerin modern bir yorumudur.`,
+        features: [
+            { icon: '🧶', label: 'Malzeme', value: 'Dantel işlemeli kumaş, altın varak' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø30cm, Yükseklik 46cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı üretim' },
+            { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun15: {
+        id: 'urun15',
+        name: 'Merope',
+        subtitle: 'El Yapımı · Timeless Koleksiyon',
+        tag: 'ÖZEL',
+        images: [
+            'images/urun15-kapali.webp',
+            'images/urun15.webp',
+            'images/urun15-detay1.webp',
+            'images/urun15-detay2.webp',
+            'images/urun15-detay3.webp',
+            'images/urun15-detay4.webp'
+        ],
+        story: `Gizemli ve derin bir hikayesi olan Merope, loş ışıkta ortaya çıkan özel dokusuyla dikkat çeker. Sessiz ama etkileyici bir tasarım arayanlar için.`,
+        features: [
+            { icon: '🧵', label: 'Malzeme', value: 'Özel dokulu Antrasit kumaş' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 44cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, butik üretim' },
+            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun16: {
+        id: 'urun16',
+        name: 'Selene',
+        subtitle: 'El Yapımı · Retro Koleksiyon',
+        tag: 'VINTAGE',
+        images: [
+            'images/urun16-kapali.webp',
+            'images/urun16.webp',
+            'images/urun16-detay1.webp',
+            'images/urun16-detay2.webp',
+            'images/urun16-detay3.webp'
+        ],
+        story: `Ayın gümüş ışığını eski İstanbul sokaklarına taşıyan Selene, nostaljik bir rüyanın yansımasıdır. Gümüş püskülleri ve dantel detaylarıyla vintage tutkunlarının kalbinde taht kurar.`,
+        features: [
+            { icon: '🧶', label: 'Malzeme', value: 'Gümüş işlemeli dantel, saten' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø26cm, Yükseklik 42cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, nostaljik üslup' },
+            { icon: '📦', label: 'Teslimat', value: '7-12 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun17: {
+        id: 'urun17',
+        name: 'Hokusai',
+        subtitle: 'El Yapımı · Retro Koleksiyon',
+        tag: 'SANATSAL',
+        images: [
+            'images/urun17-kapali.webp',
+            'images/urun17.webp',
+            'images/urun17-detay1.webp',
+            'images/urun17-detay2.webp',
+            'images/urun17-detay3.webp',
+            'images/urun17-detay4.webp',
+            'images/urun17-detay5.webp',
+            'images/urun17-detay6.webp'
+        ],
+        story: `Dalgaların ve geleneksel motiflerin dansı olan Hokusai, Uzak Doğu'nun sanatsal ruhunu retro bir dokunuşla birleştiriyor. Her açıda farklı bir hikaye anlatan bu eser, bir abajurdan çok daha fazlası.`,
+        features: [
+            { icon: '🧶', label: 'Malzeme', value: 'Özel baskı kumaş, ipek şeritler' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø32cm, Yükseklik 50cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, limitli seri' },
+            { icon: '📦', label: 'Teslimat', value: '10-15 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun18: {
+        id: 'urun18',
+        name: 'Vesta',
+        subtitle: 'El Yapımı · Retro Koleksiyon',
+        tag: '',
+        images: [
+            'images/urun18-kapali.webp',
+            'images/urun18.webp',
+            'images/urun18-detay1.webp',
+            'images/urun18-detay2.webp',
+            'images/urun18-detay3.webp'
+        ],
+        story: `Evin ve ocağın koruyucusu Vesta'dan ismini alan bu abajur, mekanınıza sıcak bir güven duygusu katar. Retro hatları ve yumuşak renk geçişleriyle gerçek bir ev sıcaklığı.`,
+        features: [
+            { icon: '🧵', label: 'Malzeme', value: 'Kadife doku, toprak tonları' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø30cm, Yükseklik 45cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı' },
+            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun19: {
+        id: 'urun19',
+        name: 'Callisto',
+        subtitle: 'El Yapımı · Retro Koleksiyon',
+        tag: 'KLASİK',
+        images: [
+            'images/urun19-kapali.webp',
+            'images/urun19.webp',
+            'images/urun19-detay1.webp',
+            'images/urun19-detay2.webp',
+            'images/urun19-detay3.webp'
+        ],
+        story: `Antik çağların doğal formlarından ilham alan Callisto, retro bir estetiği ham dokularla buluşturuyor. Doğadan gelen bir ışık parçasını yaşam alanınıza taşır.`,
+        features: [
+            { icon: '🌿', label: 'Malzeme', value: 'Doğal lifli kumaş, rustik detaylar' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 44cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, doğal süreçler' },
+            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
+    },
+
+    urun20: {
+        id: 'urun20',
+        name: 'Antheia',
+        subtitle: 'El Yapımı · Retro Koleksiyon',
+        tag: 'YENİ',
+        images: [
+            'images/urun20-kapali.webp',
+            'images/urun20.webp',
+            'images/urun20-detay1.webp',
+            'images/urun20-detay2.webp',
+            'images/urun20-detay3.webp'
+        ],
+        story: `Çiçek tanrıçası Antheia'dan ilham alan bu tasarım, nostaljik bir bahar esintisini evinize getiriyor. Renkli ama seçkin dokusuyla geçmişin en güzel anılarını canlandırır.`,
+        features: [
+            { icon: '🌸', label: 'Malzeme', value: 'Desenli Retro kumaş, el oyması ayak' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 46cm' },
+            { icon: '🕰', label: 'Üretim', value: 'El yapımı, butik tasarım' },
+            { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
+        ],
+        etsy: 'https://etsy.com'
     }
 };
