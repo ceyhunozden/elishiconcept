@@ -99,7 +99,8 @@ document.addEventListener('DOMContentLoaded', () => {
             minimalist: { t: "Minimalist Koleksiyon", s: "Sade ve modern dokunuşlar" },
             maksimalist: { t: "Maksimalist Koleksiyon", s: "Görkemli ve iddialı detaylar" },
             'boho-chic': { t: "Boho Chic Koleksiyon", s: "Özgür ve sanatsal ruh" },
-            timeless: { t: "Timeless Koleksiyon", s: "Zamansız ve klasik tasarımlar" }
+            timeless: { t: "Timeless Koleksiyon", s: "Zamansız ve klasik tasarımlar" },
+            retro: { t: "Retro Koleksiyon", s: "Nostaljik dokunuşlar ve vintage ruhu" }
         };
 
         const content = titles[category] || titles.all;
