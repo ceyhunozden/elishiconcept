@@ -187,13 +187,15 @@ const PRODUCTS = {
             'images/piliseli-modern-abajur-detay4.webp',
             'images/piliseli-modern-abajur-detay5.webp'
         ],
-        story: `Modern mekanların vazgeçilmeli olacak gümüş ışıltılı bu abajur, minimalist tasarımıyla dikkat çeker. Işığı soğuk ve berrak bir şekilde dağıtarak elegant bir hava yaratır.`,
+        story: `Pileli, sarı-krem tonlarında çizgili abajur. Sıcak ton geçişleriyle mekâna yumuşak ve dengeli bir ışık yayar. 
+
+        Wabi-sabi estetiğinden ilham alan şapkası, doğal formdaki kaidesiyle uyum içinde tamamlanır. Renkli ponpon detayı ise tasarıma ritim ve karakter katar. Her biri elde üretilir.`,
         features: [
-            { icon: '✨', label: 'Malzeme', value: 'Gümüş kaplama detaylar, parlak kumaş' },
+            { icon: '✨', label: 'Malzeme', value: 'Sarı-krem pileli kumaş, ponpon detay' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+            { icon: '🕰', label: 'Üretim', value: 'Her biri elde üretilir' },
+            { icon: '🎨', label: 'Özelleştirme', value: 'Renk ve ölçü uyarlanabilir' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -213,13 +215,15 @@ const PRODUCTS = {
             'images/modern-pileli-kumas-abajur-detay5.webp',
             'images/modern-pileli-kumas-abajur-detay6.webp'
         ],
-        story: `Venedik'in romantik sokaklarından ilham alan el yapımı dantel detayları, bu abajuru bir sanat eserine dönüştürür. Klasik mobilyalarınızla mükemmel bir uyum sergiler.`,
+        story: `Pileli, kırmızı tonlarında abajur. Sıcak renk geçişleriyle mekâna canlı ve enerjik bir ışık yayar. 
+
+        Wabi-sabi estetiğinden ilham alan şapkası, doğal formdaki kaidesiyle dengeli bir uyum yakalar. Renkli ponpon detayı ise tasarıma hareket ve karakter katar. Her biri elde üretilir.`,
         features: [
-            { icon: '🧶', label: 'Malzeme', value: 'Venedik danteli, ipek kumaş' },
+            { icon: '🧶', label: 'Malzeme', value: 'Kırmızı pileli kumaş, ponpon detay' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı üretim' },
-            { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
+            { icon: '🕰', label: 'Üretim', value: 'Her biri elde üretilir' },
+            { icon: '🎨', label: 'Özelleştirme', value: 'Renk ve ölçü uyarlanabilir' },
         ],
         etsy: 'https://etsy.com'
     },
