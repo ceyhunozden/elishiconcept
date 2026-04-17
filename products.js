@@ -158,13 +158,17 @@ const PRODUCTS = {
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay3.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay4.webp'
         ],
-        story: `Metal iskeletin sağlamlığı, kumaşın zarafeti ve el yapımı püsküllerin nostaljik dokusuyla birleşen Bella, kapalı lale figüründen ilham alan formuyla mekanınıza zarafet katar. Her bir detay, zanaatkar ellerin özenli dokunuşuyla ve büyük bir tutkuyla hayat bulmuştur.`,
+        story: `Victoria döneminin gösterişli estetiğini günümüze taşıyan bu özel tasarım abajur, sıradan bir aydınlatma objesinin ötesindedir. Açılmamış lale formu, ışıkla birlikte yeniden yorumlanır. 
+
+        Degrade püsküller mor ve sıcak tonlar arasında akarak tasarıma hareket ve derinlik ekler. Kumaş, renk ve aksesuarlar rastlantısal değil, bütüncül bir uyumla seçilmiştir. 
+
+        Işık yandığında tüm katmanlar birleşir, kumaşın içinden süzülen sıcak tonlar ve püskülün hareketi bulunduğu ortamda gizlenmeyen bir sahne etkisi yaratır. Tamamen özel tasarım ve tek üretim olmasıyla özgünlük arayanlar için güçlü bir imza niteliği taşır.`,
         features: [
-            { icon: '🌿', label: 'Malzeme', value: 'Metal, kumaş ve püskül' },
+            { icon: '🌿', label: 'Malzeme', value: 'Özel kumaş, degrade püsküller' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 80cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
-            { icon: '📦', label: 'Teslimat', value: '7-15 iş günü' },
+            { icon: '🕰', label: 'Üretim', value: 'Elde tek parça olarak üretildi' },
+            { icon: '📦', label: 'Sipariş', value: 'Kişiye özel tasarlanabilir' },
         ],
         etsy: 'https://etsy.com'
     },
@@ -187,7 +191,7 @@ const PRODUCTS = {
         features: [
             { icon: '✨', label: 'Malzeme', value: 'Gümüş kaplama detaylar, parlak kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø24cm, Yükseklik 42cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
             { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
         ],
@@ -213,7 +217,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧶', label: 'Malzeme', value: 'Venedik danteli, ipek kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø28cm, Yükseklik 46cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, sınırlı üretim' },
             { icon: '📦', label: 'Teslimat', value: '10-14 iş günü' },
         ],
@@ -285,7 +289,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'İnce ipekli kumaş, pirinç aksam' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Abajur Ø32cm, Yükseklik 52cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm' },
             { icon: '🕰', label: 'Üretim', value: 'El yapımı, hassas işçilik' },
             { icon: '📦', label: 'Teslimat', value: '7-12 iş günü' },
         ],
