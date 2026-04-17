@@ -155,7 +155,8 @@ const PRODUCTS = {
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay1.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay2.webp',
-            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay3.webp'
+            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay3.webp',
+            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay4.webp'
         ],
         story: `Metal iskeletin sağlamlığı, kumaşın zarafeti ve el yapımı püsküllerin nostaljik dokusuyla birleşen Bella, kapalı lale figüründen ilham alan formuyla mekanınıza zarafet katar. Her bir detay, zanaatkar ellerin özenli dokunuşuyla ve büyük bir tutkuyla hayat bulmuştur.`,
         features: [
@@ -205,7 +206,8 @@ const PRODUCTS = {
             'images/modern-pileli-kumas-abajur-detay2.webp',
             'images/modern-pileli-kumas-abajur-detay3.webp',
             'images/modern-pileli-kumas-abajur-detay4.webp',
-            'images/modern-pileli-kumas-abajur-detay5.webp'
+            'images/modern-pileli-kumas-abajur-detay5.webp',
+            'images/modern-pileli-kumas-abajur-detay6.webp'
         ],
         story: `Venedik'in romantik sokaklarından ilham alan el yapımı dantel detayları, bu abajuru bir sanat eserine dönüştürür. Klasik mobilyalarınızla mükemmel bir uyum sergiler.`,
         features: [
@@ -349,7 +351,8 @@ const PRODUCTS = {
             'images/urun15-detay1.webp',
             'images/urun15-detay2.webp',
             'images/urun15-detay3.webp',
-            'images/urun15-detay4.webp'
+            'images/urun15-detay4.webp',
+            'images/urun15-detay5.webp'
         ],
         story: `Gizemli ve derin bir hikayesi olan Merope, loş ışıkta ortaya çıkan özel dokusuyla dikkat çeker. Sessiz ama etkileyici bir tasarım arayanlar için.`,
         features: [
@@ -372,7 +375,8 @@ const PRODUCTS = {
             'images/urun16.webp',
             'images/urun16-detay1.webp',
             'images/urun16-detay2.webp',
-            'images/urun16-detay3.webp'
+            'images/urun16-detay3.webp',
+            'images/urun16-detay4.webp'
         ],
         story: `Ayın gümüş ışığını eski İstanbul sokaklarına taşıyan Selene, nostaljik bir rüyanın yansımasıdır. Gümüş püskülleri ve dantel detaylarıyla vintage tutkunlarının kalbinde taht kurar.`,
         features: [
@@ -444,7 +448,10 @@ const PRODUCTS = {
             'images/urun19.webp',
             'images/urun19-detay1.webp',
             'images/urun19-detay2.webp',
-            'images/urun19-detay3.webp'
+            'images/urun19-detay3.webp',
+            'images/urun19-detay4.webp',
+            'images/urun19-detay5.webp',
+            'images/urun19-detay6.webp'
         ],
         story: `Antik çağların doğal formlarından ilham alan Callisto, retro bir estetiği ham dokularla buluşturuyor. Doğadan gelen bir ışık parçasını yaşam alanınıza taşır.`,
         features: [
