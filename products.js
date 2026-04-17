@@ -362,13 +362,16 @@ const PRODUCTS = {
             'images/urun15-detay4.webp',
             'images/urun15-detay5.webp'
         ],
-        story: `Gizemli ve derin bir hikayesi olan Merope, loş ışıkta ortaya çıkan özel dokusuyla dikkat çeker. Sessiz ama etkileyici bir tasarım arayanlar için.`,
+        story: `Abajur şapkası, William Morris’in ikonik deseni Strawberry Thief (Çilek Hırsızı) ile tasarlanmıştır. Doğadan ilham alan bu zengin kompozisyon, kuşlar ve bitkisel motiflerle yüzeyde adeta canlı bir hikaye kurar. 
+
+        Amber tonlarında cam kaide, ışıkla birlikte sıcak ve derin bir parıltı oluşturur. Dikey dokulu yüzeyi, ışığı kırarak mekana yumuşak bir yayılım kazandırır. Desenin yoğun karakteri ile camın sade ama güçlü formu dengeli bir uyum içindedir. Bu birliktelik, ürünü sadece bir aydınlatma değil, bulunduğu ortamda kolayca fark edilen bir odak objesi haline getirir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Özel dokulu Antrasit kumaş' },
+            { icon: '🎨', label: 'Tasarım', value: 'William Morris Strawberry Thief' },
+            { icon: '🏺', label: 'Kaide', value: 'Amber tonlarında cam kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 45cm, Yükseklik 71cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, butik üretim' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+            { icon: '🕰', label: 'Üretim', value: 'Her biri elde üretilir' },
+            { icon: '✨', label: 'Özel', value: 'Renk ve ölçü uyarlanabilir' },
         ],
         etsy: 'https://etsy.com'
     },
