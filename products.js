@@ -42,13 +42,19 @@ const PRODUCTS = {
             'images/antik-retro-kruvasan-maximalist-abajur-detay6.webp',
             'images/antik-retro-kruvasan-maximalist-abajur-detay7.webp'
         ],
-        story: `Mavi ve kiremit renklerin büyülü buluşması olan bu lamba, bohem ruhunu yaşatmak isteyenler için tasarlandı. Yusufçuk motifli detayları ile eşsiz bir atmosfer yaratır.`,
+        story: `Kruvasan formunu andıran özgün siluetiyle bu abajur, Victoria döneminin o zengin ve süslü estetiğini günümüze taşıyan çarpıcı bir tasarım. Katmanlı yapısı ve detaylı el işçiliği sayesinde bulunduğu ortamda geri planda kalmaz; aksine tüm dikkatleri üzerine çeker.
+
+        Şapkayı çevreleyen degrade püsküller, sıcak tonlardan serin renklere akarak tasarıma derinlik ve hareket kazandırır. Ortada yer alan yusufçuk figürü ise yalnızca dekoratif bir detay değil; Antik Mısır’da yeniden doğuş ve dönüşümün simgesi olarak bilinen güçlü bir anlam taşır.
+
+        Tasarımı tamamlayan antik sarı metal ayak, genel estetiği daha da güçlü hale getirir. Modern bir mekânda bile bu kadar gösterişli bir parça, alanı tamamlayan güçlü bir odak noktası haline gelir. Üstelik bu tasarım tamamen özgün ve tek, karakter sahibi bir imza parçası.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Mavi-kiremit kumaş, metal aksesuarlar' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, metal aksesuar, püskül' },
+            { icon: '🪡', label: 'Tasarım', value: 'Victoria dönemi, kruvasan form' },
+            { icon: '🦋', label: 'Detay', value: 'Yusufçuk figürü (Reborn)' },
+            { icon: '🧶', label: 'Aksesuar', value: 'Degrade püsküller' },
+            { icon: '🏺', label: 'Kaide', value: 'Antik sarı metal ayak' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 30cm, Yükseklik 56cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, sipariş üzerine' },
-            { icon: '📦', label: 'Teslimat', value: '7-10 iş günü' },
+            { icon: '🕰', label: 'Üretim', value: 'Elde tek parça olarak üretildi' },
         ],
         etsy: 'https://etsy.com'
     },
