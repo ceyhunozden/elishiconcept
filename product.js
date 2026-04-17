@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
 
     // ---------- Sayfa başlığı ve breadcrumb ----------
-    document.title = p.name + ' – Elishi Concept';
+    document.title = p.name + ' | El Yapımı Tasarım – Elishi Concept';
     document.getElementById('breadcrumbName').textContent = p.name;
 
     // ---------- Ürün bilgileri ----------
