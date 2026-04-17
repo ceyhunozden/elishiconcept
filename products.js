@@ -191,7 +191,7 @@ const PRODUCTS = {
 
         Wabi-sabi estetiğinden ilham alan şapkası, doğal formdaki kaidesiyle uyum içinde tamamlanır. Renkli ponpon detayı ise tasarıma ritim ve karakter katar. Her biri elde üretilir.`,
         features: [
-            { icon: '✨', label: 'Malzeme', value: 'Sarı-krem pileli kumaş, ponpon detay' },
+            { icon: '✨', label: 'Malzeme', value: 'Seramik, kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
             { icon: '🕰', label: 'Üretim', value: 'Her biri elde üretilir' },
@@ -219,7 +219,7 @@ const PRODUCTS = {
 
         Wabi-sabi estetiğinden ilham alan şapkası, doğal formdaki kaidesiyle dengeli bir uyum yakalar. Renkli ponpon detayı ise tasarıma hareket ve karakter katar. Her biri elde üretilir.`,
         features: [
-            { icon: '🧶', label: 'Malzeme', value: 'Kırmızı pileli kumaş, ponpon detay' },
+            { icon: '🧶', label: 'Malzeme', value: 'Seramik, kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
             { icon: '🕰', label: 'Üretim', value: 'Her biri elde üretilir' },
