@@ -234,12 +234,12 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'PREMİUM',
         images: [
-            'images/urun10-kapali.webp',
-            'images/urun10.webp',
-            'images/urun10-detay1.webp',
-            'images/urun10-detay2.webp',
-            'images/urun10-detay3.webp',
-            'images/urun10-detay4.webp'
+            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-kapali.webp',
+            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur.webp',
+            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay1.webp',
+            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay2.webp',
+            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay3.webp',
+            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay4.webp'
         ],
         story: `Gökyüzünün en asil takımyıldızlarından biri olan Cassiopeia, bu tasarımda hayat buluyor. Derin dokusu ve vakur duruşuyla, mekanınıza sadece ışık değil, bir miras bırakıyor.`,
         features: [
@@ -258,11 +258,11 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'YENİ',
         images: [
-            'images/urun11-kapali.webp',
-            'images/urun11.webp',
-            'images/urun11-detay1.webp',
-            'images/urun11-detay2.webp',
-            'images/urun11-detay3.webp'
+            'images/el-baskisi-country-pileli-rustik-cottage-sapka-kapali.webp',
+            'images/el-baskisi-country-pileli-rustik-cottage-sapka.webp',
+            'images/el-baskisi-country-pileli-rustik-cottage-sapka-detay1.webp',
+            'images/el-baskisi-country-pileli-rustik-cottage-sapka-detay2.webp',
+            'images/el-baskisi-country-pileli-rustik-cottage-sapka-detay3.webp'
         ],
         story: `Avcı takımyıldızından ilham alan Orion, güçlü hatları ve zamansız formuyla modern mekanlarda nostaljik bir köprü kuruyor. Keskin ve net duruşu, loş ışığın sıcaklığıyla dengeleniyor.`,
         features: [
@@ -281,13 +281,13 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'BESTSELLER',
         images: [
-            'images/urun12-kapali.webp',
-            'images/urun12.webp',
-            'images/urun12-detay1.webp',
-            'images/urun12-detay2.webp',
-            'images/urun12-detay3.webp',
-            'images/urun12-detay4.webp',
-            'images/urun12-detay5.webp'
+            'images/modern-pileli-ambiance-butik-tasarim-abajur-kapali.webp',
+            'images/modern-pileli-ambiance-butik-tasarim-abajur.webp',
+            'images/modern-pileli-ambiance-butik-tasarim-abajur-detay1.webp',
+            'images/modern-pileli-ambiance-butik-tasarim-abajur-detay2.webp',
+            'images/modern-pileli-ambiance-butik-tasarim-abajur-detay3.webp',
+            'images/modern-pileli-ambiance-butik-tasarim-abajur-detay4.webp',
+            'images/modern-pileli-ambiance-butik-tasarim-abajur-detay5.webp'
         ],
         story: `Bir lir gibi zarif ve ahenkli olan Lyra, ışığın en yumuşak halini odanıza taşıyor. İnce işçiliği ve hafif yapısıyla, her köşede bir sanat eseri etkisi yaratır.`,
         features: [
@@ -306,12 +306,12 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Minimalist Koleksiyon',
         tag: '',
         images: [
-            'images/urun13-kapali.webp',
-            'images/urun13.webp',
-            'images/urun13-detay1.webp',
-            'images/urun13-detay2.webp',
-            'images/urun13-detay3.webp',
-            'images/urun13-detay4.webp'
+            'images/minimalist-modern-cam-ozel-seri-abajur-kapali.webp',
+            'images/minimalist-modern-cam-ozel-seri-abajur.webp',
+            'images/minimalist-modern-cam-ozel-seri-abajur-detay1.webp',
+            'images/minimalist-modern-cam-ozel-seri-abajur-detay2.webp',
+            'images/minimalist-modern-cam-ozel-seri-abajur-detay3.webp',
+            'images/minimalist-modern-cam-ozel-seri-abajur-detay4.webp'
         ],
         story: `Minimalizmin en saf hali olan Alcyone, gereksiz her detaydan arındırılmış bir huzur kaynağıdır. Modern ve sakin mekanlar için tasarlanmış duru bir ışık.`,
         features: [
@@ -330,12 +330,12 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'LİMİTED',
         images: [
-            'images/urun14-kapali.webp',
-            'images/urun14.webp',
-            'images/urun14-detay1.webp',
-            'images/urun14-detay2.webp',
-            'images/urun14-detay3.webp',
-            'images/urun14-detay4webp.webp'
+            'images/el-baskisi-country-pileli-rustik-gece-lambasi-kapali.webp',
+            'images/el-baskisi-country-pileli-rustik-gece-lambasi.webp',
+            'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay1.webp',
+            'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay2.webp',
+            'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay3.webp',
+            'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay4.webp'
         ],
         story: `Saray zarafetini ve altın çağların ışıltısını taşıyan Electra, enerjisiyle girdiği her mekanı aydınlatır. Klasik motiflerin modern bir yorumudur.`,
         features: [
@@ -354,13 +354,13 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Timeless Koleksiyon',
         tag: 'ÖZEL',
         images: [
-            'images/urun15-kapali.webp',
-            'images/urun15.webp',
-            'images/urun15-detay1.webp',
-            'images/urun15-detay2.webp',
-            'images/urun15-detay3.webp',
-            'images/urun15-detay4.webp',
-            'images/urun15-detay5.webp'
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-kapali.webp',
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur.webp',
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay1.webp',
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay2.webp',
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay3.webp',
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay4.webp',
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay5.webp'
         ],
         story: `Abajur şapkası, William Morris’in ikonik deseni Strawberry Thief (Çilek Hırsızı) ile tasarlanmıştır. Doğadan ilham alan bu zengin kompozisyon, kuşlar ve bitkisel motiflerle yüzeyde adeta canlı bir hikaye kurar. 
 
@@ -382,14 +382,14 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Retro Koleksiyon',
         tag: 'SANATSAL',
         images: [
-            'images/urun17-kapali.webp',
-            'images/urun17.webp',
-            'images/urun17-detay1.webp',
-            'images/urun17-detay2.webp',
-            'images/urun17-detay3.webp',
-            'images/urun17-detay4.webp',
-            'images/urun17-detay5.webp',
-            'images/urun17-detay6.webp'
+            'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-kapali.webp',
+            'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri.webp',
+            'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay1.webp',
+            'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay2.webp',
+            'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay3.webp',
+            'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay4.webp',
+            'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay5.webp',
+            'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay6.webp'
         ],
         story: `Dalgaların ve geleneksel motiflerin dansı olan Hokusai, Uzak Doğu'nun sanatsal ruhunu retro bir dokunuşla birleştiriyor. Her açıda farklı bir hikaye anlatan bu eser, bir abajurdan çok daha fazlası.`,
         features: [
@@ -408,11 +408,11 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Retro Koleksiyon',
         tag: '',
         images: [
-            'images/urun18-kapali.webp',
-            'images/urun18.webp',
-            'images/urun18-detay1.webp',
-            'images/urun18-detay2.webp',
-            'images/urun18-detay3.webp'
+            'images/dekorasyon-abajur-modelleri-zanaat-ortam-kapali.webp',
+            'images/dekorasyon-abajur-modelleri-zanaat-ortam.webp',
+            'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay1.webp',
+            'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay2.webp',
+            'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay3.webp'
         ],
         story: `Evin ve ocağın koruyucusu Vesta'dan ismini alan bu abajur, mekanınıza sıcak bir güven duygusu katar. Retro hatları ve yumuşak renk geçişleriyle gerçek bir ev sıcaklığı.`,
         features: [
@@ -431,14 +431,14 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Retro Koleksiyon',
         tag: 'KLASİK',
         images: [
-            'images/urun19-kapali.webp',
-            'images/urun19.webp',
-            'images/urun19-detay1.webp',
-            'images/urun19-detay2.webp',
-            'images/urun19-detay3.webp',
-            'images/urun19-detay4.webp',
-            'images/urun19-detay5.webp',
-            'images/urun19-detay6.webp'
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-kapali.webp',
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur.webp',
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay1.webp',
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay2.webp',
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay3.webp',
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay4.webp',
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay5.webp',
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay6.webp'
         ],
         story: `Antik çağların doğal formlarından ilham alan Callisto, retro bir estetiği ham dokularla buluşturuyor. Doğadan gelen bir ışık parçasını yaşam alanınıza taşır.`,
         features: [
@@ -457,11 +457,11 @@ const PRODUCTS = {
         subtitle: 'El Yapımı · Retro Koleksiyon',
         tag: 'YENİ',
         images: [
-            'images/urun20-kapali.webp',
-            'images/urun20.webp',
-            'images/urun20-detay1.webp',
-            'images/urun20-detay2.webp',
-            'images/urun20-detay3.webp'
+            'images/70ler-60lar-nostaljik-abajur-kapali.webp',
+            'images/70ler-60lar-nostaljik-abajur.webp',
+            'images/70ler-60lar-nostaljik-abajur-detay1.webp',
+            'images/70ler-60lar-nostaljik-abajur-detay2.webp',
+            'images/70ler-60lar-nostaljik-abajur-detay3.webp'
         ],
         story: `Çiçek tanrıçası Antheia'dan ilham alan bu tasarım, nostaljik bir bahar esintisini evinize getiriyor. Renkli ama seçkin dokusuyla geçmişin en güzel anılarını canlandırır.`,
         features: [
