@@ -373,30 +373,6 @@ const PRODUCTS = {
         etsy: 'https://etsy.com'
     },
 
-    urun16: {
-        id: 'urun16',
-        name: 'Selene',
-        subtitle: 'El Yapımı · Retro Koleksiyon',
-        tag: 'VINTAGE',
-        images: [
-            'images/urun16-kapali.webp',
-            'images/urun16.webp',
-            'images/urun16-detay1.webp',
-            'images/urun16-detay2.webp',
-            'images/urun16-detay3.webp',
-            'images/urun16-detay4.webp'
-        ],
-        story: `Ayın gümüş ışığını eski İstanbul sokaklarına taşıyan Selene, nostaljik bir rüyanın yansımasıdır. Gümüş püskülleri ve dantel detaylarıyla vintage tutkunlarının kalbinde taht kurar.`,
-        features: [
-            { icon: '🧶', label: 'Malzeme', value: 'Gümüş işlemeli dantel, saten' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
-            { icon: '🕰', label: 'Üretim', value: 'El yapımı, nostaljik üslup' },
-            { icon: '📦', label: 'Teslimat', value: '7-12 iş günü' },
-        ],
-        etsy: 'https://etsy.com'
-    },
-
     urun17: {
         id: 'urun17',
         name: 'Hokusai',
