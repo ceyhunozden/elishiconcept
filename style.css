@@ -458,14 +458,35 @@ body.night-mode .bts-image img {
 }
 
 .bts-expandable {
-    max-height: 0;
+    max-height: 200px; /* JS ile videoya göre güncellenecek */
     overflow: hidden;
     position: relative;
     transition: max-height 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bts-expandable.expanded {
-    max-height: 2000px !important; /* Yeterince büyük bir değer */
+    max-height: 3000px !important; /* Yeterince büyük bir değer */
+}
+
+/* Metin biterken hafif bir silikleşme efekti */
+.bts-expandable:not(.expanded)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(transparent, #ffffff);
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+body.night-mode .bts-expandable:not(.expanded)::after {
+    background: linear-gradient(transparent, #2b2e33);
+}
+
+.bts-expandable.expanded::after {
+    opacity: 0;
 }
 
 .bts-read-more {

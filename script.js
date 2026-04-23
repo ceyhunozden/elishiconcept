@@ -201,7 +201,36 @@ document.addEventListener('DOMContentLoaded', () => {
     const btsReadMore = document.getElementById('btsReadMore');
     const btsImage = document.querySelector('.bts-image');
 
-    if (btsExpandable && btsReadMore) {
+    if (btsExpandable && btsReadMore && btsImage) {
+        const updateHeight = () => {
+            if (btsExpandable.classList.contains('expanded')) return;
+
+            // Desktop layout: side-by-side
+            if (window.innerWidth > 900) {
+                const imageHeight = btsImage.offsetHeight;
+                const btsText = document.querySelector('.bts-text');
+                const btsContentRect = btsExpandable.getBoundingClientRect();
+                const btsTextRect = btsText.getBoundingClientRect();
+                
+                // Calculate the offset of the expandable div from the top of the text column
+                const offset = btsContentRect.top - btsTextRect.top;
+                
+                // Available height is video height minus the space taken by headers above
+                const availableHeight = imageHeight - offset;
+                
+                if (availableHeight > 50) {
+                    btsExpandable.style.maxHeight = `${availableHeight}px`;
+                }
+            } else {
+                // Mobile layout: stacked
+                btsExpandable.style.maxHeight = '250px'; 
+            }
+        };
+
+        // Delay slightly to ensure video/image layout is computed
+        setTimeout(updateHeight, 600);
+        window.addEventListener('resize', updateHeight);
+
         btsReadMore.addEventListener('click', () => {
             const isExpanding = !btsExpandable.classList.contains('expanded');
             btsExpandable.classList.toggle('expanded');
@@ -212,6 +241,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 btsReadMore.textContent = 'devamı...';
                 // Scroll back to the top of the section when closing
                 document.getElementById('behind-the-scenes').scrollIntoView({ behavior: 'smooth' });
+                // Re-calculate truncation after collapse
+                setTimeout(updateHeight, 850);
             }
         });
     }
