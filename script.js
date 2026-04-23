@@ -195,4 +195,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
         productItems.forEach(item => observer.observe(item));
     }
+
+    // --- ABOUT SECTION EXPANDABLE LOGIC ---
+    const btsExpandable = document.getElementById('btsExpandable');
+    const btsReadMore = document.getElementById('btsReadMore');
+    const btsImage = document.querySelector('.bts-image');
+
+    if (btsExpandable && btsReadMore && btsImage) {
+        const updateHeight = () => {
+            if (btsExpandable.classList.contains('expanded')) return;
+
+            if (window.innerWidth > 900) {
+                const imageHeight = btsImage.offsetHeight;
+                const btsText = document.querySelector('.bts-text');
+                const btsContentRect = btsExpandable.getBoundingClientRect();
+                const btsTextRect = btsText.getBoundingClientRect();
+                
+                const offset = btsContentRect.top - btsTextRect.top;
+                const availableHeight = imageHeight - offset;
+                
+                if (availableHeight > 100) {
+                    btsExpandable.style.maxHeight = `${availableHeight}px`;
+                }
+            } else {
+                btsExpandable.style.maxHeight = '300px'; // Mobile default
+            }
+        };
+
+        // Initial update and on resize
+        // Delay slightly to ensure layout is ready
+        setTimeout(updateHeight, 500);
+        window.addEventListener('resize', updateHeight);
+
+        btsReadMore.addEventListener('click', () => {
+            const isExpanding = !btsExpandable.classList.contains('expanded');
+            btsExpandable.classList.toggle('expanded');
+            
+            if (isExpanding) {
+                btsReadMore.textContent = 'daha az...';
+            } else {
+                btsReadMore.textContent = 'devamı...';
+                // Scroll back to the top of the section when closing
+                document.getElementById('behind-the-scenes').scrollIntoView({ behavior: 'smooth' });
+                // Re-calculate height after transition
+                setTimeout(updateHeight, 800);
+            }
+        });
+    }
 });
