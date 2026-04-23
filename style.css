@@ -817,9 +817,52 @@ body.night-mode .minimal-copyright {
     color: #fff;
 }
 
-body.night-mode .floating-theme-btn {
-    opacity: 0;
-    pointer-events: none;
+.floating-instagram {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: var(--bg-light);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    z-index: 9998;
+    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    border: 1px solid rgba(128, 48, 43, 0.1); /* --accent with transparency */
+    text-decoration: none;
+}
+
+.floating-instagram:hover {
+    transform: translateY(-5px) rotate(8deg);
+    background-color: var(--accent);
+    color: #fff;
+    box-shadow: 0 8px 25px rgba(128, 48, 43, 0.2);
+}
+
+body.night-mode .floating-instagram {
+    background-color: #2b2e33;
+    color: #e7e2dc;
+    border-color: rgba(231, 226, 220, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.night-mode .floating-instagram:hover {
+    background-color: var(--accent);
+    color: #fff;
+}
+
+/* Adjust mobile position if needed */
+@media (max-width: 600px) {
+    .floating-instagram {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
 }
 
 /* Floating Night button removed for cleaner top-bar switch */
