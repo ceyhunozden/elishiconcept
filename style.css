@@ -62,18 +62,19 @@ body.night-mode h4 {
 
 /* Navbar & Utilities */
 .navbar {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 110px;
-    /* BeauVamp oranına ulaşmak için bant genişletildi -> Şimdi daraltıldı */
     padding: 0 5%;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    background: rgba(255, 255, 255, 0.98) !important;
-    color: var(--text-main) !important;
+    background: transparent !important;
+    color: #fff !important;
     z-index: 1000;
-    border-bottom: 1px solid #f0f0f0 !important;
+    border-bottom: none !important;
     transition: var(--transition);
 }
 
@@ -95,19 +96,19 @@ body.night-mode h4 {
 
 /* Hamburger Butonu */
 .hamburger-btn {
-    position: relative; /* z-index için gerekli */
-    z-index: 1005; /* Logonun (1000) üzerinde olması garanti edildi */
+    position: relative;
+    z-index: 1005;
     background: none;
     border: none;
     font-size: 1.8rem;
-    color: var(--text-main);
+    color: #fff; /* Fotoğraf üzerinde görünmesi için beyaz */
     cursor: pointer;
     padding: 0;
-    transition: color 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 .hamburger-btn:hover {
-    color: #000;
+    opacity: 0.7;
 }
 
 /* Menü Çekmecesi */
@@ -213,6 +214,7 @@ body.night-mode .menu-overlay {
     font-weight: 700;
     z-index: 1010;
     position: relative;
+    color: #fff; /* Fotoğraf üzerinde görünmesi için beyaz */
 }
 
 .lang-switch {
@@ -297,16 +299,15 @@ body.night-mode .menu-overlay {
 
 .logo img {
     max-height: 100px;
-    /* Bandın yeni geniş yüksekliğine uyum */
     margin: 0;
     transform: scale(2.6) translateY(10px);
-    /* Üst tarafta asılı kalmasın diye tam olarak ortalandı */
     max-width: 500px;
     width: auto;
     object-fit: contain;
     z-index: 1000;
-    pointer-events: none; /* Logonun şeffaf alanları tıklamayı engellemesin */
+    pointer-events: none;
     transition: var(--transition);
+    filter: brightness(0) invert(1); /* Logoyu beyaz yapmak için */
 }
 
 .navbar .mega-nav {
@@ -330,13 +331,13 @@ body.night-mode .menu-overlay {
 
 /* Hero Section */
 .hero-section {
-    height: 70vh;
+    height: 100vh; /* Tam ekran yapalım referans gibi */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 0 5%;
-    background: linear-gradient(rgba(246, 239, 232, 0.3), rgba(246, 239, 232, 0.8)), url("images/banner.webp") center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("images/banner.webp") center/cover;
 }
 
 body.night-mode .hero-section {
