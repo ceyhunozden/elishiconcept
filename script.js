@@ -60,6 +60,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const navbarNightToggle = document.getElementById('navbarNightToggle');
+    const moonIcon = document.getElementById('moonIcon');
+
     if (navbarNightToggle) {
         navbarNightToggle.addEventListener('change', (e) => {
             if (e.target.checked) {
@@ -68,6 +70,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.body.classList.remove('night-mode');
             }
         });
+        
+        // Moon icon click should also toggle the switch
+        if (moonIcon) {
+            moonIcon.addEventListener('click', () => {
+                navbarNightToggle.checked = !navbarNightToggle.checked;
+                // Manually trigger the change event
+                navbarNightToggle.dispatchEvent(new Event('change'));
+            });
+        }
     }
 
     // Scroll smoothing
