@@ -7,7 +7,7 @@ const PRODUCTS = {
         id: 'urun1',
         name: 'Vega',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
-        tag: 'BESTSELLER',
+        tag: '',
         images: [
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-kapali.webp',
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi.webp',
@@ -28,7 +28,7 @@ const PRODUCTS = {
         id: 'urun2',
         name: 'Luna',
         subtitle: 'El Yapımı · Maksimalist Koleksiyon',
-        tag: 'YENİ',
+        tag: '',
         images: [
             'images/antik-retro-kruvasan-maximalist-abajur-kapali.webp',
             'images/antik-retro-kruvasan-maximalist-abajur.webp',
@@ -101,7 +101,7 @@ const PRODUCTS = {
         id: 'urun5',
         name: 'Büyük Capella - Zeytin',
         subtitle: 'El Yapımı · Boho Chic Koleksiyon',
-        tag: 'PREMİUM',
+        tag: '',
         images: [
             'images/bohem-nakisli-ozgun-abajur-kapali.webp',
             'images/bohem-nakisli-ozgun-abajur.webp',
@@ -123,7 +123,7 @@ const PRODUCTS = {
         id: 'urun6',
         name: 'Küçük Capella - Fuşya',
         subtitle: 'El Yapımı · Boho Chic Koleksiyon',
-        tag: 'LİMİTED',
+        tag: '',
         images: [
             'images/mistik-geleneksel-nakisli-kumas-abajur-kapali.webp',
             'images/mistik-geleneksel-nakisli-kumas-abajur.webp',
@@ -144,7 +144,7 @@ const PRODUCTS = {
         id: 'urun7',
         name: 'Bella',
         subtitle: 'El Yapımı · Maksimalist Koleksiyon',
-        tag: 'YENİ',
+        tag: '',
         images: [
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-kapali.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur.webp',
@@ -195,7 +195,7 @@ const PRODUCTS = {
         id: 'urun9',
         name: 'Parseus - Kırmızı',
         subtitle: 'El Yapımı · Boho Chic Koleksiyon',
-        tag: 'LİMİTED',
+        tag: '',
         images: [
             'images/modern-pileli-kumas-abajur-kapali.webp',
             'images/modern-pileli-kumas-abajur.webp',
@@ -221,7 +221,7 @@ const PRODUCTS = {
         id: 'urun10',
         name: 'Electra Turuncu',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
-        tag: 'PREMİUM',
+        tag: '',
         images: [
             'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-kapali.webp',
             'images/el-baskisi-kumas-pileli-yatak-odasi-abajur.webp',
@@ -243,7 +243,7 @@ const PRODUCTS = {
         id: 'urun11',
         name: 'Electra Çikolata',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
-        tag: 'YENİ',
+        tag: '',
         images: [
             'images/el-baskisi-country-pileli-rustik-cottage-sapka-kapali.webp',
             'images/el-baskisi-country-pileli-rustik-cottage-sapka.webp',
@@ -264,7 +264,7 @@ const PRODUCTS = {
         id: 'urun12',
         name: 'Vega Bej',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
-        tag: 'BESTSELLER',
+        tag: '',
         images: [
             'images/modern-pileli-ambiance-butik-tasarim-abajur-kapali.webp',
             'images/modern-pileli-ambiance-butik-tasarim-abajur.webp',
@@ -309,7 +309,7 @@ const PRODUCTS = {
         id: 'urun14',
         name: 'Electra Bej',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
-        tag: 'LİMİTED',
+        tag: '',
         images: [
             'images/el-baskisi-country-pileli-rustik-gece-lambasi-kapali.webp',
             'images/el-baskisi-country-pileli-rustik-gece-lambasi.webp',
@@ -331,7 +331,7 @@ const PRODUCTS = {
         id: 'urun15',
         name: 'Rigel',
         subtitle: 'El Yapımı · Timeless Koleksiyon',
-        tag: 'ÖZEL',
+        tag: '',
         images: [
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-kapali.webp',
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur.webp',
@@ -356,7 +356,7 @@ const PRODUCTS = {
         id: 'urun17',
         name: 'Mintaka Hazeran',
         subtitle: 'El Yapımı · Retro Koleksiyon',
-        tag: 'SANATSAL',
+        tag: '',
         images: [
             'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-kapali.webp',
             'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri.webp',
@@ -405,7 +405,7 @@ const PRODUCTS = {
         id: 'urun19',
         name: 'Mintaka',
         subtitle: 'El Yapımı · Retro Koleksiyon',
-        tag: 'KLASİK',
+        tag: '',
         images: [
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-kapali.webp',
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur.webp',
@@ -431,7 +431,7 @@ const PRODUCTS = {
         id: 'urun20',
         name: 'Antheia',
         subtitle: 'El Yapımı · Retro Koleksiyon',
-        tag: 'YENİ',
+        tag: '',
         images: [
             'images/70ler-60lar-nostaljik-abajur-kapali.webp',
             'images/70ler-60lar-nostaljik-abajur.webp',
