@@ -259,35 +259,42 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hero Slider Logic
     const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.dot');
-    let currentSlide = 0;
-    const slideInterval = 5000; // 5 saniye
+    
+    if (slides.length > 0) {
+        let currentSlide = 0;
+        const slideInterval = 5000; // 5 saniye
+        let autoSlide;
 
-    function showSlide(index) {
-        slides.forEach(slide => slide.classList.remove('active'));
-        dots.forEach(dot => dot.classList.remove('active'));
+        function showSlide(index) {
+            if (!slides[index]) return;
+            
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
 
-        slides[index].classList.add('active');
-        dots[index].classList.add('active');
-        currentSlide = index;
-    }
+            slides[index].classList.add('active');
+            if (dots[index]) dots[index].classList.add('active');
+            currentSlide = index;
+        }
 
-    function nextSlide() {
-        let next = (currentSlide + 1) % slides.length;
-        showSlide(next);
-    }
+        function nextSlide() {
+            let next = (currentSlide + 1) % slides.length;
+            showSlide(next);
+        }
 
-    // Dots click event
-    dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => {
-            showSlide(index);
-            resetInterval();
+        function startAutoSlide() {
+            clearInterval(autoSlide);
+            autoSlide = setInterval(nextSlide, slideInterval);
+        }
+
+        // Dots click event
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                showSlide(index);
+                startAutoSlide();
+            });
         });
-    });
 
-    let autoSlide = setInterval(nextSlide, slideInterval);
-
-    function resetInterval() {
-        clearInterval(autoSlide);
-        autoSlide = setInterval(nextSlide, slideInterval);
+        // Start initial timer
+        startAutoSlide();
     }
 });
