@@ -256,6 +256,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(updateHeight, 850);
             }
         });
+    }
+
     // Hero Slider Logic
     const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.dot');
