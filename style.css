@@ -300,7 +300,7 @@ body.night-mode .menu-overlay {
 .logo img {
     max-height: 100px;
     margin: 0;
-    transform: scale(2.6) translateY(15px);
+    transform: scale(2.6) translateY(20px);
     max-width: 500px;
     width: auto;
     object-fit: contain;
@@ -1120,7 +1120,7 @@ body.night-mode .contact-link-item:hover {
     }
 
     .logo img {
-        transform: scale(2.2) translateY(35px); /* 900px altında dikey ortalama artırıldı */
+        transform: scale(2.2) translateY(40px); /* 35px -> 40px */
         max-height: 90px;
         max-width: 160px; /* Yanlara daha fazla alan için genişlik kısıtlandı */
     }
@@ -1160,7 +1160,7 @@ body.night-mode .contact-link-item:hover {
     }
 
     .logo img {
-        transform: scale(2.8) translateY(10px); /* 5px aşağı kaydırıldı (toplam 10px) */
+        transform: scale(2.8) translateY(15px); /* 10px -> 15px */
         max-height: 110px;
         max-width: 140px;
     }
