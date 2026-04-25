@@ -303,4 +303,29 @@ document.addEventListener('DOMContentLoaded', () => {
         // Start initial timer
         startAutoSlide();
     }
+
+    // --- CONTACT WIDGET LOGIC ---
+    const contactTrigger = document.getElementById('contactTrigger');
+    const contactPopup = document.getElementById('contactPopup');
+
+    if (contactTrigger && contactPopup) {
+        contactTrigger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            contactPopup.classList.toggle('active');
+        });
+
+        // Close popup when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!contactPopup.contains(e.target) && !contactTrigger.contains(e.target)) {
+                contactPopup.classList.remove('active');
+            }
+        });
+
+        // Close popup with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                contactPopup.classList.remove('active');
+            }
+        });
+    }
 });

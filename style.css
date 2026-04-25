@@ -889,53 +889,200 @@ body.night-mode .minimal-copyright {
     color: #fff;
 }
 
-.floating-instagram {
+/* Footer Instagram Link */
+.footer-social {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-instagram-link {
+    color: var(--text-main);
+    opacity: 0.6;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.footer-instagram-link:hover {
+    opacity: 1;
+    color: var(--accent);
+}
+
+.footer-instagram-link svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* New Contact Widget (Elishi 7/24) */
+.contact-widget {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    width: 45px;
-    height: 45px;
+    z-index: 10000;
+}
+
+.contact-trigger {
+    width: 60px;
+    height: 60px;
     background-color: var(--bg-light);
-    color: var(--accent);
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    z-index: 9998;
-    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-    border: 1px solid rgba(128, 48, 43, 0.1); /* --accent with transparency */
+    cursor: pointer;
+    transition: var(--transition);
+    border: 1px solid rgba(163, 145, 113, 0.2); /* --accent */
+    padding: 0;
+    overflow: hidden;
+}
+
+.contact-trigger img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(0.8);
+    transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.contact-trigger:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(163, 145, 113, 0.25);
+}
+
+.contact-trigger:hover img {
+    transform: scale(0.9);
+}
+
+/* Contact Popup Card */
+.contact-popup {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 280px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.95);
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transform-origin: bottom right;
+}
+
+.contact-popup.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.contact-popup-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-popup-header h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+    color: var(--text-main);
+}
+
+.contact-popup-header p {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 4px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-link-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(163, 145, 113, 0.1);
+    border-radius: 12px;
     text-decoration: none;
+    color: var(--text-main);
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
 
-.floating-instagram:hover {
-    transform: translateY(-5px) rotate(8deg);
-    background-color: var(--accent);
-    color: #fff;
-    box-shadow: 0 8px 25px rgba(128, 48, 43, 0.2);
+.contact-link-item:hover {
+    background: var(--bg-light);
+    border-color: var(--accent);
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-body.night-mode .floating-instagram {
-    background-color: #2b2e33;
-    color: #e7e2dc;
-    border-color: rgba(231, 226, 220, 0.1);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+.contact-link-item svg {
+    width: 20px;
+    height: 20px;
+    color: var(--accent);
 }
 
-body.night-mode .floating-instagram:hover {
-    background-color: var(--accent);
-    color: #fff;
+/* Night Mode Overrides */
+body.night-mode .contact-trigger {
+    background-color: #3e4249;
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Adjust mobile position if needed */
+body.night-mode .contact-popup {
+    background: rgba(43, 46, 51, 0.9);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.night-mode .contact-popup-header h3 {
+    color: #f7f1e6;
+}
+
+body.night-mode .contact-link-item {
+    background: rgba(255, 255, 255, 0.05);
+    color: #e8e3dc;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.night-mode .contact-link-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--accent);
+}
+
+/* Adjust mobile position */
 @media (max-width: 600px) {
-    .floating-instagram {
+    .contact-widget {
         bottom: 20px;
         right: 20px;
-        width: 40px;
-        height: 40px;
+    }
+    .contact-trigger {
+        width: 50px;
+        height: 50px;
+    }
+    .contact-popup {
+        width: 260px;
+        bottom: 70px;
+        right: 0;
     }
 }
+
 
 /* Floating Night button removed for cleaner top-bar switch */
 
