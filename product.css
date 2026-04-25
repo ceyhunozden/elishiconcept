@@ -14,7 +14,7 @@
     position: relative;
     z-index: 100;
     padding: 0 5% !important; /* Breadcrumb boşluğu minimize edildi */
-    margin-top: -5px; /* Yazıları 10px yukarı taşımak için toplam etki */
+    margin-top: -15px; /* Yazıları 10px daha yukarı taşıdık */
     font-family: var(--font-body);
     font-size: 0.78rem;
     letter-spacing: 1px;
