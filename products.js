@@ -16,7 +16,7 @@ const PRODUCTS = {
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-detay3.webp'
         ],
         story: `Zarif ve geçişli püskül detaylarıyla hareket kazanan bu özel abajur, klasik ile modern arasında kusursuz bir denge kurar. Pileli form ile elde dikilmiş şapkası ışığı sıcak bir şekilde yayarken, püsküller ortama karakter ve derinlik katar.
-        Eskitme antik sarı tonlu metal gövdesi ve akıcı formu sayesinde bulunduğu her alana sofistike bir dokunuş ekler. Ne tamamen retro ne de yalnızca modern tam anlamıyla zamansız bir tasarım.
+        Eskitme antik sarı tonlu metal gövdesi ve akıcı formu sayesinde bulunduğu her alana sofistike bir dokunuş ekler. Ne tamamen retro ne de yalnızca modern, tam anlamıyla zamansız bir tasarım.
 
         İster minimal bir mekânda vurgu parçası, ister daha zengin dekorasyonlarda tamamlayıcı bir obje… Bu abajur, bulunduğu her ortamda dikkat çeker ama asla yormaz.
 
@@ -283,7 +283,7 @@ const PRODUCTS = {
             'images/modern-pileli-ambiance-butik-tasarim-abajur-detay5.webp'
         ],
         story: `Zarif ve püskül detaylarıyla hareket kazanan bu özel abajur, klasik ile modern arasında kusursuz bir denge kurar. Pileli form ile elde dikilmiş şapkası ışığı sıcak bir şekilde yayarken, püsküller ortama karakter ve derinlik katar.
-        Eskitme antik sarı tonlu metal gövdesi ve akıcı formu sayesinde bulunduğu her alana sofistike bir dokunuş ekler. Ne tamamen retro ne de yalnızca modern tam anlamıyla zamansız bir tasarım.
+        Eskitme antik sarı tonlu metal gövdesi ve akıcı formu sayesinde bulunduğu her alana sofistike bir dokunuş ekler. Ne tamamen retro ne de yalnızca modern, tam anlamıyla zamansız bir tasarım.
 
         İster minimal bir mekânda vurgu parçası, ister daha zengin dekorasyonlarda tamamlayıcı bir obje… Bu abajur, bulunduğu her ortamda dikkat çeker ama asla yormaz.
 
