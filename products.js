@@ -377,9 +377,10 @@ const PRODUCTS = {
             'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay5.webp',
             'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-detay6.webp'
         ],
-        story: `70’lerin cesur grafik dilinden ilham alan bu abajur, mekâna güçlü bir karakter kazandırır. 
+        story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
+        İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
 
-        İroko ağacından üretilen kaide, sıcak tonları ve doğal dokusuyla tasarımı dengelerken, desenin enerjisini rafine bir estetiğe taşır. Sıradan bir aydınlatma değil; bulunduğu alanda kendini hissettiren, imza niteliğinde bir parçadır.`,
+        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Özel baskı kumaş, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
@@ -400,9 +401,10 @@ const PRODUCTS = {
             'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay2.webp',
             'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay3.webp'
         ],
-        story: `70’lerin cesur grafik dilinden ilham alan bu abajur, mekâna güçlü bir karakter kazandırır. 
+        story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
+        İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
 
-        İroko ağacından üretilen kaide, sıcak tonları ve doğal dokusuyla tasarımı dengelerken, desenin enerjisini rafine bir estetiğe taşır. Sıradan bir aydınlatma değil; bulunduğu alanda kendini hissettiren, imza niteliğinde bir parçadır.`,
+        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kadife doku, toprak tonları, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -426,9 +428,10 @@ const PRODUCTS = {
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay5.webp',
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay6.webp'
         ],
-        story: `70’lerin cesur grafik dilinden ilham alan bu abajur, mekâna güçlü bir karakter kazandırır. 
+        story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
+        İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
 
-        İroko ağacından üretilen kaide, sıcak tonları ve doğal dokusuyla tasarımı dengelerken, desenin enerjisini rafine bir estetiğe taşır. Sıradan bir aydınlatma değil; bulunduğu alanda kendini hissettiren, imza niteliğinde bir parçadır.`,
+        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Doğal lifli kumaş, rustik detaylar, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
