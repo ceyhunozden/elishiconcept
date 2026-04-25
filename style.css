@@ -14,15 +14,6 @@
     --transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-body.boho {
-    /* Boho Botanical Theme (BeauVamp Vibe) */
-    --bg-light: #f6efe8;
-    --text-main: #2b3324;
-    --text-muted: #5e6b52;
-    --accent: #80302b;
-    --btn-bg: #80302b;
-}
-
 * {
     margin: 0;
     padding: 0;
