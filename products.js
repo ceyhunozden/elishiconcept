@@ -183,9 +183,7 @@ const PRODUCTS = {
             'images/piliseli-modern-abajur-detay4.webp',
             'images/piliseli-modern-abajur-detay5.webp'
         ],
-        story: `Pileli, sarı-krem tonlarında çizgili abajur. Sıcak ton geçişleriyle mekâna yumuşak ve dengeli bir ışık yayar. 
-
-        Wabi-sabi estetiğinden ilham alan şapkası, doğal formdaki kaidesiyle uyum içinde tamamlanır. Renkli ponpon detayı ise tasarıma ritim ve karakter katar. Her biri elde üretilir.`,
+        story: `Sıcak tonlu çizgilerle mekana yumuşak bir ışık yayar. Wabi sabi tarzında şapkasını tamamlayan kaidesi ile uyum içinde. Renkli Ponpon detayı ise bu tasarımlarımıza ayrı bir ritim katar. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Seramik kaide, çizgili pileli kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
@@ -209,9 +207,7 @@ const PRODUCTS = {
             'images/modern-pileli-kumas-abajur-detay5.webp',
             'images/modern-pileli-kumas-abajur-detay6.webp'
         ],
-        story: `Pileli, kırmızı tonlarında abajur. Sıcak renk geçişleriyle mekâna canlı ve enerjik bir ışık yayar. 
-
-        Wabi-sabi estetiğinden ilham alan şapkası, doğal formdaki kaidesiyle dengeli bir uyum yakalar. Renkli ponpon detayı ise tasarıma hareket ve karakter katar. Her biri elde üretilir.`,
+        story: `Sıcak tonlu çizgilerle mekana yumuşak bir ışık yayar. Wabi sabi tarzında şapkasını tamamlayan kaidesi ile uyum içinde. Renkli Ponpon detayı ise bu tasarımlarımıza ayrı bir ritim katar. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Seramik kaide, kırmızı pileli kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
