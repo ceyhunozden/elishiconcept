@@ -232,7 +232,10 @@ const PRODUCTS = {
             'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay3.webp',
             'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay4.webp'
         ],
-        story: `Gökyüzünün en asil takımyıldızlarından biri olan Cassiopeia, bu tasarımda hayat buluyor. Derin dokusu ve vakur duruşuyla, mekanınıza sadece ışık değil, bir miras bırakıyor.`,
+        story: `Canlı turuncu tonlarıyla dikkat çeken bu abajur, el baskısı otantik hint kumaşı sayesinde her yüzeyinde karakter taşır. Pileli formu elde dikilerek şekillendirilmiş, ve biyeleri ile işçiliğin dokusu gözle görülür bir ritim yaratır.
+        Yeşil tonlarda boyanmış ahşap ayağı, klasik formu modern bir yalınlıkla dengeler. İnce silueti ve dengeli oranlarıyla hem dekoratif hem de sıcak bir aydınlatma objesi olarak mekana sakin ama iddialı bir kimlik kazandırır.
+
+        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Ağır dokuma kumaş, vintage detaylar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
