@@ -3,11 +3,16 @@
    ===================================================== */
 
 /* Breadcrumb */
+/* Navbar Override for Product Page */
+.navbar {
+    position: relative !important;
+    background: transparent !important;
+}
+
 .breadcrumb-bar {
     position: relative;
     z-index: 100;
-    margin-top: 100px; /* Navbar'ın altında kalması için boşluk eklendi */
-    padding: 1rem 5%;
+    padding: 1.5rem 5% 1rem; /* Üstten biraz daha kibar bir boşluk */
     font-family: var(--font-body);
     font-size: 0.78rem;
     letter-spacing: 1px;
