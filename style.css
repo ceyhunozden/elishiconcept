@@ -335,8 +335,9 @@ body.night-mode .menu-overlay {
     height: 100vh;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end; /* İçeriği aşağıya çektik */
     justify-content: center;
+    padding-bottom: 90px; /* Noktaların (30px) biraz üzerine hizaladık */
     text-align: center;
     overflow: hidden;
 }
