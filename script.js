@@ -47,18 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    const themeToggle = document.getElementById('themeToggle');
-    if (themeToggle) {
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('boho');
-            if (document.body.classList.contains('boho')) {
-                themeToggle.textContent = "Stil: ✨ Saf Bej'e Dön";
-            } else {
-                themeToggle.textContent = "Stil: 🌿 Bohem'e Geç";
-            }
-        });
-    }
-
     const navbarNightToggle = document.getElementById('navbarNightToggle');
     const moonIcon = document.getElementById('moonIcon');
 
