@@ -277,7 +277,12 @@ const PRODUCTS = {
             'images/modern-pileli-ambiance-butik-tasarim-abajur-detay4.webp',
             'images/modern-pileli-ambiance-butik-tasarim-abajur-detay5.webp'
         ],
-        story: `Bir lir gibi zarif ve ahenkli olan Lyra, ışığın en yumuşak halini odanıza taşıyor. İnce işçiliği ve hafif yapısıyla, her köşede bir sanat eseri etkisi yaratır.`,
+        story: `Zarif ve püskül detaylarıyla hareket kazanan bu özel abajur, klasik ile modern arasında kusursuz bir denge kurar. Pileli form ile elde dikilmiş şapkası ışığı sıcak bir şekilde yayarken, püsküller ortama karakter ve derinlik katar.
+        Eskitme antik sarı tonlu metal gövdesi ve akıcı formu sayesinde bulunduğu her alana sofistike bir dokunuş ekler. Ne tamamen retro ne de yalnızca modern—tam anlamıyla zamansız bir tasarım.
+
+        İster minimal bir mekânda vurgu parçası, ister daha zengin dekorasyonlarda tamamlayıcı bir obje… Bu abajur, bulunduğu her ortamda dikkat çeker ama asla yormaz.
+
+        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'İnce ipekli kumaş, pirinç aksam' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
