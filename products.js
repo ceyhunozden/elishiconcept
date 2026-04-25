@@ -94,7 +94,10 @@ const PRODUCTS = {
             'images/boho-zarif-pileli-cozy-abajur.webp',
             'images/boho-zarif-pileli-cozy-abajur-detay1.webp'
         ],
-        story: `İnci beyazının yumuşak parlaklığından ilham alınan bu lamba, sofistike bir dokunuş arayan mekanlar için tasarlandı. Seramik ayak detayları ile tamamlanan şık bir bütün oluşturur.`,
+        story: `Pileli abajur şapkası, ışığı yumuşatarak ortama dengeli ve sakin bir aydınlatma sunar. Katmanlı yapısı sayesinde ışık doğrudan değil, süzülerek yayılır ve mekanda huzurlu bir atmosfer oluşturur.
+        Kaide tasarımı, Japon estetik anlayışı olan Wabi-Sabi felsefesinden ilham alır. Kusursuzluk yerine doğallığı, pürüzsüzlük yerine dokuyu ön plana çıkarır. El işçiligi hissi veren yüzeyi, her ürünü kendine özgü kılar.
+
+        Minimal formu ve nötr tonlarıyla hem modern hem de zamansız bir karakter taşır. Mekana sadece bir ışık kaynağı değil, aynı zamanda dingin bir obje olarak dahil olur. Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Fildişi kumaş, seramik ayak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
