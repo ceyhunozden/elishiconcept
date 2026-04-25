@@ -113,7 +113,7 @@ const PRODUCTS = {
             'images/bohem-nakisli-ozgun-abajur-detay3.webp',
             'images/bohem-nakisli-ozgun-abajur-detay4.webp'
         ],
-        story: `Zümrüt yeşilinin derinliği ile işlenmiş bu abajur, kraliyet saraylarından ilham alan bir tasarıma sahip. Altın rengi detaylar and el nakışları bu eseri eşsiz kılar.`,
+        story: `Stilize hayvan ve bitki figürleriyle, yüzeyi tamamen dolduran, canlı renkleriyle bir hikaye anlatan Meksika halk nakışı ile hepsi elde özenle yapılmıştır. Elde işlendiği için herbiri küçük farklılıklar içerir ve sınırlı sayıda üretilmiştir. Renkli Ponpon detayı ise bu tasarımlara ritim ekler. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Zümrüt kumaş, altın aksesuar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
@@ -134,7 +134,7 @@ const PRODUCTS = {
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay2.webp',
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay3.webp'
         ],
-        story: `Altın varak detaylarının ışıltısıyla yaratılan bu şaheser, koleksiyonun en prestijli parçasıdır. Sınırlı sayıda üretilen bu lamba, seçici zevklere hitap eder.`,
+        story: `Stilize hayvan ve bitki figürleriyle, yüzeyi tamamen dolduran, canlı renkleriyle bir hikaye anlatan Meksika halk nakışı ile hepsi elde özenle yapılmıştır. Elde işlendiği için herbiri küçük farklılıklar içerir ve sınırlı sayıda üretilmiştir. Renkli Ponpon detayı ise bu tasarımlara ritim ekler. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Lüks kumaş, altın varak detaylar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
