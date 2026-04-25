@@ -36,11 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const bcColl = document.getElementById('breadcrumbCollection');
         bcColl.textContent = fullCollName;
         
-        // Create a URL-friendly filter ID (e.g., "Maksimalist" -> "maksimalist")
-        let filterId = fullCollName.toLowerCase().replace(/\s+/g, '-');
-        // Handle special cases if any (e.g., boho-chic)
-        if (filterId === 'boho-chic') filterId = 'boho-chic'; 
-        
         bcColl.href = `index.html#collection-${filterId}`;
     } else {
         document.getElementById('breadcrumbCollection').style.display = 'none';
