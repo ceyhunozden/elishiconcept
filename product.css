@@ -6,13 +6,14 @@
 /* Navbar Override for Product Page */
 .navbar {
     position: relative !important;
+    padding: 10px 5% !important; /* Menü yüksekliği daraltıldı */
     background: transparent !important;
 }
 
 .breadcrumb-bar {
     position: relative;
     z-index: 100;
-    padding: 1.5rem 5% 1rem; /* Üstten biraz daha kibar bir boşluk */
+    padding: 0.5rem 5% !important; /* Breadcrumb boşluğu minimize edildi */
     font-family: var(--font-body);
     font-size: 0.78rem;
     letter-spacing: 1px;
