@@ -27,7 +27,7 @@ const PRODUCTS = {
     urun2: {
         id: 'urun2',
         name: 'Luna',
-        subtitle: 'El Yapımı · Boho Chic Koleksiyon',
+        subtitle: 'El Yapımı · Maksimalist Koleksiyon',
         tag: 'YENİ',
         images: [
             'images/antik-retro-kruvasan-maximalist-abajur-kapali.webp',
