@@ -28,6 +28,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ---------- Sayfa başlığı ve breadcrumb ----------
     document.title = p.name + ' | El Yapımı Tasarım – Elishi Concept';
+    
+    // Extract collection name from subtitle (e.g., "El Yapımı · Maksimalist Koleksiyon")
+    const subParts = p.subtitle.split('·');
+    if (subParts.length > 1) {
+        const collName = subParts[1].replace('Koleksiyon', '').trim();
+        document.getElementById('breadcrumbCollection').textContent = collName;
+    } else {
+        // Hide if no specific collection found
+        document.getElementById('breadcrumbCollection').style.display = 'none';
+        document.getElementById('bcSepCollection').style.display = 'none';
+    }
+
     document.getElementById('breadcrumbName').textContent = p.name;
 
     // ---------- Ürün bilgileri ----------
