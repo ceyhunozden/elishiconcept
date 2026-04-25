@@ -40,14 +40,12 @@ const PRODUCTS = {
             'images/antik-retro-kruvasan-maximalist-abajur-detay6.webp',
             'images/antik-retro-kruvasan-maximalist-abajur-detay7.webp'
         ],
-        story: `Kruvasan formunu andıran özgün siluetiyle bu abajur, Victoria döneminin zengin ve süslü estetiğini günümüze taşıyan çarpıcı bir tasarımdır. Katmanlı yapısı ve detaylı el işçiliğiyle bulunduğu ortamda geri planda kalmaz; güçlü bir odak noktası oluşturur.
+        story: `Kruvasan formunu andıran özgün siluetiyle bu abajur, Victoria döneminin o zengin ve süslü estetiğini günümüze taşıyan çarpıcı bir tasarım. Katmanlı yapısı ve detaylı el işçiliği sayesinde bulunduğu ortamda geri planda kalmaz; aksine tüm dikkatleri üzerine çeker.
+        Şapkayı çevreleyen degrade püsküller, sıcak tonlardan serin renklere akarak tasarıma derinlik ve hareket kazandırır. Ortada yer alan yusufçuk figürü ise yalnızca dekoratif bir detay değil; Antik Mısır’da yeniden doğuş ve dönüşümün simgesi olarak bilinen güçlü bir anlam taşır.
 
-        Şapkayı çevreleyen degrade püsküller, sıcak tonlardan serin renklere akarak tasarıma derinlik ve hareket katar. Merkezde yer alan yusufçuk figürü ise yalnızca dekoratif bir detay değil; Antik Mısır’da yeniden doğuş ve dönüşümün simgesi olarak anlam kazanır.
+        Tasarımı tamamlayan antik sarı metal ayak, genel estetiği daha da güçlü hale getirir. Modern bir mekânda bile bu kadar gösterişli bir parça, alanı tamamlayan güçlü bir odak noktası haline gelir. Üstelik bu tasarım tamamen özgün ve tek , karakter sahibi bir imza parçası.
 
-        Antik sarı tonlardaki metal ayak, tasarımın karakterini tamamlayarak bütüncül bir denge sağlar. Modern bir mekânda bile bu kadar iddialı bir parça, alanın atmosferini dönüştürür. 
-
-        Tamamen özgün ve tek üretimdir.
-        Siparişe göre kişiye özel tasarlanabilir.`,
+        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, yusufçuk figürü, antik sarı metal ayak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
