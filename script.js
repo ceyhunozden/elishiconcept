@@ -329,19 +329,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
-
-// --- LITE YOUTUBE LOADER ---
-function loadVideo() {
-    const container = document.getElementById('videoContainer');
-    if (container) {
-        container.innerHTML = `
-            <iframe src="https://www.youtube-nocookie.com/embed/F3KagL7lZww?autoplay=1&modestbranding=1&rel=0&iv_load_policy=3"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
-            </iframe>
-        `;
-        // Remove cursor pointer and onclick after loading
-        container.style.cursor = 'default';
-        container.onclick = null;
-    }
-}
