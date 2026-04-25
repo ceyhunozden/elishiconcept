@@ -29,13 +29,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // ---------- Sayfa başlığı ve breadcrumb ----------
     document.title = p.name + ' | El Yapımı Tasarım – Elishi Concept';
     
-    // Extract collection name from subtitle (e.g., "El Yapımı · Maksimalist Koleksiyon")
+    // Extract collection name and set link
     const subParts = p.subtitle.split('·');
     if (subParts.length > 1) {
-        const collName = subParts[1].replace('Koleksiyon', '').trim();
-        document.getElementById('breadcrumbCollection').textContent = collName;
+        const fullCollName = subParts[1].replace('Koleksiyon', '').trim();
+        const bcColl = document.getElementById('breadcrumbCollection');
+        bcColl.textContent = fullCollName;
+        
+        // Create a URL-friendly filter ID (e.g., "Maksimalist" -> "maksimalist")
+        let filterId = fullCollName.toLowerCase().replace(/\s+/g, '-');
+        // Handle special cases if any (e.g., boho-chic)
+        if (filterId === 'boho-chic') filterId = 'boho-chic'; 
+        
+        bcColl.href = `index.html#collection-${filterId}`;
     } else {
-        // Hide if no specific collection found
         document.getElementById('breadcrumbCollection').style.display = 'none';
         document.getElementById('bcSepCollection').style.display = 'none';
     }
