@@ -21,7 +21,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun2: {
@@ -53,7 +53,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 30cm, Yükseklik 56cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun3: {
@@ -75,7 +75,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 27cm, Yükseklik 70cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun4: {
@@ -94,7 +94,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 35cm, Yükseklik 65cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun5: {
@@ -116,7 +116,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 50cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun6: {
@@ -137,7 +137,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 45cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
     
     urun7: {
@@ -163,7 +163,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 80cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun8: {
@@ -188,7 +188,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun9: {
@@ -214,7 +214,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun10: {
@@ -236,7 +236,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 56cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun11: {
@@ -257,7 +257,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 61cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun12: {
@@ -280,7 +280,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun13: {
@@ -302,7 +302,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 26cm, Yükseklik 60cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun14: {
@@ -324,7 +324,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 31cm, Yükseklik 63cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun15: {
@@ -349,7 +349,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 45cm, Yükseklik 71cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun17: {
@@ -375,7 +375,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun18: {
@@ -398,7 +398,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun19: {
@@ -424,7 +424,7 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     },
 
     urun20: {
@@ -447,6 +447,6 @@ const PRODUCTS = {
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
         ],
-        etsy: 'https://etsy.com'
+        shopier: 'https://www.shopier.com/elishiconcept'
     }
 };

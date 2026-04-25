@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('productName').textContent = p.name;
     document.getElementById('productSubtitle').textContent = p.subtitle;
     document.getElementById('productStory').textContent = p.story;
-    document.getElementById('etsyBtn').href = p.etsy;
+    document.getElementById('shopierBtn').href = p.shopier;
 
     const tagEl = document.getElementById('productTag');
     if (p.tag) {
