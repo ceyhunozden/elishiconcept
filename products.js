@@ -72,7 +72,10 @@ const PRODUCTS = {
             'images/elegance-soft-minimalist-seramik-abajur-detay3.webp',
             'images/elegance-soft-minimalist-seramik-abajur-detay4.webp'
         ],
-        story: `Saf beyazın zarafetiyle işlenmiş bu pileli konik abajur, minimalist ve modern mekanlar için biçilmiş kaftandır. Her kıvrımı elle yerleştirilmiş, ışığı mükemmel dağıtır.`,
+        story: `Doğal kusurların zarafetiyle şekillenen bu özel abajur, wabi-sabi felsefesinden ilham alan kaidesiyle her mekâna sakin bir karakter katar. El yapımı dokulu yüzeyi, kusursuz olmayanın estetiğini yansıtırken; yumuşak pliseli şapkası ışığı yumuşatarak sıcak bir atmosfer oluşturur.
+        Modern ve zamansız bir denge arayanlar için tasarlandı. Her detayında sadelik, her ışığında huzur var.
+
+        Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Krem-beyaz pileli kumaş' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
@@ -300,7 +303,10 @@ const PRODUCTS = {
             'images/minimalist-modern-cam-ozel-seri-abajur-detay3.webp',
             'images/minimalist-modern-cam-ozel-seri-abajur-detay4.webp'
         ],
-        story: `Minimalizmin en saf hali olan Alcyone, gereksiz her detaydan arındırılmış bir huzur kaynağıdır. Modern ve sakin mekanlar için tasarlanmış duru bir ışık.`,
+        story: `Doğal kusurların zarafetiyle şekillenen bu özel abajur, wabi-sabi felsefesinden ilham alan kaidesiyle her mekâna sakin bir karakter katar. El yapımı dokulu yüzeyi, kusursuz olmayanın estetiğini yansıtırken; yumuşak pliseli şapkası ışığı yumuşatarak sıcak bir atmosfer oluşturur.
+        Modern ve zamansız bir denge arayanlar için tasarlandı. Her detayında sadelik, her ışığında huzur var.
+
+        Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Saf pamuklu keten, vizon renk' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
