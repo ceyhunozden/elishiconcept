@@ -331,7 +331,11 @@ const PRODUCTS = {
             'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay3.webp',
             'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay4.webp'
         ],
-        story: `Saray zarafetini ve altın çağların ışıltısını taşıyan Electra, enerjisiyle girdiği her mekanı aydınlatır. Klasik motiflerin modern bir yorumudur.`,
+        story: `Doğal dokular ve zarif detaylarla öne çıkan bu cottage stil abajur, yaşam alanına yumuşak ve samimi bir atmosfer kazandırır. Açık ton zemin üzerine uygulanan otantik Hint el baskısı kumaş, her parçaya karakter ve hikâye katar.
+
+        El işçiliğiyle hazırlanmış pileli şapka, ışığı nazikçe süzerken; çevresini saran bordo şerit biye ve ince yeşil biye detayı tasarıma incelikli bir kontrast verir. Gövdedeki ahşap torna ayak, sıcak ve doğal bir duruş sunarken; yanındaki püskül detayı klasik dokunuşu tamamlar.
+
+        El dikişiyle şekillenen bu özel parça, hem dekoratif bir vurgu hem de huzurlu bir aydınlatma sunar. Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Dantel işlemeli kumaş, altın varak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
