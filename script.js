@@ -327,5 +327,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 contactPopup.classList.remove('active');
             }
         });
+
+        // --- WELCOME BUBBLE LOGIC ---
+        const welcomeBubble = document.getElementById('welcomeBubble');
+        if (welcomeBubble) {
+            // Show after a short delay (1s) and hide after 3s
+            setTimeout(() => {
+                welcomeBubble.classList.add('show');
+                setTimeout(() => {
+                    welcomeBubble.classList.remove('show');
+                }, 3000);
+            }, 1000);
+        }
     }
 });
