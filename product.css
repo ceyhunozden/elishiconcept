@@ -4,6 +4,8 @@
 
 /* Breadcrumb */
 .breadcrumb-bar {
+    position: relative;
+    z-index: 100;
     padding: 1rem 5%;
     font-family: var(--font-body);
     font-size: 0.78rem;
