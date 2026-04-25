@@ -20,7 +20,7 @@ const PRODUCTS = {
 
         İster minimal bir mekânda vurgu parçası, ister daha zengin dekorasyonlarda tamamlayıcı bir obje… Bu abajur, bulunduğu her ortamda dikkat çeker ama asla yormaz.
 
-        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Bordo kadife kumaş, el yapımı saçaklar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -97,7 +97,7 @@ const PRODUCTS = {
         story: `Pileli abajur şapkası, ışığı yumuşatarak ortama dengeli ve sakin bir aydınlatma sunar. Katmanlı yapısı sayesinde ışık doğrudan değil, süzülerek yayılır ve mekanda huzurlu bir atmosfer oluşturur.
         Kaide tasarımı, Japon estetik anlayışı olan Wabi-Sabi felsefesinden ilham alır. Kusursuzluk yerine doğallığı, pürüzsüzlük yerine dokuyu ön plana çıkarır. El işçiligi hissi veren yüzeyi, her ürünü kendine özgü kılar.
 
-        Minimal formu ve nötr tonlarıyla hem modern hem de zamansız bir karakter taşır. Mekana sadece bir ışık kaynağı değil, aynı zamanda dingin bir obje olarak dahil olur. Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Minimal formu ve nötr tonlarıyla hem modern hem de zamansız bir karakter taşır. Mekana sadece bir ışık kaynağı değil, aynı zamanda dingin bir obje olarak dahil olur. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Fildişi kumaş, seramik ayak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -238,7 +238,7 @@ const PRODUCTS = {
         story: `Canlı turuncu tonlarıyla dikkat çeken bu abajur, el baskısı otantik hint kumaşı sayesinde her yüzeyinde karakter taşır. Pileli formu elde dikilerek şekillendirilmiş, ve biyeleri ile işçiliğin dokusu gözle görülür bir ritim yaratır.
         Yeşil tonlarda boyanmış ahşap ayağı, klasik formu modern bir yalınlıkla dengeler. İnce silueti ve dengeli oranlarıyla hem dekoratif hem de sıcak bir aydınlatma objesi olarak mekana sakin ama iddialı bir kimlik kazandırır.
 
-        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Ağır dokuma kumaş, vintage detaylar' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -287,7 +287,7 @@ const PRODUCTS = {
 
         İster minimal bir mekânda vurgu parçası, ister daha zengin dekorasyonlarda tamamlayıcı bir obje… Bu abajur, bulunduğu her ortamda dikkat çeker ama asla yormaz.
 
-        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'İnce ipekli kumaş, pirinç aksam' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -338,7 +338,7 @@ const PRODUCTS = {
 
         El işçiliğiyle hazırlanmış pileli şapka, ışığı nazikçe süzerken; çevresini saran bordo şerit biye ve ince yeşil biye detayı tasarıma incelikli bir kontrast verir. Gövdedeki ahşap torna ayak, sıcak ve doğal bir duruş sunarken; yanındaki püskül detayı klasik dokunuşu tamamlar.
 
-        El dikişiyle şekillenen bu özel parça, hem dekoratif bir vurgu hem de huzurlu bir aydınlatma sunar. Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        El dikişiyle şekillenen bu özel parça, hem dekoratif bir vurgu hem de huzurlu bir aydınlatma sunar. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Dantel işlemeli kumaş, altın varak' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -363,7 +363,7 @@ const PRODUCTS = {
         ],
         story: `Abajur şapkası, William Morris’in ikonik deseni Strawberry Thief (Çilek Hırsızı) ile tasarlanmıştır. Doğadan ilham alan bu zengin kompozisyon, kuşlar ve bitkisel motiflerle yüzeyde adeta canlı bir hikaye kurar.
         Amber tonlarında cam kaide, ışıkla birlikte sıcak ve derin bir parıltı oluşturur. Dikey dokulu yüzeyi, ışığı kırarak mekana yumuşak bir yayılım kazandırır.
-        Desenin yoğun karakteri ile camın sade ama güçlü formu dengeli bir uyum içindedir. Bu birliktelik, ürünü sadece bir aydınlatma değil, bulunduğu ortamda kolayca fark edilen bir odak objesi haline getirir. Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Desenin yoğun karakteri ile camın sade ama güçlü formu dengeli bir uyum içindedir. Bu birliktelik, ürünü sadece bir aydınlatma değil, bulunduğu ortamda kolayca fark edilen bir odak objesi haline getirir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'William Morris Strawberry Thief kumaş, Amber cam kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -390,7 +390,7 @@ const PRODUCTS = {
         story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
         İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
 
-        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Özel baskı kumaş, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
@@ -414,7 +414,7 @@ const PRODUCTS = {
         story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
         İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
 
-        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kadife doku, toprak tonları, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -441,7 +441,7 @@ const PRODUCTS = {
         story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
         İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
 
-        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Doğal lifli kumaş, rustik detaylar, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
@@ -465,7 +465,7 @@ const PRODUCTS = {
         story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
         İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
 
-        Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
+        Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Desenli Retro kumaş, İroko ağacı kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
