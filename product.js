@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const bcColl = document.getElementById('breadcrumbCollection');
         bcColl.textContent = fullCollName;
         
+        let filterId = fullCollName.toLowerCase().replace(/\s+/g, '-');
         bcColl.href = `index.html#collection-${filterId}`;
     } else {
         document.getElementById('breadcrumbCollection').style.display = 'none';
