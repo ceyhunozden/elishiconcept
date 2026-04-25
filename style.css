@@ -1470,3 +1470,34 @@ body.night-mode .guide-section {
         padding: 5rem 8%;
     }
 }
+
+/* SES KONTROL BUTONU STİLLERİ */
+.video-volume-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+}
+
+.video-volume-btn:hover {
+    background: rgba(163, 145, 113, 0.9); /* --accent */
+    transform: scale(1.1);
+}
+
+#volumeIcon {
+    line-height: 1;
+    pointer-events: none;
+}

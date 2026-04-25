@@ -328,4 +328,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 1000);
         }
     }
+
+    // --- VİDEO SES KONTROLÜ ---
+    const btsVideo = document.getElementById('btsVideo');
+    const videoVolumeBtn = document.getElementById('videoVolumeBtn');
+    const volumeIcon = document.getElementById('volumeIcon');
+
+    if (btsVideo && videoVolumeBtn) {
+        videoVolumeBtn.addEventListener('click', () => {
+            if (btsVideo.muted) {
+                btsVideo.muted = false;
+                volumeIcon.textContent = '🔊';
+                videoVolumeBtn.style.background = 'rgba(163, 145, 113, 0.9)'; // Aktifken vurgu rengi
+            } else {
+                btsVideo.muted = true;
+                volumeIcon.textContent = '🔇';
+                videoVolumeBtn.style.background = 'rgba(0, 0, 0, 0.4)';
+            }
+        });
+    }
 });
