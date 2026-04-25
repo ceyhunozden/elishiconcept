@@ -784,7 +784,7 @@ body.night-mode .item-img-wrapper .img-off {
 
 .item-info h4 {
     font-family: var(--font-heading);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
