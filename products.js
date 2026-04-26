@@ -13,7 +13,8 @@ const PRODUCTS = {
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi.webp',
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-detay1.webp',
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-detay2.webp',
-            'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-detay3.webp'
+            'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-detay3.webp',
+            'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-detay4.webp'
         ],
         story: `Zarif ve geçişli püskül detaylarıyla hareket kazanan bu özel abajur, klasik ile modern arasında kusursuz bir denge kurar. Pileli form ile elde dikilmiş şapkası ışığı sıcak bir şekilde yayarken, püsküller ortama karakter ve derinlik katar.
         Eskitme antik sarı tonlu metal gövdesi ve akıcı formu sayesinde bulunduğu her alana sofistike bir dokunuş ekler. Ne tamamen retro ne de yalnızca modern, tam anlamıyla zamansız bir tasarım.
@@ -142,7 +143,8 @@ const PRODUCTS = {
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay1.webp',
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay2.webp',
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay3.webp',
-            'images/mistik-geleneksel-nakisli-kumas-abajur-detay4.webp'
+            'images/mistik-geleneksel-nakisli-kumas-abajur-detay4.webp',
+            'images/mistik-geleneksel-nakisli-kumas-abajur-detay5.webp'
         ],
         story: `Stilize hayvan ve bitki figürleriyle, yüzeyi tamamen dolduran, canlı renkleriyle bir hikaye anlatan Meksika halk nakışı ile hepsi elde özenle yapılmıştır. Elde işlendiği için herbiri küçük farklılıklar içerir ve sınırlı sayıda üretilmiştir. Renkli Ponpon detayı ise bu tasarımlara ritim ekler. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
@@ -317,7 +319,8 @@ const PRODUCTS = {
             'images/minimalist-modern-cam-ozel-seri-abajur-detay1.webp',
             'images/minimalist-modern-cam-ozel-seri-abajur-detay2.webp',
             'images/minimalist-modern-cam-ozel-seri-abajur-detay3.webp',
-            'images/minimalist-modern-cam-ozel-seri-abajur-detay4.webp'
+            'images/minimalist-modern-cam-ozel-seri-abajur-detay4.webp',
+            'images/minimalist-modern-cam-ozel-seri-abajur-detay5.webp'
         ],
         story: `Doğal kusurların zarafetiyle şekillenen bu özel abajur, wabi-sabi felsefesinden ilham alan kaidesiyle her mekâna sakin bir karakter katar. El yapımı dokulu yüzeyi, kusursuz olmayanın estetiğini yansıtırken; yumuşak pliseli şapkası ışığı yumuşatarak sıcak bir atmosfer oluşturur.
         Modern ve zamansız bir denge arayanlar için tasarlandı. Her detayında sadelik, her ışığında huzur var.
