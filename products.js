@@ -43,7 +43,8 @@ const PRODUCTS = {
             'images/antik-retro-kruvasan-maximalist-abajur-detay4.webp',
             'images/antik-retro-kruvasan-maximalist-abajur-detay5.webp',
             'images/antik-retro-kruvasan-maximalist-abajur-detay6.webp',
-            'images/antik-retro-kruvasan-maximalist-abajur-detay7.webp'
+            'images/antik-retro-kruvasan-maximalist-abajur-detay7.webp',
+            'images/antik-retro-kruvasan-maximalist-abajur-detay8.webp'
         ],
         story: `Kruvasan formunu andıran özgün siluetiyle bu abajur, Victoria döneminin o zengin ve süslü estetiğini günümüze taşıyan çarpıcı bir tasarım. Katmanlı yapısı ve detaylı el işçiliği sayesinde bulunduğu ortamda geri planda kalmaz; aksine tüm dikkatleri üzerine çeker.
         Şapkayı çevreleyen degrade püsküller, sıcak tonlardan serin renklere akarak tasarıma derinlik ve hareket kazandırır. Ortada yer alan yusufçuk figürü ise yalnızca dekoratif bir detay değil; Antik Mısır’da yeniden doğuş ve dönüşümün simgesi olarak bilinen güçlü bir anlam taşır.
@@ -70,7 +71,8 @@ const PRODUCTS = {
             'images/elegance-soft-minimalist-seramik-abajur-detay1.webp',
             'images/elegance-soft-minimalist-seramik-abajur-detay2.webp',
             'images/elegance-soft-minimalist-seramik-abajur-detay3.webp',
-            'images/elegance-soft-minimalist-seramik-abajur-detay4.webp'
+            'images/elegance-soft-minimalist-seramik-abajur-detay4.webp',
+            'images/elegance-soft-minimalist-seramik-abajur-detay5.webp'
         ],
         story: `Doğal kusurların zarafetiyle şekillenen bu özel abajur, wabi-sabi felsefesinden ilham alan kaidesiyle her mekâna sakin bir karakter katar. El yapımı dokulu yüzeyi, kusursuz olmayanın estetiğini yansıtırken; yumuşak pliseli şapkası ışığı yumuşatarak sıcak bir atmosfer oluşturur.
         Modern ve zamansız bir denge arayanlar için tasarlandı. Her detayında sadelik, her ışığında huzur var.
@@ -92,7 +94,8 @@ const PRODUCTS = {
         images: [
             'images/boho-zarif-pileli-cozy-abajur-kapali.webp',
             'images/boho-zarif-pileli-cozy-abajur.webp',
-            'images/boho-zarif-pileli-cozy-abajur-detay1.webp'
+            'images/boho-zarif-pileli-cozy-abajur-detay1.webp',
+            'images/boho-zarif-pileli-cozy-abajur-detay2.webp'
         ],
         story: `Pileli abajur şapkası, ışığı yumuşatarak ortama dengeli ve sakin bir aydınlatma sunar. Katmanlı yapısı sayesinde ışık doğrudan değil, süzülerek yayılır ve mekanda huzurlu bir atmosfer oluşturur.
         Kaide tasarımı, Japon estetik anlayışı olan Wabi-Sabi felsefesinden ilham alır. Kusursuzluk yerine doğallığı, pürüzsüzlük yerine dokuyu ön plana çıkarır. El işçiligi hissi veren yüzeyi, her ürünü kendine özgü kılar.
@@ -138,7 +141,8 @@ const PRODUCTS = {
             'images/mistik-geleneksel-nakisli-kumas-abajur.webp',
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay1.webp',
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay2.webp',
-            'images/mistik-geleneksel-nakisli-kumas-abajur-detay3.webp'
+            'images/mistik-geleneksel-nakisli-kumas-abajur-detay3.webp',
+            'images/mistik-geleneksel-nakisli-kumas-abajur-detay4.webp'
         ],
         story: `Stilize hayvan ve bitki figürleriyle, yüzeyi tamamen dolduran, canlı renkleriyle bir hikaye anlatan Meksika halk nakışı ile hepsi elde özenle yapılmıştır. Elde işlendiği için herbiri küçük farklılıklar içerir ve sınırlı sayıda üretilmiştir. Renkli Ponpon detayı ise bu tasarımlara ritim ekler. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
@@ -160,7 +164,8 @@ const PRODUCTS = {
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay1.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay2.webp',
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay3.webp',
-            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay4.webp'
+            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay4.webp',
+            'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-detay5.webp'
         ],
         story: `Victoria döneminin gösterişli estetiğini günümüze taşıyan bu özel tasarım abajur, sıradan bir aydınlatma objesinin ötesindedir. Açılmamış lale formu, ışıkla birlikte yeniden yorumlanır.
 
@@ -187,7 +192,8 @@ const PRODUCTS = {
             'images/piliseli-modern-abajur-detay2.webp',
             'images/piliseli-modern-abajur-detay3.webp',
             'images/piliseli-modern-abajur-detay4.webp',
-            'images/piliseli-modern-abajur-detay5.webp'
+            'images/piliseli-modern-abajur-detay5.webp',
+            'images/piliseli-modern-abajur-detay6.webp'
         ],
         story: `Sıcak tonlu çizgilerle mekana yumuşak bir ışık yayar. Wabi sabi tarzında şapkasını tamamlayan kaidesi ile uyum içinde. Renkli Ponpon detayı ise bu tasarımlarımıza ayrı bir ritim katar. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
@@ -211,7 +217,8 @@ const PRODUCTS = {
             'images/modern-pileli-kumas-abajur-detay3.webp',
             'images/modern-pileli-kumas-abajur-detay4.webp',
             'images/modern-pileli-kumas-abajur-detay5.webp',
-            'images/modern-pileli-kumas-abajur-detay6.webp'
+            'images/modern-pileli-kumas-abajur-detay6.webp',
+            'images/modern-pileli-kumas-abajur-detay7.webp'
         ],
         story: `Sıcak tonlu çizgilerle mekana yumuşak bir ışık yayar. Wabi sabi tarzında şapkasını tamamlayan kaidesi ile uyum içinde. Renkli Ponpon detayı ise bu tasarımlarımıza ayrı bir ritim katar. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
@@ -233,7 +240,8 @@ const PRODUCTS = {
             'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay1.webp',
             'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay2.webp',
             'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay3.webp',
-            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay4.webp'
+            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay4.webp',
+            'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-detay5.webp'
         ],
         story: `Canlı turuncu tonlarıyla dikkat çeken bu abajur, el baskısı otantik hint kumaşı sayesinde her yüzeyinde karakter taşır. Pileli formu elde dikilerek şekillendirilmiş, ve biyeleri ile işçiliğin dokusu gözle görülür bir ritim yaratır.
         Yeşil tonlarda boyanmış ahşap ayağı, klasik formu modern bir yalınlıkla dengeler. İnce silueti ve dengeli oranlarıyla hem dekoratif hem de sıcak bir aydınlatma objesi olarak mekana sakin ama iddialı bir kimlik kazandırır.
@@ -257,7 +265,8 @@ const PRODUCTS = {
             'images/el-baskisi-country-pileli-rustik-cottage-sapka.webp',
             'images/el-baskisi-country-pileli-rustik-cottage-sapka-detay1.webp',
             'images/el-baskisi-country-pileli-rustik-cottage-sapka-detay2.webp',
-            'images/el-baskisi-country-pileli-rustik-cottage-sapka-detay3.webp'
+            'images/el-baskisi-country-pileli-rustik-cottage-sapka-detay3.webp',
+            'images/el-baskisi-country-pileli-rustik-cottage-sapka-detay4.webp'
         ],
         story: `Avcı takımyıldızından ilham alan Orion, güçlü hatları ve zamansız formuyla modern mekanlarda nostaljik bir köprü kuruyor. Keskin ve net duruşu, loş ışığın sıcaklığıyla dengeleniyor.`,
         features: [
@@ -280,7 +289,8 @@ const PRODUCTS = {
             'images/modern-pileli-ambiance-butik-tasarim-abajur-detay2.webp',
             'images/modern-pileli-ambiance-butik-tasarim-abajur-detay3.webp',
             'images/modern-pileli-ambiance-butik-tasarim-abajur-detay4.webp',
-            'images/modern-pileli-ambiance-butik-tasarim-abajur-detay5.webp'
+            'images/modern-pileli-ambiance-butik-tasarim-abajur-detay5.webp',
+            'images/modern-pileli-ambiance-butik-tasarim-abajur-detay6.webp'
         ],
         story: `Zarif ve püskül detaylarıyla hareket kazanan bu özel abajur, klasik ile modern arasında kusursuz bir denge kurar. Pileli form ile elde dikilmiş şapkası ışığı sıcak bir şekilde yayarken, püsküller ortama karakter ve derinlik katar.
         Eskitme antik sarı tonlu metal gövdesi ve akıcı formu sayesinde bulunduğu her alana sofistike bir dokunuş ekler. Ne tamamen retro ne de yalnızca modern, tam anlamıyla zamansız bir tasarım.
@@ -332,7 +342,8 @@ const PRODUCTS = {
             'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay1.webp',
             'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay2.webp',
             'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay3.webp',
-            'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay4.webp'
+            'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay4.webp',
+            'images/el-baskisi-country-pileli-rustik-gece-lambasi-detay5.webp'
         ],
         story: `Doğal dokular ve zarif detaylarla öne çıkan bu cottage stil abajur, yaşam alanına yumuşak ve samimi bir atmosfer kazandırır. Açık ton zemin üzerine uygulanan otantik Hint el baskısı kumaş, her parçaya karakter ve hikâye katar.
 
@@ -359,7 +370,8 @@ const PRODUCTS = {
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay2.webp',
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay3.webp',
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay4.webp',
-            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay5.webp'
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay5.webp',
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay6.webp'
         ],
         story: `Abajur şapkası, William Morris’in ikonik deseni Strawberry Thief (Çilek Hırsızı) ile tasarlanmıştır. Doğadan ilham alan bu zengin kompozisyon, kuşlar ve bitkisel motiflerle yüzeyde adeta canlı bir hikaye kurar.
         Amber tonlarında cam kaide, ışıkla birlikte sıcak ve derin bir parıltı oluşturur. Dikey dokulu yüzeyi, ışığı kırarak mekana yumuşak bir yayılım kazandırır.
@@ -409,7 +421,9 @@ const PRODUCTS = {
             'images/dekorasyon-abajur-modelleri-zanaat-ortam.webp',
             'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay1.webp',
             'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay2.webp',
-            'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay3.webp'
+            'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay3.webp',
+            'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay4.webp',
+            'images/dekorasyon-abajur-modelleri-zanaat-ortam-detay5webp.webp'
         ],
         story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
         İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
@@ -436,7 +450,8 @@ const PRODUCTS = {
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay3.webp',
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay4.webp',
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay5.webp',
-            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay6.webp'
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay6.webp',
+            'images/atmosfer-rahatlatici-nostaljik-antika-abajur-detay7.webp'
         ],
         story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
         İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
@@ -460,7 +475,8 @@ const PRODUCTS = {
             'images/70ler-60lar-nostaljik-abajur.webp',
             'images/70ler-60lar-nostaljik-abajur-detay1.webp',
             'images/70ler-60lar-nostaljik-abajur-detay2.webp',
-            'images/70ler-60lar-nostaljik-abajur-detay3.webp'
+            'images/70ler-60lar-nostaljik-abajur-detay3.webp',
+            'images/70ler-60lar-nostaljik-abajur-detay4.webp'
         ],
         story: `Retro karakteriyle öne çıkan bu abajur, özellikle 70’lerin grafik desen anlayışını günümüze taşır. Dönemin cesur tekrarları ve geometrik ritmi, şapkadaki desenle güçlü bir görsel etki yaratır.
         İroko ağacından üretilen kaide, sıcak tonları ve akıcı formuyla tasarıma doğal bir denge kazandırır. Ahşabın kendine has dokusu, retro desenin enerjisini yumuşatarak daha rafine bir bütünlük oluşturur. Şapka ve kaide arasındaki bu uyum, ürünü sadece bir aydınlatma objesi olmaktan çıkarır; bulunduğu ortamda karakterli ve dikkat çeken bir odak noktası haline getirir.
