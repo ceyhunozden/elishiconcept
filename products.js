@@ -303,7 +303,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'İnce ipekli kumaş, pirinç aksam' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 70cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
     },
@@ -382,7 +382,7 @@ const PRODUCTS = {
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'William Morris Strawberry Thief kumaş, Amber cam kaide' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
-            { icon: '📐', label: 'Boyut', value: 'Genişlik 45cm, Yükseklik 71cm' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 45cm, Yükseklik 70cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
     },
