@@ -374,7 +374,8 @@ const PRODUCTS = {
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay3.webp',
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay4.webp',
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay5.webp',
-            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay6.webp'
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay6.webp',
+            'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-detay7.webp'
         ],
         story: `Abajur şapkası, William Morris’in ikonik deseni Strawberry Thief (Çilek Hırsızı) ile tasarlanmıştır. Doğadan ilham alan bu zengin kompozisyon, kuşlar ve bitkisel motiflerle yüzeyde adeta canlı bir hikaye kurar.
         Amber tonlarında cam kaide, ışıkla birlikte sıcak ve derin bir parıltı oluşturur. Dikey dokulu yüzeyi, ışığı kırarak mekana yumuşak bir yayılım kazandırır.
