@@ -23,7 +23,7 @@ const PRODUCTS = {
 
         Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Bordo kadife kumaş, el yapımı saçaklar' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, antik sarı metal ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm' },
         ],
@@ -54,7 +54,7 @@ const PRODUCTS = {
 
         Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, yusufçuk figürü, antik sarı metal ayak' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, antik sarı pirinç ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 30cm, Yükseklik 56cm' },
         ],
@@ -80,7 +80,7 @@ const PRODUCTS = {
 
         Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Krem-beyaz pileli kumaş' },
+            { icon: '🧵', label: 'Malzeme', value: 'Krem/Beyaz kumaş, seramik ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 27cm, Yükseklik 70cm' },
         ],
@@ -103,7 +103,7 @@ const PRODUCTS = {
 
         Minimal formu ve nötr tonlarıyla hem modern hem de zamansız bir karakter taşır. Mekana sadece bir ışık kaynağı değil, aynı zamanda dingin bir obje olarak dahil olur. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Fildişi kumaş, seramik ayak' },
+            { icon: '🧵', label: 'Malzeme', value: 'Pvc, seramik ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 35cm, Yükseklik 65cm' },
         ],
@@ -125,7 +125,7 @@ const PRODUCTS = {
         ],
         story: `Stilize hayvan ve bitki figürleriyle, yüzeyi tamamen dolduran, canlı renkleriyle bir hikaye anlatan Meksika halk nakışı ile hepsi elde özenle yapılmıştır. Elde işlendiği için herbiri küçük farklılıklar içerir ve sınırlı sayıda üretilmiştir. Renkli Ponpon detayı ise bu tasarımlara ritim ekler. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Zümrüt kumaş, altın aksesuar' },
+            { icon: '🧵', label: 'Malzeme', value: 'Otantik el nakışı, seramik ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 50cm' },
         ],
@@ -148,7 +148,7 @@ const PRODUCTS = {
         ],
         story: `Stilize hayvan ve bitki figürleriyle, yüzeyi tamamen dolduran, canlı renkleriyle bir hikaye anlatan Meksika halk nakışı ile hepsi elde özenle yapılmıştır. Elde işlendiği için herbiri küçük farklılıklar içerir ve sınırlı sayıda üretilmiştir. Renkli Ponpon detayı ise bu tasarımlara ritim ekler. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Lüks kumaş, altın varak detaylar' },
+            { icon: '🧵', label: 'Malzeme', value: 'Otantik el nakışı, seramik ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 45cm' },
         ],
@@ -175,7 +175,7 @@ const PRODUCTS = {
 
         Işık yandığında tüm katmanlar birleşir, kumaşın içinden süzülen sıcak tonlar ve püskülün hareketi bulunduğu ortamda gizlenmeyen bir sahne etkisi yaratır. Tamamen özel tasarım ve tek üretim olmasıyla özgünlük arayanlar için güçlü bir imza niteliği taşır. Tamamen özgün ve tek üretimdir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Özel kumaş, degrade püsküller' },
+            { icon: '🧵', label: 'Malzeme', value: 'Özel kumaş, degrade püsküller, metal ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 80cm' },
         ],
@@ -199,7 +199,7 @@ const PRODUCTS = {
         ],
         story: `Sıcak tonlu çizgilerle mekana yumuşak bir ışık yayar. Wabi sabi tarzında şapkasını tamamlayan kaidesi ile uyum içinde. Renkli Ponpon detayı ise bu tasarımlarımıza ayrı bir ritim katar. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Seramik kaide, çizgili pileli kumaş' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, seramik ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
         ],
@@ -224,7 +224,7 @@ const PRODUCTS = {
         ],
         story: `Sıcak tonlu çizgilerle mekana yumuşak bir ışık yayar. Wabi sabi tarzında şapkasını tamamlayan kaidesi ile uyum içinde. Renkli Ponpon detayı ise bu tasarımlarımıza ayrı bir ritim katar. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Seramik kaide, kırmızı pileli kumaş' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, seramik ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm' },
         ],
@@ -250,7 +250,7 @@ const PRODUCTS = {
 
         Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Ağır dokuma kumaş, vintage detaylar' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, ahşap.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 56cm' },
         ],
@@ -272,7 +272,7 @@ const PRODUCTS = {
         ],
         story: `Avcı takımyıldızından ilham alan Orion, güçlü hatları ve zamansız formuyla modern mekanlarda nostaljik bir köprü kuruyor. Keskin ve net duruşu, loş ışığın sıcaklığıyla dengeleniyor.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Sert keten karışımı, el dikişi' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, ahşap.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 61cm' },
         ],
@@ -301,7 +301,7 @@ const PRODUCTS = {
 
         Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'İnce ipekli kumaş, pirinç aksam' },
+            { icon: '🧵', label: 'Malzeme', value: 'İpek kumaş, antik sarı metal ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 70cm' },
         ],
@@ -327,7 +327,7 @@ const PRODUCTS = {
 
         Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Saf pamuklu keten, vizon renk' },
+            { icon: '🧵', label: 'Malzeme', value: 'Krem/Beyaz kumaş, üfleme cam kaide, sarı metal ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 26cm, Yükseklik 60cm' },
         ],
@@ -354,7 +354,7 @@ const PRODUCTS = {
 
         El dikişiyle şekillenen bu özel parça, hem dekoratif bir vurgu hem de huzurlu bir aydınlatma sunar. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Dantel işlemeli kumaş, altın varak' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, ahşap.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 31cm, Yükseklik 63cm' },
         ],
@@ -381,7 +381,7 @@ const PRODUCTS = {
         Amber tonlarında cam kaide, ışıkla birlikte sıcak ve derin bir parıltı oluşturur. Dikey dokulu yüzeyi, ışığı kırarak mekana yumuşak bir yayılım kazandırır.
         Desenin yoğun karakteri ile camın sade ama güçlü formu dengeli bir uyum içindedir. Bu birliktelik, ürünü sadece bir aydınlatma değil, bulunduğu ortamda kolayca fark edilen bir odak objesi haline getirir. Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'William Morris Strawberry Thief kumaş, Amber cam kaide' },
+            { icon: '🧵', label: 'Malzeme', value: 'William Morris Strawberry Thief kumaş, üfleme amber cam kaide, sarı metal ayak.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 45cm, Yükseklik 70cm' },
         ],
@@ -408,7 +408,7 @@ const PRODUCTS = {
 
         Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Özel baskı kumaş, İroko ağacı kaide' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, iroko ağaç.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
         ],
@@ -434,7 +434,7 @@ const PRODUCTS = {
 
         Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Kadife doku, toprak tonları, İroko ağacı kaide' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, iroko ağaç.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
         ],
@@ -462,7 +462,7 @@ const PRODUCTS = {
 
         Siparişe göre kişiye özel tasarlanabilir.`,
         features: [
-            { icon: '🧵', label: 'Malzeme', value: 'Doğal lifli kumaş, rustik detaylar, İroko ağacı kaide' },
+            { icon: '🧵', label: 'Malzeme', value: 'Kumaş, iroko ağaç.' },
             { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm' },
         ],
