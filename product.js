@@ -80,6 +80,11 @@ document.addEventListener('DOMContentLoaded', () => {
         featuresUl.appendChild(li);
     });
 
+    // Sabit Gönderim Bilgisi
+    const shippingLi = document.createElement('li');
+    shippingLi.innerHTML = `<span class="feat-icon">🌍</span><span class="feat-label">Gönderim</span><span class="feat-value">World wide shipping</span>`;
+    featuresUl.appendChild(shippingLi);
+
     // ---------- Galeri (Crossfade Slider) ----------
     const imgA = document.getElementById('imgA');
     const imgB = document.getElementById('imgB');
