@@ -38,12 +38,12 @@
           </div>
           <nav class="drawer-nav">
 
-               <a href="#hero" class="drawer-link">Ana Sayfa</a>
+               <a href="#hero" class="drawer-link" data-i18n="nav_home">Ana Sayfa</a>
 
-               <a href="#behind-the-scenes" class="drawer-link">Hikayemiz</a>
+               <a href="#behind-the-scenes" class="drawer-link" data-i18n="nav_manifesto">Hikayemiz</a>
 
                 <div class="drawer-item">
-                    <div class="drawer-link collection-trigger">Koleksiyon</div>
+                    <div class="drawer-link collection-trigger" data-i18n="nav_collection">Koleksiyon</div>
                     <div class="submenu">
                          <a href="#collection-minimalist" class="submenu-link">Minimalist</a>
                          <a href="#collection-maksimalist" class="submenu-link">Maksimalist</a>
@@ -67,7 +67,7 @@
           </div>
 
           <div class="nav-right nav-utilities">
-               <span class="lang-switch">TR | EN</span>
+               <span class="lang-switch"><span id="langTr" style="cursor:pointer; font-weight:bold;">TR</span> | <span id="langEn" style="cursor:pointer;">EN</span></span>
                <div class="night-toggle-wrapper" title="Gece Atmosferi">
                     <label class="switch micro-switch">
                          <input type="checkbox" id="navbarNightToggle">
@@ -93,7 +93,7 @@
           </div>
 
           <div class="hero-content">
-               <a href="#collection" class="btn-classic"
+               <a href="#collection" class="btn-classic" data-i18n="hero_btn"
                     onclick="if(window.filterProducts) filterProducts('all')">Koleksiyonu İncele</a>
           </div>
 
@@ -124,22 +124,22 @@
                          <button id="videoVolumeBtn" class="video-volume-btn" aria-label="Sesi Aç/Kapat">
                               <span id="volumeIcon">🔇</span>
                          </button>
-                    </div>
-               </div>
-                <div class="bts-text">
-                    <span class="category-tag">OUR PHILOSOPHY</span>
-                    <h2>Özel Üretim Abajurlar</h2>
-                    <p class="philosophy-subtitle">Zanaatın Onuru ve Sessiz Bir İsyan</p>
+                        <div class="bts-text">
+                    <span class="category-tag" data-i18n="phil_tag">OUR PHILOSOPHY</span>
+                    <h2 data-i18n="phil_title">Özel Üretim Abajurlar</h2>
+                    <p class="philosophy-subtitle" data-i18n="phil_subtitle">Zanaatın Onuru ve Sessiz Bir İsyan</p>
                     <div id="btsExpandable" class="bts-expandable">
-                        <p>Bir zamanlar İstanbul'un arka sokaklarında, çarşılarında, hanlarında ustalar vardı. Yorgancılar; pamuğu elle atarak yorgan doldururdu, her katman bir sabır dersi gibiydi. Terzi dükkânlarında makine sesi değil, iğnenin kumaşa işlediği o sessiz ritim egemendi. Nalbantlar atın nalını döverken demirin altın kıvılcım saçması, Kapalıçarşı'nın loş köşelerinde bakırcıların çekici her vurduğunda sesten şekil doğardı. Kandil ustası fitili elle büker, lehimci tenekeyi dili gibi işlerdi. Bu zanaatkârlar sadece nesne üretmiyordu; elleriyle zaman ve anlam yaratıyorlardı.</p>
-                        <p>Bugün o dükkânların çoğu yok. Kapılar kapandı, ustalar geçti. Geride yalnızca birkaç soluk iz kaldı. Ama biz o emeği, o sabrı, o ışığı yeniden yakmak istiyoruz.</p>
-                        <p><strong>Elishi</strong>, işte bu özlemden doğdu. Hızlı üretimin ve anlık tüketimin egemen olduğu bir dünyada sessiz bir isyan olarak var oluyoruz. Biz abajur üretiyoruz; ama aslında kaybolan bir ritüeli, el emeğinin kıymetini ve zanaatin onurunu yeniden hayata taşıyoruz.</p>
-                        <p>Her Elishi abajuru, kumaş seçiminden nakışlarına, kaidelerin biçimlendirilmesinden aksesuarların seçimine kadar hiçbiri aceleyle değil, itinayla yapılıyor. Zira güzel olan, hızla üretilmez. Farklı zevklere ve kişisel hikayelere değer veriyoruz. Her Elishi parçası, sipariş eden kişiyle birlikte şekilleniyor; hayatınızın parçası olacak bir ışık kaynağı, sizin için özenle tasarlanıyor.</p>
-                        <p>Bir Elishi abajuru yaşam alanınıza girdiğinde, yalnızca bir ışık taşımaz. Yorgancının sabrını, terzinin hassasiyetini, o eski İstanbul'un el emeğine duyulan saygıyı da beraberinde getirir. Işık yanar; ama arkasında bir hikâye, bir alın teri ve bir ustanın dokunuşu vardır.</p>
-                        <p style="font-weight:600;">Elishi için üretmek sadece bir sonuç değil, paylaşılan bir yolculuktur. Her parça, hızlı dünyanın temposuna karşı bir duruş; yok olmakta olan zanaatkârlık ruhunu bir kor gibi canlı tutma çabasıdır.</p>
+                        <p data-i18n="phil_p1">Bir zamanlar İstanbul'un arka sokaklarında, çarşılarında, hanlarında ustalar vardı. Yorgancılar; pamuğu elle atarak yorgan doldururdu, her katman bir sabır dersi gibiydi. Terzi dükkânlarında makine sesi değil, iğnenin kumaşa işlediği o sessiz ritim egemendi. Nalbantlar atın nalını döverken demirin altın kıvılcım saçması, Kapalıçarşı'nın loş köşelerinde bakırcıların çekici her vurduğunda sesten şekil doğardı. Kandil ustası fitili elle büker, lehimci tenekeyi dili gibi işlerdi. Bu zanaatkârlar sadece nesne üretmiyordu; elleriyle zaman ve anlam yaratıyorlardı.</p>
+                        <p data-i18n="phil_p2">Bugün o dükkânların çoğu yok. Kapılar kapandı, ustalar geçti. Geride yalnızca birkaç soluk iz kaldı. Ama biz o emeği, o sabrı, o ışığı yeniden yakmak istiyoruz.</p>
+                        <p data-i18n="phil_p3"><strong>Elishi</strong>, işte bu özlemden doğdu. Hızlı üretimin ve anlık tüketimin egemen olduğu bir dünyada sessiz bir isyan olarak var oluyoruz. Biz abajur üretiyoruz; ama aslında kaybolan bir ritüeli, el emeğinin kıymetini ve zanaatin onurunu yeniden hayata taşıyoruz.</p>
+                        <p data-i18n="phil_p4">Her Elishi abajuru, kumaş seçiminden nakışlarına, kaidelerin biçimlendirilmesinden aksesuarların seçimine kadar hiçbiri aceleyle değil, itinayla yapılıyor. Zira güzel olan, hızla üretilmez. Farklı zevklere ve kişisel hikayelere değer veriyoruz. Her Elishi parçası, sipariş eden kişiyle birlikte şekilleniyor; hayatınızın parçası olacak bir ışık kaynağı, sizin için özenle tasarlanıyor.</p>
+                        <p data-i18n="phil_p5">Bir Elishi abajuru yaşam alanınıza girdiğinde, yalnızca bir ışık taşımaz. Yorgancının sabrını, terzinin hassasiyetini, o eski İstanbul'un el emeğine duyulan saygıyı da beraberinde getirir. Işık yanar; ama arkasında bir hikâye, bir alın teri ve bir ustanın dokunuşu vardır.</p>
+                        <p style="font-weight:600;" data-i18n="phil_p6">Elishi için üretmek sadece bir sonuç değil, paylaşılan bir yolculuktur. Her parça, hızlı dünyanın temposuna karşı bir duruş; yok olmakta olan zanaatkârlık ruhunu bir kor gibi canlı tutma çabasıdır.</p>
                     </div>
-                    <button id="btsReadMore" class="bts-read-more">devamı...</button>
+                    <button id="btsReadMore" class="bts-read-more" data-i18n="read_more">devamı...</button>
                     <a href="https://www.shopier.com/elishiconcept" target="_blank" rel="noopener noreferrer" class="btn-classic-dark"
+                         style="margin-top: 1rem;" data-i18n="buy_shopier">Shopier sayfamızı ziyaret edin</a>
+                </div>f="https://www.shopier.com/elishiconcept" target="_blank" rel="noopener noreferrer" class="btn-classic-dark"
                          style="margin-top: 1rem;">Shopier sayfamızı ziyaret edin</a>
                 </div>
           </div>
@@ -148,8 +148,8 @@
      <!-- KOLEKSİYON ALANI (Dinamik Filtrelemeli) -->
      <section id="collection" class="collection-section">
           <div class="collection-header">
-               <h2 id="collection-title" class="section-title">Koleksiyonlar</h2>
-               <p id="collection-subtitle" class="section-subtitle">Tüm zamansız parçalar bir arada</p>
+               <h2 id="collection-title" class="section-title" data-i18n="filter_all">Koleksiyonlar</h2>
+               <p id="collection-subtitle" class="section-subtitle" data-i18n="hero_subtitle">Tüm zamansız parçalar bir arada</p>
           </div>
 
           <div id="product-grid" class="grid-container">
@@ -366,7 +366,7 @@
           </div>
 
           <div id="all-products-btn" style="text-align: center; margin-top: 5rem; display: none;">
-               <a href="javascript:void(0)" onclick="filterProducts('all')" class="btn-classic-outline">Tümünü Gör</a>
+               <a href="javascript:void(0)" onclick="filterProducts('all')" class="btn-classic-outline" data-i18n="filter_all">Tümünü Gör</a>
           </div>
      </section>
  
@@ -375,12 +375,12 @@
            <div class="guide-container">
                 <div class="guide-content">
                      <div class="guide-item">
-                          <h3>Kumaş Abajur Seçimi Nasıl Yapılır?</h3>
-                          <p>Doğru kumaş seçimi, mekanın atmosferini belirleyen en kritik unsurdur. İpek ve ince dokulu kumaşlar ışığı daha parlak ve berrak yansıtırken, kadife veya kalın keten dokular daha dramatik ve loş bir ambiyans yaratır. Elishi Concept koleksiyonlarında, her mekana uygun farklı doku ve geçirgenlikte kumaş seçenekleri sunuyoruz.</p>
+                          <h3 data-i18n="guide_item1_title">Kumaş Abajur Seçimi Nasıl Yapılır?</h3>
+                          <p data-i18n="guide_item1_p">Doğru kumaş seçimi, mekanın atmosferini belirleyen en kritik unsurdur. İpek ve ince dokulu kumaşlar ışığı daha parlak ve berrak yansıtırken, kadife veya kalın keten dokular daha dramatik ve loş bir ambiyans yaratır. Elishi Concept koleksiyonlarında, her mekana uygun farklı doku ve geçirgenlikte kumaş seçenekleri sunuyoruz.</p>
                      </div>
                      <div class="guide-item">
-                          <h3>Dekoratif Aydınlatma Fikirleri</h3>
-                          <p>Aydınlatma sadece bir ihtiyaç değil, mekanın ruhunu tamamlayan bir aksesuardır. Retro tasarımları modern mobilyalarla kontrast oluşturacak şekilde kullanabilir veya maksimalist parçalarla odanızda güçlü bir odak noktası yaratabilirsiniz. Köşe aydınlatmaları, okuma köşeleri ve yatak başı detayları için özel tasarım abajurlarımız benzersiz birer seçenektir.</p>
+                          <h3 data-i18n="guide_item2_title">Dekoratif Aydınlatma Fikirleri</h3>
+                          <p data-i18n="guide_item2_p">Aydınlatma sadece bir ihtiyaç değil, mekanın ruhunu tamamlayan bir aksesuardır. Retro tasarımları modern mobilyalarla kontrast oluşturacak şekilde kullanabilir veya maksimalist parçalarla odanızda güçlü bir odak noktası yaratabilirsiniz. Köşe aydınlatmaları, okuma köşeleri ve yatak başı detayları için özel tasarım abajurlarımız benzersiz birer seçenektir.</p>
                      </div>
                 </div>
            </div>
@@ -390,7 +390,7 @@
      <footer id="contact" class="minimal-footer">
           <div class="footer-content-centered">
                <a href="#hero" aria-label="Başa Dön" style="display: inline-block; cursor: pointer;"><img loading="lazy" src="images/logo.png?v=4" alt="Elishi Concept Logosu" class="minimal-footer-logo"></a>
-               <p class="minimal-copyright">&copy; 2026 ELISHI CONCEPT</p>
+               <p class="minimal-copyright">&copy; 2026 ELISHI CONCEPT - <span data-i18n="footer_rights">Tüm hakları saklıdır.</span></p>
                <div class="footer-social">
                     <a href="https://www.instagram.com/elishiconcept/" target="_blank" rel="noopener noreferrer" class="footer-instagram-link">
                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -412,16 +412,16 @@
           </div>
           <div class="contact-popup" id="contactPopup">
                <div class="contact-popup-header">
-                    <h3>Elishi 7/24</h3>
+                    <h3 data-i18n="contact_title">Elishi 7/24</h3>
                </div>
                <div class="contact-links">
                     <a href="https://wa.me/905325754398?text=Merhaba, bilgi almak istiyorum..." target="_blank" rel="noopener noreferrer" class="contact-link-item">
                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                         WhatsApp İletişim
+                         <span data-i18n="contact_whatsapp">WhatsApp İletişim</span>
                     </a>
                     <a href="https://www.instagram.com/elishiconcept/" target="_blank" rel="noopener noreferrer" class="contact-link-item">
                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                         Instagram DM
+                         <span data-i18n="contact_instagram">Instagram DM</span>
                     </a>
                </div>
           </div>
@@ -431,6 +431,7 @@
      </div>
 
      <!-- Scripts -->
+     <script src="translations.js"></script>
      <script src="script.js?v=107"></script>
 </body>
 

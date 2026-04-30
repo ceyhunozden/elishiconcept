@@ -1,5 +1,57 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // --- LANGUAGE LOGIC ---
+    const langTrBtn = document.getElementById('langTr');
+    const langEnBtn = document.getElementById('langEn');
+    
+    // Retrieve saved language or default to 'tr'
+    window.currentLang = localStorage.getItem('elishi_lang') || 'tr';
+
+    function setLanguage(lang) {
+        window.currentLang = lang;
+        localStorage.setItem('elishi_lang', lang);
+        
+        // Update UI buttons
+        if (langTrBtn && langEnBtn) {
+            if (lang === 'tr') {
+                langTrBtn.style.fontWeight = 'bold';
+                langEnBtn.style.fontWeight = 'normal';
+            } else {
+                langTrBtn.style.fontWeight = 'normal';
+                langEnBtn.style.fontWeight = 'bold';
+            }
+        }
+
+        // Apply translations
+        const elements = document.querySelectorAll('[data-i18n]');
+        elements.forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (typeof TRANSLATIONS !== 'undefined' && TRANSLATIONS[lang] && TRANSLATIONS[lang][key]) {
+                el.innerHTML = TRANSLATIONS[lang][key];
+            }
+        });
+
+        // Trigger an event so other scripts (like product.js) can update
+        window.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang: lang } }));
+    }
+
+    // Event listeners
+    if (langTrBtn) {
+        langTrBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            setLanguage('tr');
+        });
+    }
+    if (langEnBtn) {
+        langEnBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            setLanguage('en');
+        });
+    }
+
+    // Initialize language
+    setLanguage(window.currentLang);
+
     // Drawer Menu Logic
     const hamburgerBtn = document.getElementById('hamburgerBtn');
     const closeBtn = document.getElementById('closeBtn');
@@ -98,15 +150,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update Text
         const titles = {
-            all: { t: "Koleksiyonlarımız", s: "Tüm zamansız parçalar bir arada" },
-            minimalist: { t: "Minimalist Koleksiyon", s: "Sade ve modern dokunuşlar" },
-            maksimalist: { t: "Maksimalist Koleksiyon", s: "Görkemli ve iddialı detaylar" },
-            'boho-chic': { t: "Boho Chic Koleksiyon", s: "Özgür ve sanatsal ruh" },
-            timeless: { t: "Timeless Koleksiyon", s: "Zamansız ve klasik tasarımlar" },
-            retro: { t: "Retro Koleksiyon", s: "Nostaljik dokunuşlar ve vintage ruhu" }
+            tr: {
+                all: { t: "Koleksiyonlarımız", s: "Tüm zamansız parçalar bir arada" },
+                minimalist: { t: "Minimalist Koleksiyon", s: "Sade ve modern dokunuşlar" },
+                maksimalist: { t: "Maksimalist Koleksiyon", s: "Görkemli ve iddialı detaylar" },
+                'boho-chic': { t: "Boho Chic Koleksiyon", s: "Özgür ve sanatsal ruh" },
+                timeless: { t: "Timeless Koleksiyon", s: "Zamansız ve klasik tasarımlar" },
+                retro: { t: "Retro Koleksiyon", s: "Nostaljik dokunuşlar ve vintage ruhu" }
+            },
+            en: {
+                all: { t: "Our Collections", s: "All timeless pieces together" },
+                minimalist: { t: "Minimalist Collection", s: "Simple and modern touches" },
+                maksimalist: { t: "Maximalist Collection", s: "Glorious and assertive details" },
+                'boho-chic': { t: "Boho Chic Collection", s: "Free and artistic spirit" },
+                timeless: { t: "Timeless Collection", s: "Timeless and classic designs" },
+                retro: { t: "Retro Collection", s: "Nostalgic touches and vintage spirit" }
+            }
         };
 
-        const content = titles[category] || titles.all;
+        const currentTitles = titles[window.currentLang || 'tr'];
+        const content = currentTitles[category] || currentTitles.all;
         title.style.opacity = '0';
         subtitle.style.opacity = '0';
 
@@ -239,9 +302,9 @@ document.addEventListener('DOMContentLoaded', () => {
             btsExpandable.classList.toggle('expanded');
             
             if (isExpanding) {
-                btsReadMore.textContent = 'daha az...';
+                btsReadMore.textContent = window.currentLang === 'en' ? 'show less...' : 'daha az...';
             } else {
-                btsReadMore.textContent = 'devamı...';
+                btsReadMore.textContent = window.currentLang === 'en' ? 'read more...' : 'devamı...';
                 // Scroll back to the top of the section when closing
                 document.getElementById('behind-the-scenes').scrollIntoView({ behavior: 'smooth' });
                 // Re-calculate truncation after collapse
@@ -319,6 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // --- WELCOME BUBBLE LOGIC ---
         const welcomeBubble = document.getElementById('welcomeBubble');
         if (welcomeBubble) {
+            welcomeBubble.innerHTML = window.currentLang === 'en' ? 'Hello, how can I help you?' : 'Merhaba, size nasıl yardımcı olabilirim?';
             // Show after a short delay (1s) and hide after 3s
             setTimeout(() => {
                 welcomeBubble.classList.add('show');

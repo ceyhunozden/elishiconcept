@@ -34,9 +34,9 @@
             <button id="closeBtn" class="close-btn">&times;</button>
         </div>
         <nav class="drawer-nav">
-            <a href="index.html#hero" class="drawer-link">Ana Sayfa</a>
-            <a href="index.html#behind-the-scenes" class="drawer-link">Hikayemiz</a>
-            <a href="index.html#collection" class="drawer-link">Koleksiyon</a>
+            <a href="index.html#hero" class="drawer-link" data-i18n="nav_home">Ana Sayfa</a>
+            <a href="index.html#behind-the-scenes" class="drawer-link" data-i18n="nav_manifesto">Hikayemiz</a>
+            <a href="index.html#collection" class="drawer-link" data-i18n="nav_collection">Koleksiyon</a>
         </nav>
     </div>
 
@@ -51,7 +51,7 @@
         </div>
 
         <div class="nav-right nav-utilities">
-            <span class="lang-switch">TR | EN</span>
+            <span class="lang-switch"><span id="langTr" style="cursor:pointer; font-weight:bold;">TR</span> | <span id="langEn" style="cursor:pointer;">EN</span></span>
             <div class="night-toggle-wrapper" title="Gece Atmosferi">
                 <label class="switch micro-switch">
                     <input type="checkbox" id="navbarNightToggle">
@@ -64,9 +64,9 @@
 
     <!-- Breadcrumb -->
     <nav class="breadcrumb-bar">
-        <a href="index.html">Ana Sayfa</a>
+        <a href="index.html" data-i18n="bc_home">Ana Sayfa</a>
         <span class="bc-sep">›</span>
-        <a href="index.html#collection">Koleksiyonlar</a>
+        <a href="index.html#collection" data-i18n="filter_all">Koleksiyonlar</a>
         <span class="bc-sep">›</span>
         <a id="breadcrumbCollection" href="#" style="text-transform: uppercase;"></a>
         <span class="bc-sep" id="bcSepCollection">›</span>
@@ -115,25 +115,25 @@
 
             <!-- Hikaye -->
             <div class="product-story">
-                <h3>Ürün Hikayesi</h3>
+                <h3 data-i18n="prod_story">Ürün Hikayesi</h3>
                 <p id="productStory"></p>
             </div>
 
             <!-- Özellikler -->
             <div class="product-features">
-                <h3>Özellikler</h3>
+                <h3 data-i18n="prod_features">Özellikler</h3>
                 <ul id="productFeatures"></ul>
             </div>
 
             <!-- Sipariş Butonu -->
             <div class="product-actions">
-                <a id="shopierBtn" href="https://www.shopier.com/elishiconcept" target="_blank" rel="noopener noreferrer" class="btn-order-primary">
+                <a id="shopierBtn" href="https://www.shopier.com/elishiconcept" target="_blank" rel="noopener noreferrer" class="btn-order-primary" data-i18n="buy_shopier">
                     Shopier'den Sipariş Ver
                 </a>
             </div>
 
             <!-- Geri dön linki -->
-            <a href="index.html#collection" class="product-back-link">
+            <a href="index.html#collection" class="product-back-link" data-i18n="back_collection">
                 ← Koleksiyona Dön
             </a>
         </div>
@@ -144,7 +144,7 @@
     <footer id="contact" class="minimal-footer">
         <div class="footer-content-centered">
             <a href="index.html#hero" aria-label="Ana Sayfa"><img loading="lazy" src="images/logo.png?v=3" alt="Elishi Concept Logosu" class="minimal-footer-logo"></a>
-            <p class="minimal-copyright">&copy; 2026 ELISHI CONCEPT</p>
+            <p class="minimal-copyright">&copy; 2026 ELISHI CONCEPT - <span data-i18n="footer_rights">Tüm hakları saklıdır.</span></p>
             <div class="footer-social">
                 <a href="https://www.instagram.com/elishiconcept/" target="_blank" rel="noopener noreferrer" class="footer-instagram-link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -166,16 +166,16 @@
         </div>
         <div class="contact-popup" id="contactPopup">
             <div class="contact-popup-header">
-                <h3>Elishi 7/24</h3>
+                <h3 data-i18n="contact_title">Elishi 7/24</h3>
             </div>
             <div class="contact-links">
                 <a href="https://wa.me/905325754398?text=Merhaba, bilgi almak istiyorum..." target="_blank" rel="noopener noreferrer" class="contact-link-item">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                    WhatsApp İletişim
+                    <span data-i18n="contact_whatsapp">WhatsApp İletişim</span>
                 </a>
                 <a href="https://www.instagram.com/elishiconcept/" target="_blank" rel="noopener noreferrer" class="contact-link-item">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                    Instagram DM
+                    <span data-i18n="contact_instagram">Instagram DM</span>
                 </a>
             </div>
         </div>
@@ -184,6 +184,7 @@
         </button>
     </div>
 
+    <script src="translations.js"></script>
     <script src="products.js"></script>
     <script src="product.js"></script>
     <script src="script.js"></script>

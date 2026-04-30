@@ -27,28 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
 
     // ---------- Sayfa başlığı ve breadcrumb ----------
-    document.title = p.name + ' | El Yapımı Tasarım – Elishi Concept';
-    
-    // Extract collection name and set link
-    const subParts = p.subtitle.split('·');
-    if (subParts.length > 1) {
-        const fullCollName = subParts[1].replace('Koleksiyon', '').trim();
-        const bcColl = document.getElementById('breadcrumbCollection');
-        bcColl.textContent = fullCollName;
-        
-        let filterId = fullCollName.toLowerCase().replace(/\s+/g, '-');
-        bcColl.href = `index.html#collection-${filterId}`;
-    } else {
-        document.getElementById('breadcrumbCollection').style.display = 'none';
-        document.getElementById('bcSepCollection').style.display = 'none';
-    }
-
+    document.title = p.name + ' | Elishi Concept';
     document.getElementById('breadcrumbName').textContent = p.name;
-
-    // ---------- Ürün bilgileri ----------
     document.getElementById('productName').textContent = p.name;
-    document.getElementById('productSubtitle').textContent = p.subtitle;
-    document.getElementById('productStory').textContent = p.story;
     document.getElementById('shopierBtn').href = p.shopier;
 
     const tagEl = document.getElementById('productTag');
@@ -56,34 +37,71 @@ document.addEventListener('DOMContentLoaded', () => {
         tagEl.textContent = p.tag;
     }
 
-    // ---------- Özellikler listesi ----------
-    const featuresUl = document.getElementById('productFeatures');
-    p.features.forEach(f => {
-        const li = document.createElement('li');
+    function renderLanguage(lang) {
+        const subtitle = lang === 'en' && p.subtitle_en ? p.subtitle_en : p.subtitle;
         
-        const sIcon = document.createElement('span');
-        sIcon.className = 'feat-icon';
-        sIcon.textContent = f.icon;
-        
-        const sLabel = document.createElement('span');
-        sLabel.className = 'feat-label';
-        sLabel.textContent = f.label;
-        
-        const sValue = document.createElement('span');
-        sValue.className = 'feat-value';
-        sValue.textContent = f.value;
-        
-        li.appendChild(sIcon);
-        li.appendChild(sLabel);
-        li.appendChild(sValue);
-        
-        featuresUl.appendChild(li);
-    });
+        // Extract collection name and set link
+        const subParts = subtitle.split('·');
+        if (subParts.length > 1) {
+            const fullCollName = subParts[1].replace('Koleksiyon', '').replace('Collection', '').trim();
+            const bcColl = document.getElementById('breadcrumbCollection');
+            bcColl.textContent = fullCollName;
+            
+            // Generate link from Turkish subtitle to keep the filter ID consistent
+            const trSubParts = p.subtitle.split('·');
+            let trCollName = trSubParts[1].replace('Koleksiyon', '').trim();
+            let filterId = trCollName.toLowerCase().replace(/\s+/g, '-');
+            bcColl.href = `index.html#collection-${filterId}`;
+        } else {
+            document.getElementById('breadcrumbCollection').style.display = 'none';
+            document.getElementById('bcSepCollection').style.display = 'none';
+        }
 
-    // Sabit Gönderim Bilgisi
-    const shippingLi = document.createElement('li');
-    shippingLi.innerHTML = `<span class="feat-icon">🌍</span><span class="feat-label">Gönderim</span><span class="feat-value">World wide shipping</span>`;
-    featuresUl.appendChild(shippingLi);
+        // ---------- Ürün bilgileri ----------
+        document.getElementById('productSubtitle').textContent = subtitle;
+        
+        let storyHTML = lang === 'en' && p.story_en ? p.story_en : p.story;
+        document.getElementById('productStory').innerHTML = storyHTML.replace(/\n/g, '<br>');
+
+        // ---------- Özellikler listesi ----------
+        const featuresUl = document.getElementById('productFeatures');
+        featuresUl.innerHTML = '';
+        p.features.forEach(f => {
+            const li = document.createElement('li');
+            
+            const sIcon = document.createElement('span');
+            sIcon.className = 'feat-icon';
+            sIcon.textContent = f.icon;
+            
+            const sLabel = document.createElement('span');
+            sLabel.className = 'feat-label';
+            sLabel.textContent = lang === 'en' && f.label_en ? f.label_en : f.label;
+            
+            const sValue = document.createElement('span');
+            sValue.className = 'feat-value';
+            sValue.textContent = lang === 'en' && f.value_en ? f.value_en : f.value;
+            
+            li.appendChild(sIcon);
+            li.appendChild(sLabel);
+            li.appendChild(sValue);
+            
+            featuresUl.appendChild(li);
+        });
+
+        // Sabit Gönderim Bilgisi
+        const shippingLi = document.createElement('li');
+        const shipLabel = lang === 'en' ? 'Shipping' : 'Gönderim';
+        shippingLi.innerHTML = `<span class="feat-icon">🌍</span><span class="feat-label">${shipLabel}</span><span class="feat-value">World wide shipping</span>`;
+        featuresUl.appendChild(shippingLi);
+    }
+
+    // İlk yükleme
+    renderLanguage(window.currentLang || 'tr');
+
+    // Dışarıdan tetiklenen dil değişimi
+    window.addEventListener('languageChanged', (e) => {
+        renderLanguage(e.detail.lang);
+    });
 
     // ---------- Galeri (Crossfade Slider) ----------
     const imgA = document.getElementById('imgA');
