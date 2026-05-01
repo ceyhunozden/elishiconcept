@@ -170,7 +170,7 @@ const PRODUCTS = {
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay1.webp',
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay2.webp',
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay3.webp',
-            'images/mistik-geleneksel-nakisli-kumas-abajur-detay4.webp',
+            'images/mistik-geleneksel-nakisli-kumas-abajur-detay4.webp?v=2',
             'images/mistik-geleneksel-nakisli-kumas-abajur-detay5.webp'
         ],
         story: `Stilize hayvan ve bitki figürleriyle, yüzeyi tamamen dolduran, canlı renkleriyle bir hikaye anlatan Meksika halk nakışı ile hepsi elde özenle yapılmıştır. Elde işlendiği için herbiri küçük farklılıklar içerir ve sınırlı sayıda üretilmiştir. Renkli Ponpon detayı ise bu tasarımlara ritim ekler. Her biri elde üretildi. Siparişe göre renk ve ölçü uyarlanabilir.`,
