@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
 
     // ---------- Sayfa başlığı ve breadcrumb ----------
-    document.title = p.name + ' | Elishi Concept';
+    document.title = p.name + ' | Handmade Lampshade | Elishi Concept';
     document.getElementById('breadcrumbName').textContent = p.name;
     document.getElementById('productName').textContent = p.name;
     document.getElementById('shopierBtn').href = p.shopier;
