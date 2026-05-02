@@ -18,7 +18,7 @@ body:not(.night-mode) .nav-utilities {
 }
 
 body:not(.night-mode) .logo img {
-    filter: brightness(0) opacity(0.8);
+    filter: brightness(0) opacity(0.8) !important;
 }
 
 .breadcrumb-bar {
