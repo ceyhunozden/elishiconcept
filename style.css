@@ -886,6 +886,8 @@ body.night-mode .minimal-copyright {
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 10;
 }
 
 .footer-instagram-link {
