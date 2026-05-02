@@ -10,6 +10,17 @@
     background: transparent !important;
 }
 
+/* Light mode'da (gece modu kapalıyken) logo ve butonları koyu yap */
+body:not(.night-mode) .navbar,
+body:not(.night-mode) .hamburger-btn,
+body:not(.night-mode) .nav-utilities {
+    color: var(--text-main) !important;
+}
+
+body:not(.night-mode) .logo img {
+    filter: invert(1) opacity(0.8);
+}
+
 .breadcrumb-bar {
     position: relative;
     z-index: 100;
