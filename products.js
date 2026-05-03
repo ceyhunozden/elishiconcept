@@ -31,7 +31,7 @@ const PRODUCTS = {
         Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, antik sarı metal ayak.', label_en: 'Material', value_en: 'Fabric, antique yellow metal base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 4W Filament LED Krom Aynalı Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 4W Filament LED Half Mirrored Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 71cm', label_en: 'Size', value_en: 'Width 33cm, Height 71cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -69,7 +69,7 @@ const PRODUCTS = {
         It is a completely original and single production. Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, antik sarı pirinç ayak.', label_en: 'Material', value_en: 'Fabric, antique yellow brass base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Filament LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 6W Filament LED Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 30cm, Yükseklik 56cm', label_en: 'Size', value_en: 'Width 30cm, Height 56cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -100,7 +100,7 @@ const PRODUCTS = {
         Each one is handmade. Color and size can be adapted to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Krem/Beyaz kumaş, seramik ayak.', label_en: 'Material', value_en: 'Cream/White fabric, ceramic base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W', label_en: 'Socket Type', value_en: 'E27, max 60W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Opal LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz, Yumuşak Işık', label_en: 'Socket Type', value_en: 'E27 6W Opal LED Mini Globe Bulb (G45) – 2700K Warm White, Soft Light' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 27cm, Yükseklik 70cm', label_en: 'Size', value_en: 'Width 27cm, Height 70cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -128,7 +128,7 @@ const PRODUCTS = {
         With its minimal form and neutral tones, it carries both a modern and timeless character. It is included in the space not just as a light source, but also as a serene object. Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Pvc, seramik ayak.', label_en: 'Material', value_en: 'PVC, ceramic base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Opal LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz, Yumuşak Işık', label_en: 'Socket Type', value_en: 'E27 6W Opal LED Mini Globe Bulb (G45) – 2700K Warm White, Soft Light' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 35cm, Yükseklik 65cm', label_en: 'Size', value_en: 'Width 35cm, Height 65cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -210,7 +210,7 @@ const PRODUCTS = {
         When the light turns on, all layers combine, the warm tones filtering through the fabric and the movement of the tassel create an undeniable stage effect in its environment. Being a completely special design and single production, it carries a strong signature quality for those seeking originality. It is completely original and a single production. Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Özel kumaş, degrade püsküller, metal ayak.', label_en: 'Material', value_en: 'Custom fabric, gradient tassels, metal base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Filament LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 6W Filament LED Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 80cm', label_en: 'Size', value_en: 'Width 25cm, Height 80cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -236,7 +236,7 @@ const PRODUCTS = {
         story_en: `It emits a soft light into the space with its warm-toned lines. In harmony with its base that complements its wabi-sabi style hat. The colorful Pompon detail adds a distinct rhythm to these designs. Each one is handmade. Color and size can be adapted to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, seramik ayak.', label_en: 'Material', value_en: 'Fabric, ceramic base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W', label_en: 'Socket Type', value_en: 'E27, max 60W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Filament LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 6W Filament LED Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm', label_en: 'Size', value_en: 'Width 33cm, Height 42cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -263,7 +263,7 @@ const PRODUCTS = {
         story_en: `It emits a soft light into the space with its warm-toned lines. In harmony with its base that complements its wabi-sabi style hat. The colorful Pompon detail adds a distinct rhythm to these designs. Each one is handmade. Color and size can be adapted to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, seramik ayak.', label_en: 'Material', value_en: 'Fabric, ceramic base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Filament LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 6W Filament LED Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 42cm', label_en: 'Size', value_en: 'Width 33cm, Height 42cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -294,7 +294,7 @@ const PRODUCTS = {
         Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, ahşap.', label_en: 'Material', value_en: 'Fabric, wood.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 4W Filament LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 4W Filament LED Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 56cm', label_en: 'Size', value_en: 'Width 32cm, Height 56cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -318,7 +318,7 @@ const PRODUCTS = {
         story_en: `Inspired by the Orion constellation, Orion builds a nostalgic bridge in modern spaces with its strong lines and timeless form. Its sharp and clear stance is balanced by the warmth of dim light.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, ahşap.', label_en: 'Material', value_en: 'Fabric, wood.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W', label_en: 'Socket Type', value_en: 'E27, max 60W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 4W Filament LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 4W Filament LED Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 32cm, Yükseklik 61cm', label_en: 'Size', value_en: 'Width 32cm, Height 61cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -354,7 +354,7 @@ const PRODUCTS = {
         Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'İpek kumaş, antik sarı metal ayak.', label_en: 'Material', value_en: 'Silk fabric, antique yellow metal base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 4W Filament LED Krom Aynalı Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 4W Filament LED Half Mirrored Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 33cm, Yükseklik 70cm', label_en: 'Size', value_en: 'Width 33cm, Height 70cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -385,7 +385,7 @@ const PRODUCTS = {
         Each one is handmade. Color and size can be adapted to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Krem/Beyaz kumaş, üfleme cam kaide, sarı metal ayak.', label_en: 'Material', value_en: 'Cream/White fabric, blown glass base, yellow metal base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Opal LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz, Yumuşak Işık', label_en: 'Socket Type', value_en: 'E27 6W Opal LED Mini Globe Bulb (G45) – 2700K Warm White, Soft Light' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 26cm, Yükseklik 60cm', label_en: 'Size', value_en: 'Width 26cm, Height 60cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -418,7 +418,7 @@ const PRODUCTS = {
         Shaped by hand stitching, this special piece offers both a decorative accent and peaceful lighting. Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, ahşap.', label_en: 'Material', value_en: 'Fabric, wood.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 4W Filament LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 4W Filament LED Mini Globe Bulb (G45) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 31cm, Yükseklik 63cm', label_en: 'Size', value_en: 'Width 31cm, Height 63cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -449,7 +449,7 @@ const PRODUCTS = {
         The intense character of the pattern and the simple yet strong form of the glass are in balanced harmony. This togetherness makes the product not just a lighting fixture, but an easily noticed focal object in its environment. Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'William Morris Strawberry Thief kumaş, üfleme amber cam kaide, sarı metal ayak.', label_en: 'Material', value_en: 'William Morris Strawberry Thief fabric, blown amber glass base, yellow metal base.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 4W Filament LED Krom Aynalı Ampul (G95) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 4W Filament LED Half Mirrored Bulb (G95) – 2700K Warm White' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 45cm, Yükseklik 70cm', label_en: 'Size', value_en: 'Width 45cm, Height 70cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -481,7 +481,7 @@ const PRODUCTS = {
         Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, iroko ağaç.', label_en: 'Material', value_en: 'Fabric, iroko wood.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 60W', label_en: 'Socket Type', value_en: 'E27, max 60W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Opal LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz, Yumuşak Işık', label_en: 'Socket Type', value_en: 'E27 6W Opal LED Mini Globe Bulb (G45) – 2700K Warm White, Soft Light' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm', label_en: 'Size', value_en: 'Width 40cm, Height 50cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -512,7 +512,7 @@ const PRODUCTS = {
         Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, iroko ağaç.', label_en: 'Material', value_en: 'Fabric, iroko wood.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Opal LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz, Yumuşak Işık', label_en: 'Socket Type', value_en: 'E27 6W Opal LED Mini Globe Bulb (G45) – 2700K Warm White, Soft Light' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm', label_en: 'Size', value_en: 'Width 40cm, Height 50cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -545,7 +545,7 @@ const PRODUCTS = {
         Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Kumaş, iroko ağaç.', label_en: 'Material', value_en: 'Fabric, iroko wood.' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Opal LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz, Yumuşak Işık', label_en: 'Socket Type', value_en: 'E27 6W Opal LED Mini Globe Bulb (G45) – 2700K Warm White, Soft Light' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm', label_en: 'Size', value_en: 'Width 40cm, Height 50cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
@@ -575,7 +575,7 @@ const PRODUCTS = {
         Can be custom designed to order.`,
         features: [
             { icon: '🧵', label: 'Malzeme', value: 'Desenli Retro kumaş, İroko ağacı kaide', label_en: 'Material', value_en: 'Patterned Retro fabric, Iroko wood base' },
-            { icon: '💡', label: 'Duy Tipi', value: 'E27, max 40W', label_en: 'Socket Type', value_en: 'E27, max 40W' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Opal LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz, Yumuşak Işık', label_en: 'Socket Type', value_en: 'E27 6W Opal LED Mini Globe Bulb (G45) – 2700K Warm White, Soft Light' },
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm', label_en: 'Size', value_en: 'Width 40cm, Height 50cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
