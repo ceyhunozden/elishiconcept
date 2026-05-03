@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Yapımı Abajur Modelleri | Handmade Bespoke Lampshades | Elishi Concept</title>
+    <!-- Performans Optimizasyonları: Preloads -->
+    <link rel="preload" href="images/logo.png?v=3" as="image" fetchpriority="high">
+    
     <link rel="icon" type="image/png" href="images/favicon.png?v=5">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png?v=5">
     <meta name="description" content="El yapımı kumaş abajur modelleri, vintage ve özel tasarım aydınlatmalar. Handmade bespoke lampshades, vintage lighting and unique lampstands. Discover Elishi Concept.">
@@ -31,7 +34,7 @@
     <!-- Yana Açılır Çekmece Menü -->
     <div id="sideDrawer" class="side-drawer">
         <div class="drawer-header">
-            <button id="closeBtn" class="close-btn">&times;</button>
+            <button id="closeBtn" class="close-btn" aria-label="Menüyü Kapat">&times;</button>
         </div>
         <nav class="drawer-nav">
             <a href="index.html#hero" class="drawer-link" data-i18n="nav_home">Ana Sayfa</a>
@@ -47,17 +50,17 @@
         </div>
 
         <div class="logo nav-center">
-            <a href="index.html#hero" aria-label="Ana Sayfa"><img src="images/logo.png?v=3" alt="Elishi Concept Logosu"></a>
+            <a href="index.html#hero" aria-label="Ana Sayfa"><img src="images/logo.png?v=3" alt="Elishi Concept Logosu" fetchpriority="high"></a>
         </div>
 
         <div class="nav-right nav-utilities">
-            <span class="lang-switch"><span id="langTr" style="cursor:pointer; font-weight:bold;">TR</span> | <span id="langEn" style="cursor:pointer;">EN</span></span>
+            <span class="lang-switch"><span id="langTr" style="cursor:pointer; font-weight:bold;" role="button" tabindex="0" aria-label="Türkçe">TR</span> | <span id="langEn" style="cursor:pointer;" role="button" tabindex="0" aria-label="English">EN</span></span>
             <div class="night-toggle-wrapper" title="Gece Atmosferi">
                 <label class="switch micro-switch">
-                    <input type="checkbox" id="navbarNightToggle">
+                    <input type="checkbox" id="navbarNightToggle" aria-label="Gece Modu Aç Kapa">
                     <span class="slider round"></span>
                 </label>
-                <span class="moon-icon">🌙</span>
+                <span class="moon-icon" id="moonIcon" style="cursor: pointer;" aria-hidden="true">🌙</span>
             </div>
         </div>
     </header>

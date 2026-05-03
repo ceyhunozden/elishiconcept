@@ -1,7 +1,6 @@
 /* =====================================================
    ÜRÜN DETAY SAYFASI STİLLERİ
    ===================================================== */
-
 /* Breadcrumb */
 /* Navbar Override for Product Page */
 .navbar {
@@ -9,18 +8,15 @@
     padding: 0 5% !important; /* Menü yüksekliği daha da daraltıldı */
     background: transparent !important;
 }
-
 /* Light mode'da (gece modu kapalıyken) logo ve butonları koyu yap */
 body:not(.night-mode) .navbar,
 body:not(.night-mode) .hamburger-btn,
 body:not(.night-mode) .nav-utilities {
     color: var(--text-main) !important;
 }
-
 body:not(.night-mode) .logo img {
     filter: none !important;
 }
-
 .breadcrumb-bar {
     position: relative;
     z-index: 100;
@@ -36,26 +32,21 @@ body:not(.night-mode) .logo img {
     align-items: center;
     gap: 0.5rem;
 }
-
 .breadcrumb-bar a {
     color: var(--text-muted);
     text-decoration: none;
     transition: color 0.2s;
 }
-
 .breadcrumb-bar a:hover {
     color: var(--accent);
 }
-
 .bc-sep {
     color: var(--accent);
     font-size: 1rem;
 }
-
 body.night-mode .breadcrumb-bar {
     border-color: #3e4249;
 }
-
 /* ===================== PRODUCT PAGE LAYOUT ===================== */
 .product-page {
     display: grid;
@@ -67,7 +58,6 @@ body.night-mode .breadcrumb-bar {
     flex: 1;
     align-items: start;
 }
-
 /* ===================== GALLERY - LEFT SIDE ===================== */
 .product-gallery {
     display: flex;
@@ -75,7 +65,6 @@ body.night-mode .breadcrumb-bar {
     position: sticky;
     top: 2rem;
 }
-
 /* Küçük thumbnail kolonları (sol dikey) */
 .gallery-thumbs {
     display: flex;
@@ -84,7 +73,6 @@ body.night-mode .breadcrumb-bar {
     width: 80px;
     flex-shrink: 0;
 }
-
 .gallery-thumb {
     width: 80px;
     height: 100px;
@@ -94,28 +82,22 @@ body.night-mode .breadcrumb-bar {
     transition: opacity 0.3s, transform 0.3s;
     opacity: 0.55;
 }
-
 .gallery-thumb:hover {
     opacity: 0.85;
 }
-
 .gallery-thumb.active {
     opacity: 1;
 }
-
 body.night-mode .gallery-thumb {
     opacity: 0.55;
 }
-
 body.night-mode .gallery-thumb.active {
     opacity: 1;
 }
-
 /* Ana büyük görsel alanı */
 .gallery-main {
     flex: 1;
 }
-
 .gallery-main-inner {
     position: relative;
     aspect-ratio: 4/5;
@@ -123,11 +105,9 @@ body.night-mode .gallery-thumb.active {
     overflow: hidden;
     border-radius: 12px;
 }
-
 body.night-mode .gallery-main-inner {
     background: #22262b;
 }
-
 /* Crossfade: iki görsel üst üste */
 .gallery-slide {
     position: absolute;
@@ -140,11 +120,9 @@ body.night-mode .gallery-main-inner {
     transition: opacity 0.55s ease;
     will-change: opacity;
 }
-
 .gallery-slide.active {
     opacity: 1;
 }
-
 /* Ok butonları */
 .gallery-arrow {
     position: absolute;
@@ -161,25 +139,20 @@ body.night-mode .gallery-main-inner {
     color: var(--text-main);
     box-shadow: 0 2px 12px rgba(0,0,0,0.10);
 }
-
 .gallery-arrow:hover {
     background: var(--text-main);
     color: #fff;
 }
-
 body.night-mode .gallery-arrow {
     background: rgba(43, 46, 51, 0.92);
     color: #e8e3dc;
 }
-
 body.night-mode .gallery-arrow:hover {
     background: #e8e3dc;
     color: #2b2e33;
 }
-
 .gallery-prev { left: 0.6rem; }
 .gallery-next { right: 0.6rem; }
-
 /* Indicator dots */
 .gallery-dots {
     position: absolute;
@@ -190,7 +163,6 @@ body.night-mode .gallery-arrow:hover {
     justify-content: center;
     gap: 0.4rem;
 }
-
 .gallery-dot {
     width: 7px;
     height: 7px;
@@ -201,20 +173,16 @@ body.night-mode .gallery-arrow:hover {
     border: none;
     padding: 0;
 }
-
 .gallery-dot.active {
     background: var(--text-main);
     transform: scale(1.35);
 }
-
 body.night-mode .gallery-dot {
     background: rgba(255,255,255,0.25);
 }
-
 body.night-mode .gallery-dot.active {
     background: #e8e3dc;
 }
-
 /* ===================== PRODUCT INFO - RIGHT SIDE ===================== */
 .product-info {
     display: flex;
@@ -222,7 +190,6 @@ body.night-mode .gallery-dot.active {
     gap: 1.4rem;
     padding-top: 0.5rem;
 }
-
 /* Ürün Etiketi (Bestseller, Yeni vb) */
 .product-tag {
     display: inline-block;
@@ -236,11 +203,9 @@ body.night-mode .gallery-dot.active {
     padding: 0.3rem 0.9rem;
     align-self: flex-start;
 }
-
 .product-tag:empty {
     display: none;
 }
-
 /* Ürün Adı */
 .product-name {
     font-family: var(--font-heading);
@@ -250,7 +215,6 @@ body.night-mode .gallery-dot.active {
     color: var(--text-main);
     margin: 0;
 }
-
 .product-subtitle {
     font-family: var(--font-serif);
     font-style: italic;
@@ -258,19 +222,15 @@ body.night-mode .gallery-dot.active {
     color: var(--accent);
     margin: 0;
 }
-
-
 /* Divider */
 .info-divider {
     border: none;
     border-top: 1px solid #f0f0f0;
     margin: 0;
 }
-
 body.night-mode .info-divider {
     border-color: #3e4249;
 }
-
 /* Hikaye */
 .product-story h3,
 .product-features h3 {
@@ -282,18 +242,15 @@ body.night-mode .info-divider {
     color: var(--accent);
     margin-bottom: 0.8rem;
 }
-
 .product-story p {
     font-family: var(--font-serif);
     font-size: 1.2rem;
     line-height: 1.75;
     color: var(--text-muted);
 }
-
 body.night-mode .product-story p {
     color: #a39c94;
 }
-
 /* Özellikler listesi */
 .product-features ul {
     list-style: none;
@@ -301,7 +258,6 @@ body.night-mode .product-story p {
     flex-direction: column;
     gap: 0.6rem;
 }
-
 .product-features li {
     display: flex;
     align-items: baseline;
@@ -312,19 +268,16 @@ body.night-mode .product-story p {
     border-bottom: 1px solid #f7f3ee;
     padding-bottom: 0.6rem;
 }
-
 body.night-mode .product-features li {
     border-color: #3e4249;
     color: #e8e3dc;
 }
-
 .feat-icon {
     font-size: 1rem;
     width: 22px;
     text-align: center;
     flex-shrink: 0;
 }
-
 .feat-label {
     font-weight: 700;
     width: 70px;
@@ -334,11 +287,9 @@ body.night-mode .product-features li {
     letter-spacing: 0.3px;
     text-transform: uppercase;
 }
-
 .feat-value {
     flex: 1;
 }
-
 /* Sipariş Butonları */
 .product-actions {
     display: flex;
@@ -346,7 +297,6 @@ body.night-mode .product-features li {
     gap: 0.8rem;
     margin-top: 0.4rem;
 }
-
 .btn-order-primary {
     display: block;
     text-align: center;
@@ -361,12 +311,10 @@ body.night-mode .product-features li {
     text-decoration: none;
     transition: background 0.3s, transform 0.2s;
 }
-
 .btn-order-primary:hover {
     background: var(--accent);
     transform: translateY(-2px);
 }
-
 .btn-order-secondary {
     display: block;
     text-align: center;
@@ -382,22 +330,18 @@ body.night-mode .product-features li {
     text-decoration: none;
     transition: background 0.3s, color 0.3s;
 }
-
 .btn-order-secondary:hover {
     background: var(--text-main);
     color: #fff;
 }
-
 body.night-mode .btn-order-secondary {
     border-color: #e8e3dc;
     color: #e8e3dc;
 }
-
 body.night-mode .btn-order-secondary:hover {
     background: #e8e3dc;
     color: #2b2e33;
 }
-
 /* Geri Dön */
 .product-back-link {
     font-family: var(--font-body);
@@ -409,11 +353,9 @@ body.night-mode .btn-order-secondary:hover {
     transition: color 0.2s;
     align-self: flex-start;
 }
-
 .product-back-link:hover {
     color: var(--accent);
 }
-
 /* ===================== NOT FOUND ===================== */
 .product-not-found {
     text-align: center;
@@ -423,7 +365,6 @@ body.night-mode .btn-order-secondary:hover {
     color: var(--text-muted);
     flex: 1;
 }
-
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 960px) {
     .product-page {
@@ -432,28 +373,23 @@ body.night-mode .btn-order-secondary:hover {
         padding: 0 4%;
         margin-top: 2rem;
     }
-
     .product-gallery {
         position: static;
         min-width: 0; /* Taşmayı önler */
     }
-
     .product-name {
         font-size: 2.1rem;
     }
 }
-
 @media (max-width: 600px) {
     .breadcrumb-bar {
         font-size: 0.7rem;
         flex-wrap: wrap; /* Uzun isimlerde alt satıra geçer */
         padding: 0.5rem 4% !important;
     }
-
     .product-gallery {
         flex-direction: column-reverse;
     }
-
     .gallery-thumbs {
         flex-direction: row;
         width: 100%;
@@ -461,29 +397,23 @@ body.night-mode .btn-order-secondary:hover {
         padding-bottom: 0.3rem;
         scrollbar-width: none; /* Scrollbar'ı gizle */
     }
-    
     .gallery-thumbs::-webkit-scrollbar {
         display: none;
     }
-
     .gallery-thumb {
         width: 60px;
         height: 60px;
         flex-shrink: 0;
     }
-
     .gallery-main-inner {
         aspect-ratio: 1/1; /* Mobilde daha kare bir form alanı açar */
     }
-
     .product-name {
         font-size: 1.8rem;
     }
-
     .product-info {
         gap: 1.2rem;
     }
-    
     .product-story p {
         font-size: 1.1rem;
     }
