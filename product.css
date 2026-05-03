@@ -309,9 +309,9 @@ body.night-mode .product-story p {
 .product-features li {
     display: flex;
     align-items: baseline;
-    gap: 0.7rem;
+    gap: 0.4rem;
     font-family: var(--font-body);
-    font-size: 0.88rem;
+    font-size: 0.82rem;
     color: var(--text-main);
     border-bottom: 1px solid #f7f3ee;
     padding-bottom: 0.6rem;
@@ -331,10 +331,10 @@ body.night-mode .product-features li {
 
 .feat-label {
     font-weight: 700;
-    width: 90px;
+    width: 75px;
     flex-shrink: 0;
     color: var(--text-muted);
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
