@@ -1063,12 +1063,6 @@ body.night-mode .contact-link-item:hover {
     .grid-container.centered-group .grid-item {
         flex: 0 0 100%;
         max-width: 100%;
-    }
-    .hero-section {
-        height: 125vw; /* 4:5 Aspect Ratio */
-        max-height: 85vh;
-        padding-bottom: 60px;
-    }
     .hero-content h1 {
         font-size: 2.8rem;
     }
