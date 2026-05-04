@@ -402,11 +402,11 @@ body.night-mode .btn-order-secondary:hover {
     }
     .gallery-thumb {
         width: 60px;
-        height: 60px;
+        height: 75px;
         flex-shrink: 0;
     }
     .gallery-main-inner {
-        aspect-ratio: 1/1; /* Mobilde daha kare bir form alanı açar */
+        aspect-ratio: 4/5;
     }
     .product-name {
         font-size: 1.8rem;
