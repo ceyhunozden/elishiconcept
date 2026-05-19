@@ -1063,6 +1063,7 @@ body.night-mode .contact-link-item:hover {
     .grid-container.centered-group .grid-item {
         flex: 0 0 100%;
         max-width: 100%;
+    }
     .hero-content h1 {
         font-size: 2.8rem;
     }
