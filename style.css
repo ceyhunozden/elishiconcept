@@ -1189,18 +1189,20 @@ body.night-mode .contact-link-item:hover {
 }
 /* Alt Menü Linkleri */
 .submenu-link {
-    font-family: 'Inter', sans-serif;
-    font-size: 10.5px; /* Daha premium/küçük */
-    letter-spacing: 1.8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    color: #a39c94;
+    color: #e6dac3 !important;
     text-decoration: none;
-    transition: all 0.3s ease;
-    padding-left: 10px;
+    transition: color 0.3s ease, padding-left 0.3s ease, opacity 0.3s ease;
+    padding-left: 15px;
 }
 .submenu-link:hover {
-    color: #e7e2dc;
-    transform: translateX(6px);
+    color: #e6dac3 !important;
+    opacity: 0.6;
+    padding-left: 20px;
 }
 /* Aktif Sayfa İçin (Opsiyonel) */
 .drawer-link.active {
