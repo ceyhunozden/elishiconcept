@@ -6,8 +6,8 @@ const PRODUCTS = {
     urun1: {
         id: 'urun1',
         name: 'Vega',
-        subtitle: 'El Yapımı · Timeless Koleksiyon',
-        subtitle_en: 'Handmade · Timeless Collection',
+        subtitle: 'El Yapımı · Heirloom Koleksiyon',
+        subtitle_en: 'Handmade · Heirloom Collection',
         tag: '',
         images: [
             'images/klasik-zamansiz-puskullu-vintage-masa-lambasi-kapali.webp',
@@ -40,8 +40,8 @@ const PRODUCTS = {
     urun2: {
         id: 'urun2',
         name: 'Luna',
-        subtitle: 'El Yapımı · Maksimalist Koleksiyon',
-        subtitle_en: 'Handmade · Maximalist Collection',
+        subtitle: 'El Yapımı · Opulent Koleksiyon',
+        subtitle_en: 'Handmade · Opulent Collection',
         tag: '',
         images: [
             'images/antik-retro-kruvasan-maximalist-abajur-kapali.webp',
@@ -78,8 +78,8 @@ const PRODUCTS = {
     urun3: {
         id: 'urun3',
         name: 'Maia',
-        subtitle: 'El Yapımı · Minimalist Koleksiyon',
-        subtitle_en: 'Handmade · Minimalist Collection',
+        subtitle: 'El Yapımı · Quiet Koleksiyon',
+        subtitle_en: 'Handmade · Quiet Collection',
         tag: '',
         images: [
             'images/elegance-soft-minimalist-seramik-abajur-kapali.webp',
@@ -109,8 +109,8 @@ const PRODUCTS = {
     urun4: {
         id: 'urun4',
         name: 'Spica',
-        subtitle: 'El Yapımı · Minimalist Koleksiyon',
-        subtitle_en: 'Handmade · Minimalist Collection',
+        subtitle: 'El Yapımı · Quiet Koleksiyon',
+        subtitle_en: 'Handmade · Quiet Collection',
         tag: '',
         images: [
             'images/boho-zarif-pileli-cozy-abajur-kapali.webp',
@@ -137,8 +137,8 @@ const PRODUCTS = {
     urun5: {
         id: 'urun5',
         name: 'Büyük Capella - Zeytin',
-        subtitle: 'El Yapımı · Boho Chic Koleksiyon',
-        subtitle_en: 'Handmade · Boho Chic Collection',
+        subtitle: 'El Yapımı · Bloom Koleksiyon',
+        subtitle_en: 'Handmade · Bloom Collection',
         tag: '',
         images: [
             'images/bohem-nakisli-ozgun-abajur-kapali.webp',
@@ -161,8 +161,8 @@ const PRODUCTS = {
     urun6: {
         id: 'urun6',
         name: 'Küçük Capella - Fuşya',
-        subtitle: 'El Yapımı · Boho Chic Koleksiyon',
-        subtitle_en: 'Handmade · Boho Chic Collection',
+        subtitle: 'El Yapımı · Bloom Koleksiyon',
+        subtitle_en: 'Handmade · Bloom Collection',
         tag: '',
         images: [
             'images/mistik-geleneksel-nakisli-kumas-abajur-kapali.webp',
@@ -186,8 +186,8 @@ const PRODUCTS = {
     urun7: {
         id: 'urun7',
         name: 'Bella',
-        subtitle: 'El Yapımı · Maksimalist Koleksiyon',
-        subtitle_en: 'Handmade · Maximalist Collection',
+        subtitle: 'El Yapımı · Opulent Koleksiyon',
+        subtitle_en: 'Handmade · Opulent Collection',
         tag: '',
         images: [
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-kapali.webp',
@@ -219,8 +219,8 @@ const PRODUCTS = {
     urun8: {
         id: 'urun8',
         name: 'Parseus - Sarı',
-        subtitle: 'El Yapımı · Boho Chic Koleksiyon',
-        subtitle_en: 'Handmade · Boho Chic Collection',
+        subtitle: 'El Yapımı · Bloom Koleksiyon',
+        subtitle_en: 'Handmade · Bloom Collection',
         tag: '',
         images: [
             'images/piliseli-modern-abajur-kapali.webp',
@@ -245,8 +245,8 @@ const PRODUCTS = {
     urun9: {
         id: 'urun9',
         name: 'Parseus - Kırmızı',
-        subtitle: 'El Yapımı · Boho Chic Koleksiyon',
-        subtitle_en: 'Handmade · Boho Chic Collection',
+        subtitle: 'El Yapımı · Bloom Koleksiyon',
+        subtitle_en: 'Handmade · Bloom Collection',
         tag: '',
         images: [
             'images/modern-pileli-kumas-abajur-kapali.webp',
@@ -272,8 +272,8 @@ const PRODUCTS = {
     urun10: {
         id: 'urun10',
         name: 'Electra Turuncu',
-        subtitle: 'El Yapımı · Timeless Koleksiyon',
-        subtitle_en: 'Handmade · Timeless Collection',
+        subtitle: 'El Yapımı · Heirloom Koleksiyon',
+        subtitle_en: 'Handmade · Heirloom Collection',
         tag: '',
         images: [
             'images/el-baskisi-kumas-pileli-yatak-odasi-abajur-kapali.webp',
@@ -303,8 +303,8 @@ const PRODUCTS = {
     urun11: {
         id: 'urun11',
         name: 'Electra Çikolata',
-        subtitle: 'El Yapımı · Timeless Koleksiyon',
-        subtitle_en: 'Handmade · Timeless Collection',
+        subtitle: 'El Yapımı · Heirloom Koleksiyon',
+        subtitle_en: 'Handmade · Heirloom Collection',
         tag: '',
         images: [
             'images/el-baskisi-country-pileli-rustik-cottage-sapka-kapali.webp',
@@ -327,8 +327,8 @@ const PRODUCTS = {
     urun12: {
         id: 'urun12',
         name: 'Vega Bej',
-        subtitle: 'El Yapımı · Timeless Koleksiyon',
-        subtitle_en: 'Handmade · Timeless Collection',
+        subtitle: 'El Yapımı · Heirloom Koleksiyon',
+        subtitle_en: 'Handmade · Heirloom Collection',
         tag: '',
         images: [
             'images/modern-pileli-ambiance-butik-tasarim-abajur-kapali.webp',
@@ -363,8 +363,8 @@ const PRODUCTS = {
     urun13: {
         id: 'urun13',
         name: 'Maia Cam',
-        subtitle: 'El Yapımı · Minimalist Koleksiyon',
-        subtitle_en: 'Handmade · Minimalist Collection',
+        subtitle: 'El Yapımı · Quiet Koleksiyon',
+        subtitle_en: 'Handmade · Quiet Collection',
         tag: '',
         images: [
             'images/minimalist-modern-cam-ozel-seri-abajur-kapali.webp',
@@ -394,8 +394,8 @@ const PRODUCTS = {
     urun14: {
         id: 'urun14',
         name: 'Electra Bej',
-        subtitle: 'El Yapımı · Timeless Koleksiyon',
-        subtitle_en: 'Handmade · Timeless Collection',
+        subtitle: 'El Yapımı · Heirloom Koleksiyon',
+        subtitle_en: 'Handmade · Heirloom Collection',
         tag: '',
         images: [
             'images/el-baskisi-country-pileli-rustik-gece-lambasi-kapali.webp',
@@ -427,8 +427,8 @@ const PRODUCTS = {
     urun15: {
         id: 'urun15',
         name: 'Rigel',
-        subtitle: 'El Yapımı · Timeless Koleksiyon',
-        subtitle_en: 'Handmade · Timeless Collection',
+        subtitle: 'El Yapımı · Heirloom Koleksiyon',
+        subtitle_en: 'Handmade · Heirloom Collection',
         tag: '',
         images: [
             'images/artisan-kraft-aydinlatma-koleksiyon-william-morris-abajur-kapali.webp',
@@ -458,8 +458,8 @@ const PRODUCTS = {
     urun17: {
         id: 'urun17',
         name: 'Mintaka Hazeran',
-        subtitle: 'El Yapımı · Retro Koleksiyon',
-        subtitle_en: 'Handmade · Retro Collection',
+        subtitle: 'El Yapımı · Ember Koleksiyon',
+        subtitle_en: 'Handmade · Ember Collection',
         tag: '',
         images: [
             'images/dekoratif-ayakli-salon-aydinlatmasi-ozel-seri-kapali.webp',
@@ -490,8 +490,8 @@ const PRODUCTS = {
     urun18: {
         id: 'urun18',
         name: 'Mintaka',
-        subtitle: 'El Yapımı · Retro Koleksiyon',
-        subtitle_en: 'Handmade · Retro Collection',
+        subtitle: 'El Yapımı · Ember Koleksiyon',
+        subtitle_en: 'Handmade · Ember Collection',
         tag: '',
         images: [
             'images/dekorasyon-abajur-modelleri-zanaat-ortam-kapali.webp',
@@ -521,8 +521,8 @@ const PRODUCTS = {
     urun19: {
         id: 'urun19',
         name: 'Mintaka',
-        subtitle: 'El Yapımı · Retro Koleksiyon',
-        subtitle_en: 'Handmade · Retro Collection',
+        subtitle: 'El Yapımı · Ember Koleksiyon',
+        subtitle_en: 'Handmade · Ember Collection',
         tag: '',
         images: [
             'images/atmosfer-rahatlatici-nostaljik-antika-abajur-kapali.webp',
@@ -554,8 +554,8 @@ const PRODUCTS = {
     urun20: {
         id: 'urun20',
         name: 'Antheia',
-        subtitle: 'El Yapımı · Retro Koleksiyon',
-        subtitle_en: 'Handmade · Retro Collection',
+        subtitle: 'El Yapımı · Ember Koleksiyon',
+        subtitle_en: 'Handmade · Ember Collection',
         tag: '',
         images: [
             'images/70ler-60lar-nostaljik-abajur-kapali.webp',

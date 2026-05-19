@@ -152,19 +152,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const titles = {
             tr: {
                 all: { t: "Koleksiyonlarımız", s: "Tüm zamansız parçalar bir arada" },
-                minimalist: { t: "Minimalist Koleksiyon", s: "Sade ve modern dokunuşlar" },
-                maksimalist: { t: "Maksimalist Koleksiyon", s: "Görkemli ve iddialı detaylar" },
-                'boho-chic': { t: "Boho Chic Koleksiyon", s: "Özgür ve sanatsal ruh" },
-                timeless: { t: "Timeless Koleksiyon", s: "Zamansız ve klasik tasarımlar" },
-                retro: { t: "Retro Koleksiyon", s: "Nostaljik dokunuşlar ve vintage ruhu" }
+                quiet: { t: "Quiet Koleksiyon", s: "Sade ve modern dokunuşlar" },
+                opulent: { t: "Opulent Koleksiyon", s: "Görkemli ve iddialı detaylar" },
+                bloom: { t: "Bloom Koleksiyon", s: "Özgür ve sanatsal ruh" },
+                heirloom: { t: "Heirloom Koleksiyon", s: "Zamansız ve klasik tasarımlar" },
+                ember: { t: "Ember Koleksiyon", s: "Nostaljik dokunuşlar ve vintage ruhu" }
             },
             en: {
                 all: { t: "Our Collections", s: "All timeless pieces together" },
-                minimalist: { t: "Minimalist Collection", s: "Simple and modern touches" },
-                maksimalist: { t: "Maximalist Collection", s: "Glorious and assertive details" },
-                'boho-chic': { t: "Boho Chic Collection", s: "Free and artistic spirit" },
-                timeless: { t: "Timeless Collection", s: "Timeless and classic designs" },
-                retro: { t: "Retro Collection", s: "Nostalgic touches and vintage spirit" }
+                quiet: { t: "Quiet Collection", s: "Simple and modern touches" },
+                opulent: { t: "Opulent Collection", s: "Glorious and assertive details" },
+                bloom: { t: "Bloom Collection", s: "Free and artistic spirit" },
+                heirloom: { t: "Heirloom Collection", s: "Timeless and classic designs" },
+                ember: { t: "Ember Collection", s: "Nostalgic touches and vintage spirit" }
             }
         };
 
