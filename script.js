@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tr: {
                 all: { t: "Koleksiyonlarımız", s: "Tüm zamansız parçalar bir arada" },
                 quiet: { t: "Quiet Koleksiyon", s: "Sade ve modern dokunuşlar" },
-                limited: { t: "Limited Edition Koleksiyon", s: "Tek adet üretilen, eşsiz ve sınırlı sayıda tasarımlar" },
+                limited: { t: "Limited Editions", s: "Tek adet üretilen, eşsiz ve sınırlı sayıda tasarımlar" },
                 bloom: { t: "Bloom Koleksiyon", s: "Özgür ve sanatsal ruh" },
                 heirloom: { t: "Heirloom Koleksiyon", s: "Zamansız ve klasik tasarımlar" },
                 ember: { t: "Ember Koleksiyon", s: "Nostaljik dokunuşlar ve vintage ruhu" }
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             en: {
                 all: { t: "Our Collections", s: "All timeless pieces together" },
                 quiet: { t: "Quiet Collection", s: "Simple and modern touches" },
-                limited: { t: "Limited Edition Collection", s: "One-of-a-kind, unique and exclusive designs" },
+                limited: { t: "Limited Editions", s: "One-of-a-kind, unique and exclusive designs" },
                 bloom: { t: "Bloom Collection", s: "Free and artistic spirit" },
                 heirloom: { t: "Heirloom Collection", s: "Timeless and classic designs" },
                 ember: { t: "Ember Collection", s: "Nostalgic touches and vintage spirit" }
