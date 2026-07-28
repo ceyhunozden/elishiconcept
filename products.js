@@ -580,5 +580,41 @@ const PRODUCTS = {
             { icon: '📐', label: 'Boyut', value: 'Genişlik 40cm, Yükseklik 50cm', label_en: 'Size', value_en: 'Width 40cm, Height 50cm' },
         ],
         shopier: 'https://www.shopier.com/elishiconcept'
+    },
+
+    urun21: {
+        id: 'urun21',
+        name: 'Bella Jazz',
+        subtitle: 'El Yapımı · Opulent Koleksiyon',
+        subtitle_en: 'Handmade · Opulent Collection',
+        tag: '',
+        images: [
+            'images/vintage-tulip-beaded-lampshade-curved-base-kapali.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base-detay1.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base-detay2.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base-detay3.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base-detay4.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base-detay5.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base-detay6.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base-detay7.webp',
+            'images/vintage-tulip-beaded-lampshade-curved-base-detay8.webp'
+        ],
+        story: `Bella Jazz el yapımı abajur, baharın uyanışını ve doğanın en zarif çiçeği olan lalenin estetiğini yaşam alanlarınıza taşıyor. Özel tasarım aydınlatma arayanlar için deveboynu kıvrımlı metal gövdesinden sarkan lale formundaki şapkası; el işçiliğiyle gerilmiş sarı kumaş panelleri ve merkezindeki kırmızı dantel detayıyla klasik bir sanat eseri sunuyor.
+
+        Şapkanın eteklerinden dökülen yeşil ve kehribar tonlarındaki boncuklu abajur saçakları, sabah çiy damlalarını andırarak bu vintage abajur tasarımına göz alıcı bir ışıltı ve hareket kazandıryor. Işık yandığında, dantelin dokusundan süzülen sıcak kızıllık ve boncukların duvara vuran yansımaları, yatak odası abajuru veya salon masa lambası olarak kullanıldığında odanızda büyüleyici ve loş bir atmosfer yaratıyor.
+
+        Tamamen el yapımı ve tek üretim olan bu retro abajur, nostaljik romantizmi modern bir zarafetle harmanlayarak evinizin en güçlü imza parçası olmaya aday.`,
+        story_en: `The Bella Jazz handmade vintage lampshade brings the awakening of spring and the elegance of the tulip, nature’s most graceful flower, to your living spaces. Designed for those seeking custom design lighting, its tulip-shaped shade hangs from a curved gooseneck table lamp base, featuring hand-crafted yellow panels and a red lace detail at its center.
+
+        The green and amber-toned beaded fringe cascading from the edges of the shade resemble morning dew drops, adding an eye-catching shimmer to this unique bedside lamp design. When illuminated, the warm red glow filtering through the lace and the reflection of the glass beads create an enchanting, dim atmosphere, making it a perfect antique style bedroom lamp or bohemian chic living room lighting.
+
+        Completely handmade and a single production, this Victorian style table lamp blends nostalgic romance with modern elegance, destined to be the signature piece of your home.`,
+        features: [
+            { icon: '🧵', label: 'Malzeme', value: 'Özel kumaş, boncuklu saçaklar, metal ayak.', label_en: 'Material', value_en: 'Custom fabric, beaded fringes, metal base.' },
+            { icon: '💡', label: 'Duy Tipi', value: 'E27 6W Filament LED Mini Top Ampul (G45) – 2700K Sıcak Beyaz', label_en: 'Socket Type', value_en: 'E27 6W Filament LED Mini Globe Bulb (G45) – 2700K Warm White' },
+            { icon: '📐', label: 'Boyut', value: 'Genişlik 25cm, Yükseklik 80cm', label_en: 'Size', value_en: 'Width 25cm, Height 80cm' }
+        ],
+        shopier: 'https://www.shopier.com/elishiconcept'
     }
 };
