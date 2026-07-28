@@ -41,8 +41,8 @@ const PRODUCTS = {
     urun2: {
         id: 'urun2',
         name: 'Luna',
-        subtitle: 'El Yapımı · Opulent Koleksiyon',
-        subtitle_en: 'Handmade · Opulent Collection',
+        subtitle: 'El Yapımı · Limited Edition Koleksiyon',
+        subtitle_en: 'Handmade · Limited Edition Collection',
         tag: '',
         images: [
             'images/antik-retro-kruvasan-maximalist-abajur-kapali.webp',
@@ -187,8 +187,8 @@ const PRODUCTS = {
     urun7: {
         id: 'urun7',
         name: 'Bella',
-        subtitle: 'El Yapımı · Opulent Koleksiyon',
-        subtitle_en: 'Handmade · Opulent Collection',
+        subtitle: 'El Yapımı · Limited Edition Koleksiyon',
+        subtitle_en: 'Handmade · Limited Edition Collection',
         tag: '',
         images: [
             'images/timeless-ozel-tasarim-elisi-puskullu-vintage-abajur-kapali.webp',
@@ -585,8 +585,8 @@ const PRODUCTS = {
     urun21: {
         id: 'urun21',
         name: 'Bella Jazz',
-        subtitle: 'El Yapımı · Opulent Koleksiyon',
-        subtitle_en: 'Handmade · Opulent Collection',
+        subtitle: 'El Yapımı · Limited Edition Koleksiyon',
+        subtitle_en: 'Handmade · Limited Edition Collection',
         tag: '',
         images: [
             'images/vintage-tulip-beaded-lampshade-curved-base-kapali.webp',
